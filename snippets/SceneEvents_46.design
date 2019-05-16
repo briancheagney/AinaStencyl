@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="119" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <int id="0" val="Retry Level "/>
+                        <get-game-val-31 comment="false" id="1" x="0" y="0"/>
+                    </str-combine>
+                    <get-val-186-2 comment="false" id="1" x="0" y="0"/>
+                    <get-val-186-3 comment="false" id="2" x="0" y="0"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-186-1 comment="false" x="26" y="40">
+                    <ACTOR eid="3" id="0"/>
+                </set-val-186-1>
+                <set-val-186-2 comment="false" x="26" y="67">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="1"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-val-186-2>
+                <set-val-186-3 comment="false" x="26" y="100">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="1"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-val-186-3>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

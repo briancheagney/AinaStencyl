@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="19" y="16">
+            <group eventID="1" id="-1">
+                <if comment="false" x="30" y="43">
+                    <group eventID="1" id="-1">
+                        <set-game-val-70 comment="false" x="41" y="73">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-game-val-70>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </moreeq>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

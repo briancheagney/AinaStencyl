@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="2" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-25-1 comment="false" x="26" y="42">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-25-1>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <set-val-25-1 comment="false" x="37" y="70">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-25-1>
+                        <scaleTo comment="false" x="37" y="95">
+                            <ACTOR eid="this" id="0"/>
+                            <times comment="false" id="1" x="0" y="0">
+                                <int id="0" val=".9"/>
+                                <get-game-val-6 comment="false" id="1" x="0" y="0"/>
+                            </times>
+                            <times comment="false" id="2" x="0" y="0">
+                                <int id="0" val=".9"/>
+                                <get-game-val-6 comment="false" id="1" x="0" y="0"/>
+                            </times>
+                            <int id="3" val=".25"/>
+                            <int id="4" val="0"/>
+                        </scaleTo>
+                        <set-val-25-1 comment="false" x="37" y="132">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-25-1>
+                        <dolater comment="false" x="37" y="157">
+                            <group eventID="2" id="-1">
+                                <scaleTo comment="false" x="48" y="184">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-game-val-6 comment="false" id="1" x="0" y="0"/>
+                                    <get-game-val-6 comment="false" id="2" x="0" y="0"/>
+                                    <int id="3" val=".1"/>
+                                    <int id="4" val="0"/>
+                                </scaleTo>
+                            </group>
+                            <int id="0" val=".25"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-25-1 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <init comment="false" x="18" y="65">
+            <group eventID="4" id="-1">
+                <scaleTo comment="false" x="29" y="90">
+                    <ACTOR eid="this" id="0"/>
+                    <get-game-val-6 comment="false" id="1" x="0" y="0"/>
+                    <get-game-val-6 comment="false" id="2" x="0" y="0"/>
+                    <int id="3" val="0"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+                <set-val-25-1 comment="false" x="29" y="122">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-25-1>
+                <set-val-25-3 comment="false" x="29" y="147">
+                    <int id="0" val="100"/>
+                </set-val-25-3>
+                <set-val-25-2 comment="false" x="29" y="167">
+                    <int id="0" val="100"/>
+                </set-val-25-2>
+            </group>
+        </init>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="11" y="31">
+            <group eventID="1" id="-1">
+                <set-xy comment="false" x="22" y="56">
+                    <ACTOR eid="7" id="0"/>
+                    <int id="1" val="0"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <screen-wh comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </screen-wh>
+                                <int id="1" val="60"/>
+                            </minus>
+                            <int id="1" val="2"/>
+                        </div>
+                        <div comment="false" id="1" x="0" y="0">
+                            <times comment="false" id="0" x="0" y="0">
+                                <times comment="false" id="0" x="0" y="0">
+                                    <int id="0" val=".01"/>
+                                    <get-game-val-6 comment="false" id="1" x="0" y="0"/>
+                                </times>
+                                <get-wh comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="7" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-wh>
+                            </times>
+                            <int id="1" val="2"/>
+                        </div>
+                    </minus>
+                </set-xy>
+                <set-xy comment="false" x="22" y="111">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <screen-wh comment="false" id="0" x="0" y="0">
+                                <int id="0" val="1"/>
+                            </screen-wh>
+                            <int id="1" val="2"/>
+                        </div>
+                        <div comment="false" id="1" x="0" y="0">
+                            <times comment="false" id="0" x="0" y="0">
+                                <times comment="false" id="0" x="0" y="0">
+                                    <int id="0" val=".01"/>
+                                    <get-game-val-6 comment="false" id="1" x="0" y="0"/>
+                                </times>
+                                <get-wh comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-wh>
+                            </times>
+                            <int id="1" val="2"/>
+                        </div>
+                    </minus>
+                </set-xy>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="9" y="21">
+            <group eventID="2" id="-1">
+                <set-xy comment="false" x="20" y="46">
+                    <ACTOR eid="7" id="0"/>
+                    <int id="1" val="0"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <screen-wh comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </screen-wh>
+                                <int id="1" val="60"/>
+                            </minus>
+                            <int id="1" val="2"/>
+                        </div>
+                        <div comment="false" id="1" x="0" y="0">
+                            <times comment="false" id="0" x="0" y="0">
+                                <times comment="false" id="0" x="0" y="0">
+                                    <int id="0" val=".01"/>
+                                    <get-game-val-6 comment="false" id="1" x="0" y="0"/>
+                                </times>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-wh comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="7" id="0"/>
+                                        <int id="1" val="0"/>
+                                    </get-wh>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </times>
+                            <int id="1" val="2"/>
+                        </div>
+                    </minus>
+                </set-xy>
+                <set-xy comment="false" x="20" y="106">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <screen-wh comment="false" id="0" x="0" y="0">
+                                <int id="0" val="1"/>
+                            </screen-wh>
+                            <int id="1" val="2"/>
+                        </div>
+                        <div comment="false" id="1" x="0" y="0">
+                            <times comment="false" id="0" x="0" y="0">
+                                <times comment="false" id="0" x="0" y="0">
+                                    <int id="0" val=".01"/>
+                                    <get-game-val-6 comment="false" id="1" x="0" y="0"/>
+                                </times>
+                                <get-wh comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-wh>
+                            </times>
+                            <int id="1" val="2"/>
+                        </div>
+                    </minus>
+                </set-xy>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <setanim comment="false" x="37" y="70">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-1-6 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-37 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="3"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="114">
+                    <group eventID="2" id="-1">
+                        <setanim comment="false" x="37" y="144">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-1-5 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-37 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="188">
+                    <group eventID="2" id="-1">
+                        <setanim comment="false" x="37" y="218">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-1-4 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-37 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </else-if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>

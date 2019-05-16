@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="36" y="33">
+            <group eventID="1" id="-1">
+                <set-game-val-0 comment="false" x="47" y="60">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </plus>
+                </set-game-val-0>
+                <comment-long comment="false" x="47" y="90">
+                    <int id="0" val="The trick I&amp;apos;m employing here is that I&amp;apos;m creating lists, and sticking them into an existing list."/>
+                </comment-long>
+                <set-val-17-2 comment="false" x="47" y="170">
+                    <create-list comment="false" id="0" x="0" y="0"/>
+                </set-val-17-2>
+                <replace-list comment="false" x="47" y="195">
+                    <get-val-17-2 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="0"/>
+                    <str-combine comment="false" id="2" x="0" y="0">
+                        <str-combine comment="false" id="0" x="0" y="0">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <str-combine comment="false" id="0" x="0" y="0">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <get-game-val-19 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val=", "/>
+                                    </str-combine>
+                                    <str-combine comment="false" id="1" x="0" y="0">
+                                        <get-val-17-5 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val=" "/>
+                                    </str-combine>
+                                </str-combine>
+                                <Date-current-all comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="2"/>
+                                </Date-current-all>
+                            </str-combine>
+                            <int id="1" val=", "/>
+                        </str-combine>
+                        <Date-current-all comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </Date-current-all>
+                    </str-combine>
+                </replace-list>
+                <replace-list comment="false" x="47" y="245">
+                    <get-val-17-2 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="1"/>
+                    <get-game-val-3 comment="false" id="2" x="0" y="0"/>
+                </replace-list>
+                <replace-list comment="false" x="47" y="270">
+                    <get-val-17-2 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="2"/>
+                    <str-combine comment="false" id="2" x="0" y="0">
+                        <str-combine comment="false" id="0" x="0" y="0">
+                            <Date-current-all comment="false" id="0" x="0" y="0">
+                                <int id="0" val="4"/>
+                            </Date-current-all>
+                            <int id="1" val=":"/>
+                        </str-combine>
+                        <str-combine comment="false" id="1" x="0" y="0">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="5"/>
+                                </Date-current-all>
+                                <int id="1" val=":"/>
+                            </str-combine>
+                            <Date-current-all comment="false" id="1" x="0" y="0">
+                                <int id="0" val="6"/>
+                            </Date-current-all>
+                        </str-combine>
+                    </str-combine>
+                </replace-list>
+                <replace-list comment="false" x="47" y="318">
+                    <get-val-17-2 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="3"/>
+                    <get-game-val-0 comment="false" id="2" x="0" y="0"/>
+                </replace-list>
+                <replace-list comment="false" x="47" y="343">
+                    <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-3 comment="false" id="1" x="0" y="0"/>
+                    <get-val-17-2 comment="false" id="2" x="0" y="0"/>
+                </replace-list>
+                <save-game comment="false" x="47" y="368">
+                    <group eventID="1" id="-1"/>
+                </save-game>
+                <print comment="false" x="47" y="425">
+                    <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                </print>
+            </group>
+            <ACTOR eid="var" id="0" vid="1"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="3" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <comment-long comment="false" x="26" y="40">
+                    <int id="0" val="All this does is convert the month into a text value."/>
+                </comment-long>
+                <if comment="false" x="26" y="120">
+                    <group eventID="2" id="-1">
+                        <set-val-17-5 comment="false" x="37" y="158">
+                            <int id="0" val="January"/>
+                        </set-val-17-5>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="190">
+                    <group eventID="2" id="-1">
+                        <set-val-17-5 comment="false" x="37" y="228">
+                            <int id="0" val="February"/>
+                        </set-val-17-5>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="1"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="260">
+                    <group eventID="2" id="-1">
+                        <set-val-17-5 comment="false" x="37" y="298">
+                            <int id="0" val="March"/>
+                        </set-val-17-5>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="2"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="330">
+                    <group eventID="2" id="-1">
+                        <set-val-17-5 comment="false" x="37" y="368">
+                            <int id="0" val="April"/>
+                        </set-val-17-5>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="3"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="400">
+                    <group eventID="2" id="-1">
+                        <set-val-17-5 comment="false" x="37" y="438">
+                            <int id="0" val="May"/>
+                        </set-val-17-5>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="4"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="470">
+                    <group eventID="2" id="-1">
+                        <set-val-17-5 comment="false" x="37" y="508">
+                            <int id="0" val="June"/>
+                        </set-val-17-5>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="5"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="540">
+                    <group eventID="2" id="-1">
+                        <set-val-17-5 comment="false" x="37" y="578">
+                            <int id="0" val="July"/>
+                        </set-val-17-5>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="6"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="610">
+                    <group eventID="2" id="-1">
+                        <set-val-17-5 comment="false" x="37" y="648">
+                            <int id="0" val="August"/>
+                        </set-val-17-5>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="7"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="680">
+                    <group eventID="2" id="-1">
+                        <set-val-17-5 comment="false" x="37" y="718">
+                            <int id="0" val="September"/>
+                        </set-val-17-5>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="8"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="750">
+                    <group eventID="2" id="-1">
+                        <set-val-17-5 comment="false" x="37" y="788">
+                            <int id="0" val="October"/>
+                        </set-val-17-5>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="9"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="820">
+                    <group eventID="2" id="-1">
+                        <set-val-17-5 comment="false" x="37" y="858">
+                            <int id="0" val="November"/>
+                        </set-val-17-5>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="10"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="890">
+                    <group eventID="2" id="-1">
+                        <set-val-17-5 comment="false" x="37" y="928">
+                            <int id="0" val="December"/>
+                        </set-val-17-5>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="11"/>
+                    </eq>
+                </else-if>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <comment-long comment="false" x="26" y="40">
+                    <int id="0" val="I&amp;apos;m actually not sure what this does, I have a feeling it might be obsolete at this point. I spent a lot of time trying to figure out the best way to capture the date. I&amp;apos;m not deleting it in case I&amp;apos;m still using it somewhere."/>
+                </comment-long>
+                <set-val-17-3 comment="false" x="26" y="120">
+                    <Date-now comment="false" id="0" x="0" y="0"/>
+                </set-val-17-3>
+                <actors-of-type3 comment="false" x="26" y="145">
+                    <group eventID="2" id="-1">
+                        <set-val-17-1 comment="false" x="37" y="177">
+                            <actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </set-val-17-1>
+                    </group>
+                    <actortype eid="7" id="0"/>
+                </actors-of-type3>
+            </group>
+        </init>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>

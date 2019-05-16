@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="2" id="-1">
+                        <set-game-val-20 comment="false" x="37" y="80">
+                            <int id="0" val="6"/>
+                        </set-game-val-20>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="112">
+                    <group eventID="2" id="-1">
+                        <set-game-val-20 comment="false" x="37" y="150">
+                            <int id="0" val="2"/>
+                        </set-game-val-20>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="1"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="182">
+                    <group eventID="2" id="-1">
+                        <set-game-val-20 comment="false" x="37" y="220">
+                            <int id="0" val="2"/>
+                        </set-game-val-20>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="2"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="252">
+                    <group eventID="2" id="-1">
+                        <set-game-val-20 comment="false" x="37" y="290">
+                            <int id="0" val="5"/>
+                        </set-game-val-20>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="3"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="322">
+                    <group eventID="2" id="-1">
+                        <set-game-val-20 comment="false" x="37" y="360">
+                            <int id="0" val="0"/>
+                        </set-game-val-20>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="4"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="392">
+                    <group eventID="2" id="-1">
+                        <set-game-val-20 comment="false" x="37" y="430">
+                            <int id="0" val="3"/>
+                        </set-game-val-20>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="5"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="462">
+                    <group eventID="2" id="-1">
+                        <set-game-val-20 comment="false" x="37" y="500">
+                            <int id="0" val="5"/>
+                        </set-game-val-20>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="6"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="532">
+                    <group eventID="2" id="-1">
+                        <set-game-val-20 comment="false" x="37" y="570">
+                            <int id="0" val="1"/>
+                        </set-game-val-20>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="7"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="602">
+                    <group eventID="2" id="-1">
+                        <set-game-val-20 comment="false" x="37" y="640">
+                            <int id="0" val="4"/>
+                        </set-game-val-20>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="8"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="672">
+                    <group eventID="2" id="-1">
+                        <set-game-val-20 comment="false" x="37" y="710">
+                            <int id="0" val="6"/>
+                        </set-game-val-20>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="9"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="742">
+                    <group eventID="2" id="-1">
+                        <set-game-val-20 comment="false" x="37" y="780">
+                            <int id="0" val="2"/>
+                        </set-game-val-20>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="10"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="812">
+                    <group eventID="2" id="-1">
+                        <set-game-val-20 comment="false" x="37" y="850">
+                            <int id="0" val="4"/>
+                        </set-game-val-20>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </Date-current-all>
+                        <int id="1" val="11"/>
+                    </eq>
+                </else-if>
+                <set-game-val-23 comment="false" x="26" y="882">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-23>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="3" id="-1">
+                        <set-game-val-22 comment="false" x="37" y="85">
+                            <int id="0" val="0"/>
+                        </set-game-val-22>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <Date-current-all comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </Date-current-all>
+                            <int id="1" val="2000"/>
+                        </minus>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="117">
+                    <group eventID="3" id="-1">
+                        <set-game-val-22 comment="false" x="37" y="165">
+                            <int id="0" val="5"/>
+                        </set-game-val-22>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </Date-current-all>
+                                <int id="1" val="2000"/>
+                            </minus>
+                            <int id="1" val="4"/>
+                        </div>
+                        <int id="1" val="1"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="197">
+                    <group eventID="3" id="-1">
+                        <set-game-val-22 comment="false" x="37" y="245">
+                            <int id="0" val="3"/>
+                        </set-game-val-22>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </Date-current-all>
+                                <int id="1" val="2000"/>
+                            </minus>
+                            <int id="1" val="4"/>
+                        </div>
+                        <int id="1" val="2"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="277">
+                    <group eventID="3" id="-1">
+                        <set-game-val-22 comment="false" x="37" y="325">
+                            <int id="0" val="1"/>
+                        </set-game-val-22>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </Date-current-all>
+                                <int id="1" val="2000"/>
+                            </minus>
+                            <int id="1" val="4"/>
+                        </div>
+                        <int id="1" val="3"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="357">
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="37" y="410">
+                            <group eventID="3" id="-1">
+                                <set-game-val-22 comment="false" x="48" y="458">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="1"/>
+                                        <int id="1" val="1"/>
+                                    </plus>
+                                </set-game-val-22>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <div comment="false" id="0" x="0" y="0">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <Date-current-all comment="false" id="0" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                        </Date-current-all>
+                                        <int id="1" val="2000"/>
+                                    </minus>
+                                    <int id="1" val="4"/>
+                                </div>
+                                <int id="1" val="3.25"/>
+                            </eq>
+                        </if>
+                        <else-if comment="false" x="37" y="495">
+                            <group eventID="3" id="-1">
+                                <set-game-val-22 comment="false" x="48" y="543">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="1"/>
+                                        <int id="1" val="2"/>
+                                    </plus>
+                                </set-game-val-22>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <div comment="false" id="0" x="0" y="0">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <Date-current-all comment="false" id="0" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                        </Date-current-all>
+                                        <int id="1" val="2000"/>
+                                    </minus>
+                                    <int id="1" val="4"/>
+                                </div>
+                                <int id="1" val="3.5"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="580">
+                            <group eventID="3" id="-1">
+                                <set-game-val-22 comment="false" x="48" y="628">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="1"/>
+                                        <int id="1" val="3"/>
+                                    </plus>
+                                </set-game-val-22>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <div comment="false" id="0" x="0" y="0">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <Date-current-all comment="false" id="0" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                        </Date-current-all>
+                                        <int id="1" val="2000"/>
+                                    </minus>
+                                    <int id="1" val="4"/>
+                                </div>
+                                <int id="1" val="3.75"/>
+                            </eq>
+                        </else-if>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <more comment="false" id="0" x="0" y="0">
+                            <div comment="false" id="0" x="0" y="0">
+                                <minus comment="false" id="0" x="0" y="0">
+                                    <Date-current-all comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                    </Date-current-all>
+                                    <int id="1" val="2000"/>
+                                </minus>
+                                <int id="1" val="4"/>
+                            </div>
+                            <int id="1" val="3"/>
+                        </more>
+                        <less comment="false" id="1" x="0" y="0">
+                            <div comment="false" id="0" x="0" y="0">
+                                <minus comment="false" id="0" x="0" y="0">
+                                    <Date-current-all comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                    </Date-current-all>
+                                    <int id="1" val="2000"/>
+                                </minus>
+                                <int id="1" val="4"/>
+                            </div>
+                            <int id="1" val="4"/>
+                        </less>
+                    </and>
+                </else-if>
+                <else-if comment="false" x="26" y="677">
+                    <group eventID="3" id="-1">
+                        <set-game-val-22 comment="false" x="37" y="725">
+                            <int id="0" val="6"/>
+                        </set-game-val-22>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </Date-current-all>
+                                <int id="1" val="2000"/>
+                            </minus>
+                            <int id="1" val="4"/>
+                        </div>
+                        <int id="1" val="4"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="757">
+                    <group eventID="3" id="-1">
+                        <set-game-val-22 comment="false" x="37" y="805">
+                            <int id="0" val="4"/>
+                        </set-game-val-22>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </Date-current-all>
+                                <int id="1" val="2000"/>
+                            </minus>
+                            <int id="1" val="4"/>
+                        </div>
+                        <int id="1" val="5"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="837">
+                    <group eventID="3" id="-1">
+                        <set-game-val-22 comment="false" x="37" y="885">
+                            <int id="0" val="2"/>
+                        </set-game-val-22>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </Date-current-all>
+                                <int id="1" val="2000"/>
+                            </minus>
+                            <int id="1" val="4"/>
+                        </div>
+                        <int id="1" val="6"/>
+                    </eq>
+                </else-if>
+                <set-game-val-25 comment="false" x="26" y="917">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-25>
+                <print comment="false" x="26" y="942">
+                    <get-game-val-22 comment="false" id="0" x="0" y="0"/>
+                </print>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-game-val-21 comment="false" x="26" y="42">
+                    <mod comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="2"/>
+                        </Date-current-all>
+                        <int id="1" val="7"/>
+                    </mod>
+                </set-game-val-21>
+                <set-game-val-24 comment="false" x="26" y="80">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-24>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <repeatu comment="false" x="26" y="42">
+                    <group eventID="6" id="-1">
+                        <print comment="false" x="37" y="82">
+                            <int id="0" val="waiting"/>
+                        </print>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-game-val-23 comment="false" id="0" x="0" y="0"/>
+                            <true comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                        <and comment="false" id="1" x="0" y="0">
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-24 comment="false" id="0" x="0" y="0"/>
+                                <true comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                            <eq comment="false" id="1" x="0" y="0">
+                                <get-game-val-25 comment="false" id="0" x="0" y="0"/>
+                                <true comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </and>
+                    </and>
+                </repeatu>
+                <set-game-val-26 comment="false" x="26" y="114">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-game-val-21 comment="false" id="0" x="0" y="0"/>
+                        <plus comment="false" id="1" x="0" y="0">
+                            <get-game-val-20 comment="false" id="0" x="0" y="0"/>
+                            <get-game-val-22 comment="false" id="1" x="0" y="0"/>
+                        </plus>
+                    </plus>
+                </set-game-val-26>
+                <print comment="false" x="26" y="149">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <int id="0" val="Freaking Day ="/>
+                        <get-game-val-26 comment="false" id="1" x="0" y="0"/>
+                    </str-combine>
+                </print>
+                <repeatu comment="false" x="26" y="179">
+                    <group eventID="6" id="-1">
+                        <if comment="false" x="37" y="209">
+                            <group eventID="6" id="-1">
+                                <set-game-val-26 comment="false" x="48" y="239">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="7"/>
+                                    </minus>
+                                </set-game-val-26>
+                            </group>
+                            <more comment="false" id="0" x="0" y="0">
+                                <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="7"/>
+                            </more>
+                        </if>
+                    </group>
+                    <less comment="false" id="0" x="0" y="0">
+                        <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="8"/>
+                    </less>
+                </repeatu>
+                <print comment="false" x="26" y="293">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <int id="0" val="Freaking Day ="/>
+                        <get-game-val-26 comment="false" id="1" x="0" y="0"/>
+                    </str-combine>
+                </print>
+                <if comment="false" x="26" y="323">
+                    <group eventID="6" id="-1">
+                        <set-game-val-19 comment="false" x="37" y="353">
+                            <int id="0" val="Sunday"/>
+                        </set-game-val-19>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="385">
+                    <group eventID="6" id="-1">
+                        <set-game-val-19 comment="false" x="37" y="415">
+                            <int id="0" val="Monday"/>
+                        </set-game-val-19>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="447">
+                    <group eventID="6" id="-1">
+                        <set-game-val-19 comment="false" x="37" y="477">
+                            <int id="0" val="Tuesday"/>
+                        </set-game-val-19>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="509">
+                    <group eventID="6" id="-1">
+                        <set-game-val-19 comment="false" x="37" y="539">
+                            <int id="0" val="Wednesday"/>
+                        </set-game-val-19>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="3"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="571">
+                    <group eventID="6" id="-1">
+                        <set-game-val-19 comment="false" x="37" y="601">
+                            <int id="0" val="Thursday"/>
+                        </set-game-val-19>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="4"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="633">
+                    <group eventID="6" id="-1">
+                        <set-game-val-19 comment="false" x="37" y="663">
+                            <int id="0" val="Friday"/>
+                        </set-game-val-19>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="5"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="695">
+                    <group eventID="6" id="-1">
+                        <set-game-val-19 comment="false" x="37" y="725">
+                            <int id="0" val="Saturday"/>
+                        </set-game-val-19>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="6"/>
+                    </eq>
+                </else-if>
+                <print comment="false" x="26" y="757">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <int id="0" val="Freaking Day = "/>
+                        <get-game-val-19 comment="false" id="1" x="0" y="0"/>
+                    </str-combine>
+                </print>
+                <set-game-val-24 comment="false" x="26" y="787">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-24>
+                <set-game-val-25 comment="false" x="26" y="812">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-25>
+                <set-game-val-23 comment="false" x="26" y="837">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-23>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>

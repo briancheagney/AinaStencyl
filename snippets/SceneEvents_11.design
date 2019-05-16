@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="16" id="0">
+        <event-mouse-press-release comment="false" x="15" y="15">
+            <group eventID="16" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="16" id="-1">
+                        <set-val-81-15 comment="false" x="37" y="75">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-81-15 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-val-81-15>
+                        <set-game-val-67 comment="false" x="37" y="105">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-67 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-game-val-67>
+                        <comment-short comment="false" x="37" y="135">
+                            <int id="0" val="took out stuff here."/>
+                        </comment-short>
+                        <replace-list comment="false" x="37" y="155">
+                            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="3"/>
+                            <str-combine comment="false" id="2" x="0" y="0">
+                                <get-val-81-17 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0%25Correct"/>
+                            </str-combine>
+                        </replace-list>
+                        <replace-list comment="false" x="37" y="185">
+                            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+                            <plus comment="false" id="1" x="0" y="0">
+                                <get-game-val-67 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="3"/>
+                            </plus>
+                            <int id="2" val="F"/>
+                        </replace-list>
+                        <replace-list comment="false" x="37" y="215">
+                            <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                            <get-game-val-59 comment="false" id="1" x="0" y="0"/>
+                            <get-val-81-16 comment="false" id="2" x="0" y="0"/>
+                        </replace-list>
+                        <dolater comment="false" x="37" y="240">
+                            <group eventID="16" id="-1">
+                                <dolater comment="false" x="48" y="267">
+                                    <group eventID="16" id="-1">
+                                        <if comment="false" x="59" y="294">
+                                            <group eventID="16" id="-1">
+                                                <set-xy comment="false" x="70" y="324">
+                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                    <int id="1" val="0"/>
+                                                    <plus comment="false" id="2" x="0" y="0">
+                                                        <div comment="false" id="0" x="0" y="0">
+                                                            <screen-wh comment="false" id="0" x="0" y="0">
+                                                                <int id="0" val="0"/>
+                                                            </screen-wh>
+                                                            <int id="1" val="2"/>
+                                                        </div>
+                                                        <div comment="false" id="1" x="0" y="0">
+                                                            <get-wh comment="false" id="0" x="0" y="0">
+                                                                <ACTOR eid="var" id="0" vid="12"/>
+                                                                <int id="1" val="0"/>
+                                                            </get-wh>
+                                                            <int id="1" val="4"/>
+                                                        </div>
+                                                    </plus>
+                                                </set-xy>
+                                                <set-xy comment="false" x="70" y="374">
+                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                    <int id="1" val="1"/>
+                                                    <get-val-81-14 comment="false" id="2" x="0" y="0"/>
+                                                </set-xy>
+                                                <toggle-image comment="false" x="70" y="406">
+                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                    <int id="1" val="1"/>
+                                                </toggle-image>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-val-81-13 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="1"/>
+                                            </eq>
+                                        </if>
+                                        <else-if comment="false" x="59" y="445">
+                                            <group eventID="16" id="-1">
+                                                <set-xy comment="false" x="70" y="475">
+                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                    <int id="1" val="0"/>
+                                                    <minus comment="false" id="2" x="0" y="0">
+                                                        <div comment="false" id="0" x="0" y="0">
+                                                            <screen-wh comment="false" id="0" x="0" y="0">
+                                                                <int id="0" val="0"/>
+                                                            </screen-wh>
+                                                            <int id="1" val="2"/>
+                                                        </div>
+                                                        <plus comment="false" id="1" x="0" y="0">
+                                                            <div comment="false" id="0" x="0" y="0">
+                                                                <get-wh comment="false" id="0" x="0" y="0">
+                                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                                    <int id="1" val="0"/>
+                                                                </get-wh>
+                                                                <int id="1" val="1"/>
+                                                            </div>
+                                                            <div comment="false" id="1" x="0" y="0">
+                                                                <get-wh comment="false" id="0" x="0" y="0">
+                                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                                    <int id="1" val="0"/>
+                                                                </get-wh>
+                                                                <int id="1" val="4"/>
+                                                            </div>
+                                                        </plus>
+                                                    </minus>
+                                                </set-xy>
+                                                <set-xy comment="false" x="70" y="530">
+                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                    <int id="1" val="1"/>
+                                                    <get-val-81-14 comment="false" id="2" x="0" y="0"/>
+                                                </set-xy>
+                                                <toggle-image comment="false" x="70" y="562">
+                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                    <int id="1" val="1"/>
+                                                </toggle-image>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-val-81-13 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="2"/>
+                                            </eq>
+                                        </else-if>
+                                    </group>
+                                    <int id="0" val=".5"/>
+                                    <ACTOR eid="lastcreated" id="2"/>
+                                </dolater>
+                            </group>
+                            <int id="0" val=".01"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                        <toggle-image comment="false" x="37" y="625">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="652">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="679">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <print comment="false" x="37" y="706">
+                            <int id="0" val="False"/>
+                        </print>
+                        <print comment="false" x="37" y="726">
+                            <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                        </print>
+                        <if comment="false" x="37" y="751">
+                            <group eventID="16" id="-1">
+                                <scene-change-through comment="false" x="48" y="781">
+                                    <scene eid="46" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val=".5"/>
+                                </scene-change-through>
+                                <save-game comment="false" x="48" y="808">
+                                    <group eventID="16" id="-1"/>
+                                </save-game>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-81-15 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="10"/>
+                            </eq>
+                        </if>
+                        <else comment="false" x="37" y="877">
+                            <group eventID="16" id="-1">
+                                <dolater comment="false" x="48" y="897">
+                                    <group eventID="16" id="-1">
+                                        <clear-filter comment="false" x="59" y="924">
+                                            <ACTOR eid="var" id="0" vid="1"/>
+                                        </clear-filter>
+                                        <toggle-image comment="false" x="59" y="951">
+                                            <ACTOR eid="var" id="0" vid="1"/>
+                                            <int id="1" val="0"/>
+                                        </toggle-image>
+                                        <scaleTo comment="false" x="59" y="978">
+                                            <ACTOR eid="var" id="0" vid="1"/>
+                                            <int id="1" val="125"/>
+                                            <int id="2" val="125"/>
+                                            <int id="3" val=".1"/>
+                                            <int id="4" val="0"/>
+                                        </scaleTo>
+                                        <dolater comment="false" x="59" y="1005">
+                                            <group eventID="16" id="-1">
+                                                <scaleTo comment="false" x="70" y="1032">
+                                                    <ACTOR eid="var" id="0" vid="1"/>
+                                                    <int id="1" val="100"/>
+                                                    <int id="2" val="100"/>
+                                                    <int id="3" val=".05"/>
+                                                    <int id="4" val="0"/>
+                                                </scaleTo>
+                                                <set-game-val-36 comment="false" x="70" y="1059">
+                                                    <true comment="false" id="0" x="0" y="0"/>
+                                                </set-game-val-36>
+                                            </group>
+                                            <int id="0" val=".1"/>
+                                            <ACTOR eid="lastcreated" id="2"/>
+                                        </dolater>
+                                    </group>
+                                    <int id="0" val="1"/>
+                                    <ACTOR eid="lastcreated" id="2"/>
+                                </dolater>
+                            </group>
+                        </else>
+                        <save-game comment="false" x="37" y="1120">
+                            <group eventID="16" id="-1"/>
+                        </save-game>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="12"/>
+                        <int id="1" val="0"/>
+                    </amousestate>
+                </if>
+            </group>
+            <int id="0" val="0"/>
+        </event-mouse-press-release>
+    </group>
+    <group eventID="16" id="1">
+        <replace-list comment="false" x="483" y="146">
+            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+            <int id="1" val="0"/>
+            <str-combine comment="false" id="2" x="0" y="0">
+                <str-combine comment="false" id="0" x="0" y="0">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <str-combine comment="false" id="0" x="0" y="0">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <get-game-val-19 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val=", "/>
+                            </str-combine>
+                            <str-combine comment="false" id="1" x="0" y="0">
+                                <get-game-val-27 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val=" "/>
+                            </str-combine>
+                        </str-combine>
+                        <Date-current-all comment="false" id="1" x="0" y="0">
+                            <int id="0" val="2"/>
+                        </Date-current-all>
+                    </str-combine>
+                    <int id="1" val=", "/>
+                </str-combine>
+                <Date-current-all comment="false" id="1" x="0" y="0">
+                    <int id="0" val="0"/>
+                </Date-current-all>
+            </str-combine>
+        </replace-list>
+        <replace-list comment="false" x="483" y="196">
+            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+            <int id="1" val="1"/>
+            <get-game-val-59 comment="false" id="2" x="0" y="0"/>
+        </replace-list>
+        <replace-list comment="false" x="483" y="221">
+            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+            <int id="1" val="2"/>
+            <str-combine comment="false" id="2" x="0" y="0">
+                <str-combine comment="false" id="0" x="0" y="0">
+                    <Date-current-all comment="false" id="0" x="0" y="0">
+                        <int id="0" val="4"/>
+                    </Date-current-all>
+                    <int id="1" val=":"/>
+                </str-combine>
+                <str-combine comment="false" id="1" x="0" y="0">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="5"/>
+                        </Date-current-all>
+                        <int id="1" val=":"/>
+                    </str-combine>
+                    <Date-current-all comment="false" id="1" x="0" y="0">
+                        <int id="0" val="6"/>
+                    </Date-current-all>
+                </str-combine>
+            </str-combine>
+        </replace-list>
+    </group>
+    <group eventID="16" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="22" y="14">
+            <group eventID="2" id="-1">
+                <set-val-81-14 comment="false" x="33" y="39">
+                    <int id="0" val="30"/>
+                </set-val-81-14>
+                <set-game-val-45 comment="false" x="33" y="59">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-45>
+                <set-game-val-46 comment="false" x="33" y="84">
+                    <int id="0" val="0"/>
+                </set-game-val-46>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="18" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="18" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="18" id="-1">
+                        <set-val-81-23 comment="false" x="37" y="70">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-81-23 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-val-81-23>
+                        <set-val-81-24 comment="false" x="37" y="100">
+                            <int id="0" val="0"/>
+                        </set-val-81-24>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-81-13 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="132">
+                    <group eventID="18" id="-1">
+                        <set-val-81-24 comment="false" x="37" y="162">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-81-24 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-val-81-24>
+                        <set-val-81-23 comment="false" x="37" y="192">
+                            <int id="0" val="0"/>
+                        </set-val-81-23>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-81-13 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </else-if>
+                <if comment="false" x="26" y="224">
+                    <group eventID="18" id="-1">
+                        <set-val-81-13 comment="false" x="37" y="254">
+                            <int id="0" val="2"/>
+                        </set-val-81-13>
+                        <set-val-81-23 comment="false" x="37" y="274">
+                            <int id="0" val="0"/>
+                        </set-val-81-23>
+                        <set-val-81-24 comment="false" x="37" y="294">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-81-24 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-val-81-24>
+                    </group>
+                    <more comment="false" id="0" x="0" y="0">
+                        <get-val-81-23 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </more>
+                </if>
+                <else-if comment="false" x="26" y="336">
+                    <group eventID="18" id="-1">
+                        <set-val-81-13 comment="false" x="37" y="366">
+                            <int id="0" val="1"/>
+                        </set-val-81-13>
+                        <set-val-81-24 comment="false" x="37" y="386">
+                            <int id="0" val="0"/>
+                        </set-val-81-24>
+                        <set-val-81-23 comment="false" x="37" y="406">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-81-23 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-val-81-23>
+                    </group>
+                    <more comment="false" id="0" x="0" y="0">
+                        <get-val-81-24 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </more>
+                </else-if>
+                <say-this comment="false" x="26" y="448">
+                    <int id="0" val="SideSwitcher2"/>
+                </say-this>
+            </group>
+            <int id="0" val="SideSwitcher"/>
+        </event-custom>
+    </group>
+    <group eventID="18" id="-1"/>
+    <group eventID="3" id="0">
+        <event-delay comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <print comment="false" x="26" y="42">
+                    <int id="0" val="fade in now."/>
+                </print>
+                <comment-wrapper comment="false" x="26" y="62">
+                    <group eventID="3" id="-1">
+                        <toggle-image comment="false" x="37" y="82">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                        <scaleTo comment="false" x="37" y="109">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="125"/>
+                            <int id="2" val="125"/>
+                            <int id="3" val=".1"/>
+                            <int id="4" val="0"/>
+                        </scaleTo>
+                        <dolater comment="false" x="37" y="136">
+                            <group eventID="3" id="-1">
+                                <scaleTo comment="false" x="48" y="163">
+                                    <ACTOR eid="var" id="0" vid="1"/>
+                                    <int id="1" val="100"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val=".05"/>
+                                    <int id="4" val="0"/>
+                                </scaleTo>
+                            </group>
+                            <int id="0" val=".1"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                    <int id="0" val="This shtuff brings up the target card (pops up)"/>
+                </comment-wrapper>
+            </group>
+            <int id="0" val="1"/>
+            <ACTOR eid="lastcreated" id="2"/>
+        </event-delay>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="19" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="19" id="-1">
+                <set-game-val-67 comment="false" x="26" y="40">
+                    <int id="0" val="0"/>
+                </set-game-val-67>
+                <repeat comment="false" x="26" y="60">
+                    <group eventID="19" id="-1">
+                        <if comment="false" x="37" y="85">
+                            <group eventID="19" id="-1">
+                                <set-game-val-27 comment="false" x="48" y="123">
+                                    <int id="0" val="January"/>
+                                </set-game-val-27>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </Date-current-all>
+                                <int id="1" val="0"/>
+                            </eq>
+                        </if>
+                        <else-if comment="false" x="37" y="155">
+                            <group eventID="19" id="-1">
+                                <set-game-val-27 comment="false" x="48" y="193">
+                                    <int id="0" val="February"/>
+                                </set-game-val-27>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </Date-current-all>
+                                <int id="1" val="1"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="225">
+                            <group eventID="19" id="-1">
+                                <set-game-val-27 comment="false" x="48" y="263">
+                                    <int id="0" val="March"/>
+                                </set-game-val-27>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </Date-current-all>
+                                <int id="1" val="2"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="295">
+                            <group eventID="19" id="-1">
+                                <set-game-val-27 comment="false" x="48" y="333">
+                                    <int id="0" val="April"/>
+                                </set-game-val-27>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </Date-current-all>
+                                <int id="1" val="3"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="365">
+                            <group eventID="19" id="-1">
+                                <set-game-val-27 comment="false" x="48" y="403">
+                                    <int id="0" val="May"/>
+                                </set-game-val-27>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </Date-current-all>
+                                <int id="1" val="4"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="435">
+                            <group eventID="19" id="-1">
+                                <set-game-val-27 comment="false" x="48" y="473">
+                                    <int id="0" val="June"/>
+                                </set-game-val-27>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </Date-current-all>
+                                <int id="1" val="5"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="505">
+                            <group eventID="19" id="-1">
+                                <set-game-val-27 comment="false" x="48" y="543">
+                                    <int id="0" val="July"/>
+                                </set-game-val-27>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </Date-current-all>
+                                <int id="1" val="6"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="575">
+                            <group eventID="19" id="-1">
+                                <set-game-val-27 comment="false" x="48" y="613">
+                                    <int id="0" val="August"/>
+                                </set-game-val-27>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </Date-current-all>
+                                <int id="1" val="7"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="645">
+                            <group eventID="19" id="-1">
+                                <set-game-val-27 comment="false" x="48" y="683">
+                                    <int id="0" val="September"/>
+                                </set-game-val-27>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </Date-current-all>
+                                <int id="1" val="8"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="715">
+                            <group eventID="19" id="-1">
+                                <set-game-val-27 comment="false" x="48" y="753">
+                                    <int id="0" val="October"/>
+                                </set-game-val-27>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </Date-current-all>
+                                <int id="1" val="9"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="785">
+                            <group eventID="19" id="-1">
+                                <set-game-val-27 comment="false" x="48" y="823">
+                                    <int id="0" val="November"/>
+                                </set-game-val-27>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </Date-current-all>
+                                <int id="1" val="10"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="855">
+                            <group eventID="19" id="-1">
+                                <set-game-val-27 comment="false" x="48" y="893">
+                                    <int id="0" val="December"/>
+                                </set-game-val-27>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <Date-current-all comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </Date-current-all>
+                                <int id="1" val="11"/>
+                            </eq>
+                        </else-if>
+                    </group>
+                    <int id="0" val="1"/>
+                </repeat>
+                <set-game-val-59 comment="false" x="26" y="937">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-game-val-59 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </plus>
+                </set-game-val-59>
+                <dolater comment="false" x="26" y="967">
+                    <group eventID="19" id="-1">
+                        <set-val-81-16 comment="false" x="37" y="994">
+                            <create-list comment="false" id="0" x="0" y="0"/>
+                        </set-val-81-16>
+                        <replace-list comment="false" x="37" y="1019">
+                            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                            <str-combine comment="false" id="2" x="0" y="0">
+                                <str-combine comment="false" id="0" x="0" y="0">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <str-combine comment="false" id="0" x="0" y="0">
+                                                <get-game-val-19 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val=", "/>
+                                            </str-combine>
+                                            <str-combine comment="false" id="1" x="0" y="0">
+                                                <get-game-val-27 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val=" "/>
+                                            </str-combine>
+                                        </str-combine>
+                                        <Date-current-all comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="2"/>
+                                        </Date-current-all>
+                                    </str-combine>
+                                    <int id="1" val=", "/>
+                                </str-combine>
+                                <Date-current-all comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </Date-current-all>
+                            </str-combine>
+                        </replace-list>
+                        <replace-list comment="false" x="37" y="1069">
+                            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                            <get-game-val-59 comment="false" id="2" x="0" y="0"/>
+                        </replace-list>
+                        <replace-list comment="false" x="37" y="1094">
+                            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="2"/>
+                            <str-combine comment="false" id="2" x="0" y="0">
+                                <str-combine comment="false" id="0" x="0" y="0">
+                                    <Date-current-all comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="4"/>
+                                    </Date-current-all>
+                                    <int id="1" val=":"/>
+                                </str-combine>
+                                <str-combine comment="false" id="1" x="0" y="0">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <Date-current-all comment="false" id="0" x="0" y="0">
+                                            <int id="0" val="5"/>
+                                        </Date-current-all>
+                                        <int id="1" val=":"/>
+                                    </str-combine>
+                                    <Date-current-all comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="6"/>
+                                    </Date-current-all>
+                                </str-combine>
+                            </str-combine>
+                        </replace-list>
+                        <replace-list comment="false" x="37" y="1142">
+                            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="3"/>
+                            <int id="2" val="0"/>
+                        </replace-list>
+                        <replace-list comment="false" x="37" y="1167">
+                            <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                            <get-game-val-59 comment="false" id="1" x="0" y="0"/>
+                            <get-val-81-16 comment="false" id="2" x="0" y="0"/>
+                        </replace-list>
+                    </group>
+                    <int id="0" val=".1"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </dolater>
+            </group>
+        </init>
+    </group>
+    <group eventID="19" id="1">
+        <set-val-81-19 comment="false" x="51" y="1245">
+            <plus comment="false" id="0" x="0" y="0">
+                <get-val-81-19 comment="false" id="0" x="0" y="0"/>
+                <int id="1" val="1"/>
+            </plus>
+        </set-val-81-19>
+    </group>
+    <group eventID="19" id="-1"/>
+    <group eventID="4" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="11" y="19">
+            <group eventID="4" id="-1">
+                <if comment="false" x="22" y="46">
+                    <group eventID="4" id="-1">
+                        <set-val-81-21 comment="false" x="33" y="76">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-81-21 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-val-81-21>
+                        <set-game-val-36 comment="false" x="33" y="106">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-36>
+                        <set-game-val-61 comment="false" x="33" y="131">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-61>
+                        <comment-short comment="false" x="33" y="156">
+                            <int id="0" val="The black tint ends up greying the card out, to make the match more obvious."/>
+                        </comment-short>
+                        <apply-filter comment="false" x="33" y="176">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <filter-tint comment="false" id="1" x="0" y="0">
+                                <color b="0" g="0" id="0" r="0"/>
+                                <get-game-val-130 comment="false" id="1" x="0" y="0"/>
+                            </filter-tint>
+                        </apply-filter>
+                        <comment-short comment="false" x="33" y="221">
+                            <int id="0" val="CardPicker is a variable that determines what card the non-match is going to be."/>
+                        </comment-short>
+                        <comment-short comment="false" x="33" y="241">
+                            <int id="0" val="In this example"/>
+                        </comment-short>
+                        <set-val-81-11 comment="false" x="33" y="261">
+                            <randint comment="false" id="0" x="0" y="0">
+                                <int id="0" val="2"/>
+                                <int id="1" val="2"/>
+                            </randint>
+                        </set-val-81-11>
+                        <if comment="false" x="33" y="286">
+                            <group eventID="4" id="-1">
+                                <setanim comment="false" x="44" y="316">
+                                    <ACTOR eid="var" id="0" vid="12"/>
+                                    <int id="1" val="NullHeart"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-81-11 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </eq>
+                        </if>
+                        <else-if comment="false" x="33" y="355">
+                            <group eventID="4" id="-1">
+                                <setanim comment="false" x="44" y="385">
+                                    <ACTOR eid="var" id="0" vid="12"/>
+                                    <int id="1" val="NullMoon"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-81-11 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="2"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="33" y="424">
+                            <group eventID="4" id="-1">
+                                <setanim comment="false" x="44" y="454">
+                                    <ACTOR eid="var" id="0" vid="12"/>
+                                    <int id="1" val="NullDiamond"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-81-11 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="3"/>
+                            </eq>
+                        </else-if>
+                        <if comment="false" x="33" y="493">
+                            <group eventID="4" id="-1">
+                                <set-val-81-13 comment="false" x="44" y="523">
+                                    <int id="0" val="2"/>
+                                </set-val-81-13>
+                            </group>
+                            <more comment="false" id="0" x="0" y="0">
+                                <get-val-81-19 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </more>
+                        </if>
+                        <else-if comment="false" x="33" y="555">
+                            <group eventID="4" id="-1">
+                                <set-val-81-13 comment="false" x="44" y="585">
+                                    <int id="0" val="1"/>
+                                </set-val-81-13>
+                            </group>
+                            <more comment="false" id="0" x="0" y="0">
+                                <get-val-81-22 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </more>
+                        </else-if>
+                        <else comment="false" x="33" y="617">
+                            <group eventID="4" id="-1">
+                                <set-val-81-13 comment="false" x="44" y="637">
+                                    <randint comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="1"/>
+                                        <int id="1" val="2"/>
+                                    </randint>
+                                </set-val-81-13>
+                            </group>
+                        </else>
+                        <say-this comment="false" x="33" y="674">
+                            <int id="0" val="SideSwitcher"/>
+                        </say-this>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-36 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+            <ACTOR eid="var" id="0" vid="1"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="4" id="1">
+        <setanim comment="false" x="145" y="1938">
+            <ACTOR eid="15" id="0"/>
+            <int id="1" val="Match"/>
+        </setanim>
+        <setanim comment="false" x="145" y="1965">
+            <ACTOR eid="var" id="0" vid="12"/>
+            <int id="1" val="Match"/>
+        </setanim>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="20" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="20" id="-1">
+                <print comment="false" x="26" y="40">
+                    <int id="0" val="SideSwitcher2"/>
+                </print>
+                <comment-short comment="false" x="26" y="60">
+                    <int id="0" val="LeftRightPicker: 1=left; 2=right."/>
+                </comment-short>
+                <print comment="false" x="26" y="80">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <int id="0" val="ScreenWidth = "/>
+                        <screen-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </screen-wh>
+                    </str-combine>
+                </print>
+                <print comment="false" x="26" y="118">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <int id="0" val="Width of Card = "/>
+                        <get-wh comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="0"/>
+                        </get-wh>
+                    </str-combine>
+                </print>
+                <print comment="false" x="26" y="156">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <int id="0" val="MatchX01 = "/>
+                        <get-game-val-131 comment="false" id="1" x="0" y="0"/>
+                    </str-combine>
+                </print>
+                <print comment="false" x="26" y="186">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <int id="0" val="MatchX02 = "/>
+                        <get-game-val-132 comment="false" id="1" x="0" y="0"/>
+                    </str-combine>
+                </print>
+                <if comment="false" x="26" y="216">
+                    <group eventID="20" id="-1">
+                        <set-val-81-19 comment="false" x="37" y="246">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-81-19 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-val-81-19>
+                        <set-xy comment="false" x="37" y="276">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="0"/>
+                            <get-game-val-131 comment="false" id="2" x="0" y="0"/>
+                        </set-xy>
+                        <set-xy comment="false" x="37" y="308">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <int id="1" val="0"/>
+                            <get-game-val-132 comment="false" id="2" x="0" y="0"/>
+                        </set-xy>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-81-13 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="352">
+                    <group eventID="20" id="-1">
+                        <set-val-81-22 comment="false" x="37" y="382">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-81-22 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-val-81-22>
+                        <set-xy comment="false" x="37" y="412">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="0"/>
+                            <get-game-val-132 comment="false" id="2" x="0" y="0"/>
+                        </set-xy>
+                        <set-xy comment="false" x="37" y="444">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <int id="1" val="0"/>
+                            <get-game-val-131 comment="false" id="2" x="0" y="0"/>
+                        </set-xy>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-81-13 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </else-if>
+                <dolater comment="false" x="26" y="488">
+                    <group eventID="20" id="-1">
+                        <toggle-image comment="false" x="37" y="515">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="542">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                        <scaleTo comment="false" x="37" y="569">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <int id="1" val="125"/>
+                            <int id="2" val="125"/>
+                            <int id="3" val=".05"/>
+                            <int id="4" val="0"/>
+                        </scaleTo>
+                        <scaleTo comment="false" x="37" y="596">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="125"/>
+                            <int id="2" val="125"/>
+                            <int id="3" val=".05"/>
+                            <int id="4" val="0"/>
+                        </scaleTo>
+                        <dolater comment="false" x="37" y="623">
+                            <group eventID="20" id="-1">
+                                <scaleTo comment="false" x="48" y="650">
+                                    <ACTOR eid="var" id="0" vid="12"/>
+                                    <int id="1" val="100"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val=".025"/>
+                                    <int id="4" val="0"/>
+                                </scaleTo>
+                                <scaleTo comment="false" x="48" y="677">
+                                    <ACTOR eid="var" id="0" vid="2"/>
+                                    <int id="1" val="100"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val=".025"/>
+                                    <int id="4" val="0"/>
+                                </scaleTo>
+                                <set-val-81-25 comment="false" x="48" y="704">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-81-25>
+                            </group>
+                            <int id="0" val=".05"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                    <int id="0" val=".25"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="SideSwitcher2"/>
+        </event-custom>
+    </group>
+    <group eventID="20" id="1">
+        <if comment="false" x="65" y="828">
+            <group eventID="20" id="-1"/>
+            <eq comment="false" id="0" x="0" y="0">
+                <get-val-81-25 comment="false" id="0" x="0" y="0"/>
+                <true comment="false" id="1" x="0" y="0"/>
+            </eq>
+        </if>
+    </group>
+    <group eventID="20" id="-1">
+        <minus comment="false" x="396" y="113">
+            <div comment="false" id="0" x="0" y="0">
+                <screen-wh comment="false" id="0" x="0" y="0">
+                    <int id="0" val="0"/>
+                </screen-wh>
+                <int id="1" val="2"/>
+            </div>
+            <plus comment="false" id="1" x="0" y="0">
+                <div comment="false" id="0" x="0" y="0">
+                    <get-wh comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="2"/>
+                        <int id="1" val="0"/>
+                    </get-wh>
+                    <int id="1" val="1"/>
+                </div>
+                <div comment="false" id="1" x="0" y="0">
+                    <get-wh comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="2"/>
+                        <int id="1" val="0"/>
+                    </get-wh>
+                    <int id="1" val="4"/>
+                </div>
+            </plus>
+        </minus>
+        <plus comment="false" x="398" y="164">
+            <div comment="false" id="0" x="0" y="0">
+                <screen-wh comment="false" id="0" x="0" y="0">
+                    <int id="0" val="0"/>
+                </screen-wh>
+                <int id="1" val="2"/>
+            </div>
+            <div comment="false" id="1" x="0" y="0">
+                <get-wh comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="var" id="0" vid="12"/>
+                    <int id="1" val="0"/>
+                </get-wh>
+                <int id="1" val="4"/>
+            </div>
+        </plus>
+        <plus comment="false" x="394" y="215">
+            <div comment="false" id="0" x="0" y="0">
+                <screen-wh comment="false" id="0" x="0" y="0">
+                    <int id="0" val="0"/>
+                </screen-wh>
+                <int id="1" val="2"/>
+            </div>
+            <div comment="false" id="1" x="0" y="0">
+                <get-wh comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="var" id="0" vid="2"/>
+                    <int id="1" val="0"/>
+                </get-wh>
+                <int id="1" val="4"/>
+            </div>
+        </plus>
+        <minus comment="false" x="387" y="268">
+            <div comment="false" id="0" x="0" y="0">
+                <screen-wh comment="false" id="0" x="0" y="0">
+                    <int id="0" val="0"/>
+                </screen-wh>
+                <int id="1" val="2"/>
+            </div>
+            <plus comment="false" id="1" x="0" y="0">
+                <div comment="false" id="0" x="0" y="0">
+                    <get-wh comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="12"/>
+                        <int id="1" val="0"/>
+                    </get-wh>
+                    <int id="1" val="1"/>
+                </div>
+                <div comment="false" id="1" x="0" y="0">
+                    <get-wh comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="12"/>
+                        <int id="1" val="0"/>
+                    </get-wh>
+                    <int id="1" val="4"/>
+                </div>
+            </plus>
+        </minus>
+    </group>
+    <group eventID="22" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="22" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="22" id="-1">
+                        <set-val-81-25 comment="false" x="37" y="72">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-81-25>
+                        <set-val-81-15 comment="false" x="37" y="97">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-81-15 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-val-81-15>
+                        <set-game-val-67 comment="false" x="37" y="127">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-67 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-game-val-67>
+                        <comment-short comment="false" x="37" y="157">
+                            <int id="0" val="took out stuff here."/>
+                        </comment-short>
+                        <replace-list comment="false" x="37" y="177">
+                            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="3"/>
+                            <str-combine comment="false" id="2" x="0" y="0">
+                                <get-val-81-17 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0%25Correct"/>
+                            </str-combine>
+                        </replace-list>
+                        <replace-list comment="false" x="37" y="207">
+                            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+                            <plus comment="false" id="1" x="0" y="0">
+                                <get-game-val-67 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="3"/>
+                            </plus>
+                            <int id="2" val="F"/>
+                        </replace-list>
+                        <replace-list comment="false" x="37" y="237">
+                            <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                            <get-game-val-59 comment="false" id="1" x="0" y="0"/>
+                            <get-val-81-16 comment="false" id="2" x="0" y="0"/>
+                        </replace-list>
+                        <dolater comment="false" x="37" y="262">
+                            <group eventID="22" id="-1">
+                                <dolater comment="false" x="48" y="289">
+                                    <group eventID="22" id="-1">
+                                        <if comment="false" x="59" y="316">
+                                            <group eventID="22" id="-1">
+                                                <set-xy comment="false" x="70" y="346">
+                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                    <int id="1" val="0"/>
+                                                    <plus comment="false" id="2" x="0" y="0">
+                                                        <div comment="false" id="0" x="0" y="0">
+                                                            <screen-wh comment="false" id="0" x="0" y="0">
+                                                                <int id="0" val="0"/>
+                                                            </screen-wh>
+                                                            <int id="1" val="2"/>
+                                                        </div>
+                                                        <div comment="false" id="1" x="0" y="0">
+                                                            <get-wh comment="false" id="0" x="0" y="0">
+                                                                <ACTOR eid="var" id="0" vid="12"/>
+                                                                <int id="1" val="0"/>
+                                                            </get-wh>
+                                                            <int id="1" val="4"/>
+                                                        </div>
+                                                    </plus>
+                                                </set-xy>
+                                                <set-xy comment="false" x="70" y="396">
+                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                    <int id="1" val="1"/>
+                                                    <get-val-81-14 comment="false" id="2" x="0" y="0"/>
+                                                </set-xy>
+                                                <toggle-image comment="false" x="70" y="428">
+                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                    <int id="1" val="1"/>
+                                                </toggle-image>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-val-81-13 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="1"/>
+                                            </eq>
+                                        </if>
+                                        <else-if comment="false" x="59" y="467">
+                                            <group eventID="22" id="-1">
+                                                <set-xy comment="false" x="70" y="497">
+                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                    <int id="1" val="0"/>
+                                                    <minus comment="false" id="2" x="0" y="0">
+                                                        <div comment="false" id="0" x="0" y="0">
+                                                            <screen-wh comment="false" id="0" x="0" y="0">
+                                                                <int id="0" val="0"/>
+                                                            </screen-wh>
+                                                            <int id="1" val="2"/>
+                                                        </div>
+                                                        <plus comment="false" id="1" x="0" y="0">
+                                                            <div comment="false" id="0" x="0" y="0">
+                                                                <get-wh comment="false" id="0" x="0" y="0">
+                                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                                    <int id="1" val="0"/>
+                                                                </get-wh>
+                                                                <int id="1" val="1"/>
+                                                            </div>
+                                                            <div comment="false" id="1" x="0" y="0">
+                                                                <get-wh comment="false" id="0" x="0" y="0">
+                                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                                    <int id="1" val="0"/>
+                                                                </get-wh>
+                                                                <int id="1" val="4"/>
+                                                            </div>
+                                                        </plus>
+                                                    </minus>
+                                                </set-xy>
+                                                <set-xy comment="false" x="70" y="552">
+                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                    <int id="1" val="1"/>
+                                                    <get-val-81-14 comment="false" id="2" x="0" y="0"/>
+                                                </set-xy>
+                                                <toggle-image comment="false" x="70" y="584">
+                                                    <ACTOR eid="var" id="0" vid="12"/>
+                                                    <int id="1" val="1"/>
+                                                </toggle-image>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-val-81-13 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="2"/>
+                                            </eq>
+                                        </else-if>
+                                    </group>
+                                    <int id="0" val=".5"/>
+                                    <ACTOR eid="lastcreated" id="2"/>
+                                </dolater>
+                            </group>
+                            <int id="0" val=".01"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                        <toggle-image comment="false" x="37" y="647">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="674">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="701">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <print comment="false" x="37" y="728">
+                            <int id="0" val="False"/>
+                        </print>
+                        <print comment="false" x="37" y="748">
+                            <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                        </print>
+                        <if comment="false" x="37" y="773">
+                            <group eventID="22" id="-1">
+                                <scene-change-through comment="false" x="48" y="803">
+                                    <scene eid="46" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val=".5"/>
+                                </scene-change-through>
+                                <save-game comment="false" x="48" y="830">
+                                    <group eventID="22" id="-1"/>
+                                </save-game>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-81-15 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="10"/>
+                            </eq>
+                        </if>
+                        <else comment="false" x="37" y="899">
+                            <group eventID="22" id="-1">
+                                <dolater comment="false" x="48" y="919">
+                                    <group eventID="22" id="-1">
+                                        <clear-filter comment="false" x="59" y="946">
+                                            <ACTOR eid="var" id="0" vid="1"/>
+                                        </clear-filter>
+                                        <toggle-image comment="false" x="59" y="973">
+                                            <ACTOR eid="var" id="0" vid="1"/>
+                                            <int id="1" val="0"/>
+                                        </toggle-image>
+                                        <scaleTo comment="false" x="59" y="1000">
+                                            <ACTOR eid="var" id="0" vid="1"/>
+                                            <int id="1" val="125"/>
+                                            <int id="2" val="125"/>
+                                            <int id="3" val=".1"/>
+                                            <int id="4" val="0"/>
+                                        </scaleTo>
+                                        <dolater comment="false" x="59" y="1027">
+                                            <group eventID="22" id="-1">
+                                                <scaleTo comment="false" x="70" y="1054">
+                                                    <ACTOR eid="var" id="0" vid="1"/>
+                                                    <int id="1" val="100"/>
+                                                    <int id="2" val="100"/>
+                                                    <int id="3" val=".05"/>
+                                                    <int id="4" val="0"/>
+                                                </scaleTo>
+                                                <set-game-val-36 comment="false" x="70" y="1081">
+                                                    <true comment="false" id="0" x="0" y="0"/>
+                                                </set-game-val-36>
+                                            </group>
+                                            <int id="0" val=".1"/>
+                                            <ACTOR eid="lastcreated" id="2"/>
+                                        </dolater>
+                                    </group>
+                                    <int id="0" val="1"/>
+                                    <ACTOR eid="lastcreated" id="2"/>
+                                </dolater>
+                            </group>
+                        </else>
+                        <save-game comment="false" x="37" y="1142">
+                            <group eventID="22" id="-1"/>
+                        </save-game>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-81-25 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+            <ACTOR eid="var" id="0" vid="12"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="22" id="-1"/>
+    <group eventID="14" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="14" id="-1">
+                <comment-long comment="false" x="26" y="40">
+                    <int id="0" val="LeftyCount will count how many times the match is on the left side of the screen. Once it gets to 5, the program will not let the random side become left again, in order to balance the sides. (same w/ Right)"/>
+                </comment-long>
+                <set-val-81-25 comment="false" x="26" y="120">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-81-25>
+                <set-val-81-22 comment="false" x="26" y="145">
+                    <int id="0" val="0"/>
+                </set-val-81-22>
+                <set-val-81-19 comment="false" x="26" y="165">
+                    <int id="0" val="0"/>
+                </set-val-81-19>
+                <comment-short comment="false" x="26" y="185">
+                    <int id="0" val="TrialCounter counts the trial to make sure left/right placement is even"/>
+                </comment-short>
+                <set-val-81-21 comment="false" x="26" y="205">
+                    <int id="0" val="0"/>
+                </set-val-81-21>
+                <set-val-81-17 comment="false" x="26" y="225">
+                    <int id="0" val="0"/>
+                </set-val-81-17>
+                <set-val-81-15 comment="false" x="26" y="245">
+                    <int id="0" val="0"/>
+                </set-val-81-15>
+                <set-game-val-67 comment="false" x="26" y="265">
+                    <int id="0" val="0"/>
+                </set-game-val-67>
+                <comment-long comment="false" x="26" y="285">
+                    <int id="0" val="Create the target"/>
+                </comment-long>
+                <create-actor3 comment="false" x="26" y="365">
+                    <actortype eid="245" id="0"/>
+                    <get-game-val-121 comment="false" id="1" x="0" y="0"/>
+                    <get-game-val-122 comment="false" id="2" x="0" y="0"/>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <set-val-81-1 comment="false" x="26" y="397">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-81-1>
+                <setanim comment="false" x="26" y="424">
+                    <ACTOR eid="var" id="0" vid="1"/>
+                    <int id="1" val="NullClub"/>
+                </setanim>
+                <toggle-image comment="false" x="26" y="451">
+                    <ACTOR eid="var" id="0" vid="1"/>
+                    <int id="1" val="1"/>
+                </toggle-image>
+                <comment-long comment="false" x="26" y="478">
+                    <int id="0" val="create the NONmatch"/>
+                </comment-long>
+                <create-actor3 comment="false" x="26" y="558">
+                    <actortype eid="245" id="0"/>
+                    <get-game-val-123 comment="false" id="1" x="0" y="0"/>
+                    <get-game-val-124 comment="false" id="2" x="0" y="0"/>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <set-val-81-12 comment="false" x="26" y="590">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-81-12>
+                <setanim comment="false" x="26" y="617">
+                    <ACTOR eid="var" id="0" vid="12"/>
+                    <tostring comment="false" id="1" x="0" y="0">
+                        <int id="0" val="NullMoon"/>
+                    </tostring>
+                </setanim>
+                <toggle-image comment="false" x="26" y="649">
+                    <ACTOR eid="var" id="0" vid="12"/>
+                    <int id="1" val="1"/>
+                </toggle-image>
+                <comment-long comment="false" x="26" y="676">
+                    <int id="0" val="create the match"/>
+                </comment-long>
+                <create-actor3 comment="false" x="26" y="756">
+                    <actortype eid="245" id="0"/>
+                    <get-game-val-123 comment="false" id="1" x="0" y="0"/>
+                    <get-game-val-124 comment="false" id="2" x="0" y="0"/>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <set-val-81-2 comment="false" x="26" y="788">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-81-2>
+                <setanim comment="false" x="26" y="815">
+                    <ACTOR eid="var" id="0" vid="2"/>
+                    <int id="1" val="NullClub"/>
+                </setanim>
+                <toggle-image comment="false" x="26" y="842">
+                    <ACTOR eid="var" id="0" vid="2"/>
+                    <int id="1" val="1"/>
+                </toggle-image>
+                <comment-long comment="false" x="26" y="869">
+                    <int id="0" val="I don&amp;apos;t know what these two things are below here.&#10;"/>
+                </comment-long>
+                <set-val-81-16 comment="false" x="26" y="949">
+                    <create-list comment="false" id="0" x="0" y="0"/>
+                </set-val-81-16>
+                <set-val-81-18 comment="false" x="26" y="974">
+                    <Date-now comment="false" id="0" x="0" y="0"/>
+                </set-val-81-18>
+                <comment-long comment="false" x="26" y="999">
+                    <int id="0" val="The math below sets up the X coordinates for TWO match cards."/>
+                </comment-long>
+                <set-game-val-131 comment="false" x="26" y="1079">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <plus comment="false" id="0" x="0" y="0">
+                            <div comment="false" id="0" x="0" y="0">
+                                <minus comment="false" id="0" x="0" y="0">
+                                    <screen-wh comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                    </screen-wh>
+                                    <times comment="false" id="1" x="0" y="0">
+                                        <int id="0" val=".1"/>
+                                        <screen-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                        </screen-wh>
+                                    </times>
+                                </minus>
+                                <int id="1" val="2"/>
+                            </div>
+                            <div comment="false" id="1" x="0" y="0">
+                                <int id="0" val="60"/>
+                                <int id="1" val="2"/>
+                            </div>
+                        </plus>
+                        <times comment="false" id="1" x="0" y="0">
+                            <int id="0" val=".1"/>
+                            <screen-wh comment="false" id="1" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </screen-wh>
+                        </times>
+                    </plus>
+                </set-game-val-131>
+                <set-game-val-132 comment="false" x="26" y="1137">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <div comment="false" id="0" x="0" y="0">
+                                <minus comment="false" id="0" x="0" y="0">
+                                    <screen-wh comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                    </screen-wh>
+                                    <times comment="false" id="1" x="0" y="0">
+                                        <int id="0" val=".1"/>
+                                        <screen-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                        </screen-wh>
+                                    </times>
+                                </minus>
+                                <int id="1" val="2"/>
+                            </div>
+                            <plus comment="false" id="1" x="0" y="0">
+                                <div comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="60"/>
+                                    <int id="1" val="2"/>
+                                </div>
+                                <get-wh comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="var" id="0" vid="2"/>
+                                    <int id="1" val="0"/>
+                                </get-wh>
+                            </plus>
+                        </minus>
+                        <times comment="false" id="1" x="0" y="0">
+                            <int id="0" val=".1"/>
+                            <screen-wh comment="false" id="1" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </screen-wh>
+                        </times>
+                    </plus>
+                </set-game-val-132>
+            </group>
+        </init>
+    </group>
+    <group eventID="14" id="1">
+        <comment-long comment="false" x="22" y="1343">
+            <int id="0" val="The math below sets up the X coordinates for TWO match cards."/>
+        </comment-long>
+        <set-game-val-131 comment="false" x="22" y="1423">
+            <plus comment="false" id="0" x="0" y="0">
+                <plus comment="false" id="0" x="0" y="0">
+                    <div comment="false" id="0" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <screen-wh comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </screen-wh>
+                            <times comment="false" id="1" x="0" y="0">
+                                <int id="0" val=".1"/>
+                                <screen-wh comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </screen-wh>
+                            </times>
+                        </minus>
+                        <int id="1" val="2"/>
+                    </div>
+                    <div comment="false" id="1" x="0" y="0">
+                        <int id="0" val="60"/>
+                        <int id="1" val="2"/>
+                    </div>
+                </plus>
+                <times comment="false" id="1" x="0" y="0">
+                    <int id="0" val=".1"/>
+                    <screen-wh comment="false" id="1" x="0" y="0">
+                        <int id="0" val="0"/>
+                    </screen-wh>
+                </times>
+            </plus>
+        </set-game-val-131>
+        <set-game-val-132 comment="false" x="22" y="1481">
+            <plus comment="false" id="0" x="0" y="0">
+                <minus comment="false" id="0" x="0" y="0">
+                    <div comment="false" id="0" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <screen-wh comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </screen-wh>
+                            <times comment="false" id="1" x="0" y="0">
+                                <int id="0" val=".1"/>
+                                <screen-wh comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </screen-wh>
+                            </times>
+                        </minus>
+                        <int id="1" val="2"/>
+                    </div>
+                    <plus comment="false" id="1" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <int id="0" val="60"/>
+                            <int id="1" val="2"/>
+                        </div>
+                        <get-wh comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="0"/>
+                        </get-wh>
+                    </plus>
+                </minus>
+                <times comment="false" id="1" x="0" y="0">
+                    <int id="0" val=".1"/>
+                    <screen-wh comment="false" id="1" x="0" y="0">
+                        <int id="0" val="0"/>
+                    </screen-wh>
+                </times>
+            </plus>
+        </set-game-val-132>
+    </group>
+    <group eventID="14" id="2">
+        <set-val-81-25 comment="false" x="361" y="111">
+            <int id="0" val=""/>
+        </set-val-81-25>
+    </group>
+    <group eventID="14" id="-1"/>
+    <group eventID="15" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="13" y="25">
+            <group eventID="15" id="-1">
+                <if comment="false" x="24" y="52">
+                    <group eventID="15" id="-1">
+                        <set-val-81-25 comment="false" x="35" y="82">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-81-25>
+                        <play-sound4 comment="false" x="35" y="107">
+                            <int id="0" val="0"/>
+                            <sound eid="57" id="1"/>
+                        </play-sound4>
+                        <set-val-81-17 comment="false" x="35" y="134">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-81-17 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-val-81-17>
+                        <set-val-81-15 comment="false" x="35" y="164">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-81-15 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-val-81-15>
+                        <set-game-val-67 comment="false" x="35" y="194">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-67 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-game-val-67>
+                        <comment-short comment="false" x="35" y="224">
+                            <int id="0" val="Took out stuff here."/>
+                        </comment-short>
+                        <replace-list comment="false" x="35" y="244">
+                            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="3"/>
+                            <str-combine comment="false" id="2" x="0" y="0">
+                                <get-val-81-17 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0%25Correct"/>
+                            </str-combine>
+                        </replace-list>
+                        <replace-list comment="false" x="35" y="274">
+                            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+                            <plus comment="false" id="1" x="0" y="0">
+                                <get-game-val-67 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="3"/>
+                            </plus>
+                            <int id="2" val="T"/>
+                        </replace-list>
+                        <replace-list comment="false" x="35" y="304">
+                            <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                            <get-game-val-59 comment="false" id="1" x="0" y="0"/>
+                            <get-val-81-16 comment="false" id="2" x="0" y="0"/>
+                        </replace-list>
+                        <toggle-image comment="false" x="35" y="329">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="35" y="356">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="35" y="383">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <set-xy comment="false" x="35" y="410">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="-1200"/>
+                        </set-xy>
+                        <set-xy comment="false" x="35" y="437">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="-1200"/>
+                        </set-xy>
+                        <print comment="false" x="35" y="464">
+                            <int id="0" val="True"/>
+                        </print>
+                        <print comment="false" x="35" y="484">
+                            <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                        </print>
+                        <if comment="false" x="35" y="509">
+                            <group eventID="15" id="-1">
+                                <scene-change-through comment="false" x="46" y="539">
+                                    <scene eid="46" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val=".5"/>
+                                </scene-change-through>
+                                <save-game comment="false" x="46" y="566">
+                                    <group eventID="15" id="-1"/>
+                                </save-game>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-81-15 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="10"/>
+                            </eq>
+                        </if>
+                        <else comment="false" x="35" y="635">
+                            <group eventID="15" id="-1">
+                                <dolater comment="false" x="46" y="655">
+                                    <group eventID="15" id="-1">
+                                        <clear-filter comment="false" x="57" y="682">
+                                            <ACTOR eid="var" id="0" vid="1"/>
+                                        </clear-filter>
+                                        <toggle-image comment="false" x="57" y="709">
+                                            <ACTOR eid="var" id="0" vid="1"/>
+                                            <int id="1" val="0"/>
+                                        </toggle-image>
+                                        <scaleTo comment="false" x="57" y="736">
+                                            <ACTOR eid="var" id="0" vid="1"/>
+                                            <int id="1" val="125"/>
+                                            <int id="2" val="125"/>
+                                            <int id="3" val=".1"/>
+                                            <int id="4" val="0"/>
+                                        </scaleTo>
+                                        <dolater comment="false" x="57" y="763">
+                                            <group eventID="15" id="-1">
+                                                <scaleTo comment="false" x="68" y="790">
+                                                    <ACTOR eid="var" id="0" vid="1"/>
+                                                    <int id="1" val="100"/>
+                                                    <int id="2" val="100"/>
+                                                    <int id="3" val=".05"/>
+                                                    <int id="4" val="0"/>
+                                                </scaleTo>
+                                                <set-game-val-36 comment="false" x="68" y="817">
+                                                    <true comment="false" id="0" x="0" y="0"/>
+                                                </set-game-val-36>
+                                            </group>
+                                            <int id="0" val=".1"/>
+                                            <ACTOR eid="lastcreated" id="2"/>
+                                        </dolater>
+                                    </group>
+                                    <int id="0" val="1"/>
+                                    <ACTOR eid="lastcreated" id="2"/>
+                                </dolater>
+                                <save-game comment="false" x="46" y="866">
+                                    <group eventID="15" id="-1"/>
+                                </save-game>
+                            </group>
+                        </else>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-81-25 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+            <ACTOR eid="var" id="0" vid="2"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="15" id="1">
+        <replace-list comment="false" x="465" y="184">
+            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+            <int id="1" val="0"/>
+            <str-combine comment="false" id="2" x="0" y="0">
+                <str-combine comment="false" id="0" x="0" y="0">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <str-combine comment="false" id="0" x="0" y="0">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <get-game-val-19 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val=", "/>
+                            </str-combine>
+                            <str-combine comment="false" id="1" x="0" y="0">
+                                <get-game-val-27 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val=" "/>
+                            </str-combine>
+                        </str-combine>
+                        <Date-current-all comment="false" id="1" x="0" y="0">
+                            <int id="0" val="2"/>
+                        </Date-current-all>
+                    </str-combine>
+                    <int id="1" val=", "/>
+                </str-combine>
+                <Date-current-all comment="false" id="1" x="0" y="0">
+                    <int id="0" val="0"/>
+                </Date-current-all>
+            </str-combine>
+        </replace-list>
+        <replace-list comment="false" x="465" y="234">
+            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+            <int id="1" val="1"/>
+            <get-game-val-59 comment="false" id="2" x="0" y="0"/>
+        </replace-list>
+        <replace-list comment="false" x="465" y="259">
+            <get-val-81-16 comment="false" id="0" x="0" y="0"/>
+            <int id="1" val="2"/>
+            <str-combine comment="false" id="2" x="0" y="0">
+                <str-combine comment="false" id="0" x="0" y="0">
+                    <Date-current-all comment="false" id="0" x="0" y="0">
+                        <int id="0" val="4"/>
+                    </Date-current-all>
+                    <int id="1" val=":"/>
+                </str-combine>
+                <str-combine comment="false" id="1" x="0" y="0">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <Date-current-all comment="false" id="0" x="0" y="0">
+                            <int id="0" val="5"/>
+                        </Date-current-all>
+                        <int id="1" val=":"/>
+                    </str-combine>
+                    <Date-current-all comment="false" id="1" x="0" y="0">
+                        <int id="0" val="6"/>
+                    </Date-current-all>
+                </str-combine>
+            </str-combine>
+        </replace-list>
+    </group>
+    <group eventID="15" id="-1"/>
+</groups>

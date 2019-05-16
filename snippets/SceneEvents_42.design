@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="17" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <get-item comment="false" id="0" x="0" y="0">
+                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </get-item>
+                    <int id="1" val="250"/>
+                    <int id="2" val="100"/>
+                </draw-text>
+                <if comment="false" x="26" y="97">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="37" y="132">
+                            <group eventID="1" id="-1">
+                                <draw-text comment="false" x="48" y="167">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="Set: "/>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="1"/>
+                                            </get-item>
+                                            <str-combine comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="/"/>
+                                                <minus comment="false" id="1" x="0" y="0">
+                                                    <length-list comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                                                    </length-list>
+                                                    <int id="1" val="1"/>
+                                                </minus>
+                                            </str-combine>
+                                        </str-combine>
+                                    </str-combine>
+                                    <int id="1" val="250"/>
+                                    <int id="2" val="120"/>
+                                </draw-text>
+                                <draw-text comment="false" x="48" y="217">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="Date: "/>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                                                <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                        </get-item>
+                                    </str-combine>
+                                    <int id="1" val="250"/>
+                                    <int id="2" val="140"/>
+                                </draw-text>
+                                <draw-text comment="false" x="48" y="257">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="Time: "/>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                                                <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                            </get-item>
+                                            <int id="1" val="2"/>
+                                        </get-item>
+                                    </str-combine>
+                                    <int id="1" val="250"/>
+                                    <int id="2" val="160"/>
+                                </draw-text>
+                                <draw-text comment="false" x="48" y="297">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="# hits: "/>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                                                <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                            </get-item>
+                                            <int id="1" val="3"/>
+                                        </get-item>
+                                    </str-combine>
+                                    <int id="1" val="250"/>
+                                    <int id="2" val="200"/>
+                                </draw-text>
+                            </group>
+                            <more comment="false" id="0" x="0" y="0">
+                                <length-list comment="false" id="0" x="0" y="0">
+                                    <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                                </length-list>
+                                <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                            </more>
+                        </if>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <length-list comment="false" id="0" x="0" y="0">
+                            <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        </length-list>
+                        <int id="1" val="2"/>
+                    </moreeq>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <visit-site-post comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <for-each comment="false" x="37" y="65">
+                            <group eventID="2" id="-1">
+                                <set-val-181-1 comment="false" x="48" y="95">
+                                    <for-each-item comment="false" id="0" x="0" y="0"/>
+                                </set-val-181-1>
+                            </group>
+                            <str-split comment="false" id="0" x="0" y="0">
+                                <visit-site-response comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val=" "/>
+                            </str-split>
+                        </for-each>
+                    </group>
+                    <int id="0" val="https://linus.highpoint.edu/~brolison/process.php"/>
+                    <int id="1" val="fname=Jim&amp;amp;lname=Smith"/>
+                </visit-site-post>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="1">
+        <visit-site comment="false" x="145" y="413">
+            <group eventID="2" id="-1"/>
+            <int id="0" val="linus.highpoint.edu/~brolison/process.php"/>
+        </visit-site>
+        <show-browser comment="false" x="145" y="470">
+            <int id="0" val="https://linus.highpoint.edu/~brolison/process.php"/>
+        </show-browser>
+    </group>
+    <group eventID="2" id="2">
+        <str-split comment="false" x="261" y="297">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </str-split>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

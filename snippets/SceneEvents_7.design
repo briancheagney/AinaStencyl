@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="2" id="0">
+        <init comment="false" x="54" y="41">
+            <group eventID="2" id="-1">
+                <comment-long comment="false" x="65" y="66">
+                    <int id="0" val="This scene is necessary to load data for the application. Without this scene, a user&amp;apos;s data will not be loaded. "/>
+                </comment-long>
+                <toggle-image comment="false" x="65" y="146">
+                    <ACTOR eid="1" id="0"/>
+                    <int id="1" val="1"/>
+                </toggle-image>
+                <load-game comment="false" x="65" y="173">
+                    <group eventID="2" id="-1">
+                        <print comment="false" x="76" y="198">
+                            <int id="0" val="Load successful"/>
+                        </print>
+                        <toggle-image comment="false" x="76" y="218">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                    </group>
+                </load-game>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

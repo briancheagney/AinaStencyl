@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="4" id="0">
+        <init comment="false" x="18" y="65">
+            <group eventID="4" id="-1">
+                <set-game-val-53 comment="false" x="29" y="90">
+                    <int id="0" val="0"/>
+                </set-game-val-53>
+                <set-game-val-52 comment="false" x="29" y="110">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-52>
+                <set-game-val-44 comment="false" x="29" y="135">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-44>
+                <scaleTo comment="false" x="29" y="160">
+                    <ACTOR eid="this" id="0"/>
+                    <get-game-val-30 comment="false" id="1" x="0" y="0"/>
+                    <get-game-val-30 comment="false" id="2" x="0" y="0"/>
+                    <int id="3" val="0"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+                <set-val-48-1 comment="false" x="29" y="192">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-48-1>
+                <set-val-48-3 comment="false" x="29" y="217">
+                    <int id="0" val="100"/>
+                </set-val-48-3>
+                <set-val-48-2 comment="false" x="29" y="237">
+                    <int id="0" val="100"/>
+                </set-val-48-2>
+            </group>
+        </init>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <setanim comment="false" x="37" y="70">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-48-4 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-38 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="3"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="114">
+                    <group eventID="2" id="-1">
+                        <setanim comment="false" x="37" y="144">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-48-5 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-38 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="188">
+                    <group eventID="2" id="-1">
+                        <setanim comment="false" x="37" y="218">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-48-6 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-38 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </else-if>
+            </group>
+        </step>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="6" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="6" id="-1">
+                        <set-game-val-44 comment="false" x="37" y="72">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-44>
+                        <set-game-val-43 comment="false" x="37" y="97">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-43>
+                        <scaleTo comment="false" x="37" y="122">
+                            <ACTOR eid="this" id="0"/>
+                            <times comment="false" id="1" x="0" y="0">
+                                <int id="0" val=".9"/>
+                                <get-game-val-30 comment="false" id="1" x="0" y="0"/>
+                            </times>
+                            <times comment="false" id="2" x="0" y="0">
+                                <int id="0" val=".9"/>
+                                <get-game-val-30 comment="false" id="1" x="0" y="0"/>
+                            </times>
+                            <int id="3" val=".25"/>
+                            <int id="4" val="11"/>
+                        </scaleTo>
+                        <play-sound4 comment="false" x="37" y="159">
+                            <int id="0" val="0"/>
+                            <sound eid="57" id="1"/>
+                        </play-sound4>
+                        <dolater comment="false" x="37" y="186">
+                            <group eventID="6" id="-1">
+                                <scaleTo comment="false" x="48" y="213">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="0"/>
+                                    <int id="3" val="0"/>
+                                    <int id="4" val="0"/>
+                                </scaleTo>
+                                <toggle-image comment="false" x="48" y="240">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                </toggle-image>
+                                <repeatu comment="false" x="48" y="267">
+                                    <group eventID="6" id="-1">
+                                        <set-val-48-7 comment="false" x="59" y="312">
+                                            <randint comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="65"/>
+                                                <int id="1" val="315"/>
+                                            </randint>
+                                        </set-val-48-7>
+                                        <set-val-48-8 comment="false" x="59" y="337">
+                                            <randint comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                                <int id="1" val="160"/>
+                                            </randint>
+                                        </set-val-48-8>
+                                    </group>
+                                    <or comment="false" id="0" x="0" y="0">
+                                        <more comment="false" id="0" x="0" y="0">
+                                            <abs comment="false" id="0" x="0" y="0">
+                                                <minus comment="false" id="0" x="0" y="0">
+                                                    <get-val-48-7 comment="false" id="0" x="0" y="0"/>
+                                                    <get-val-48-9 comment="false" id="1" x="0" y="0"/>
+                                                </minus>
+                                            </abs>
+                                            <int id="1" val="100"/>
+                                        </more>
+                                        <more comment="false" id="1" x="0" y="0">
+                                            <abs comment="false" id="0" x="0" y="0">
+                                                <minus comment="false" id="0" x="0" y="0">
+                                                    <get-val-48-8 comment="false" id="0" x="0" y="0"/>
+                                                    <get-val-48-10 comment="false" id="1" x="0" y="0"/>
+                                                </minus>
+                                            </abs>
+                                            <int id="1" val="100"/>
+                                        </more>
+                                    </or>
+                                </repeatu>
+                                <set-xy comment="false" x="48" y="374">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <get-val-48-7 comment="false" id="2" x="0" y="0"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="406">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <get-val-48-8 comment="false" id="2" x="0" y="0"/>
+                                </set-xy>
+                                <dolater comment="false" x="48" y="438">
+                                    <group eventID="6" id="-1">
+                                        <scaleTo comment="false" x="59" y="465">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="100"/>
+                                            <int id="2" val="100"/>
+                                            <int id="3" val="0"/>
+                                            <int id="4" val="0"/>
+                                        </scaleTo>
+                                        <toggle-image comment="false" x="59" y="492">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </toggle-image>
+                                        <set-val-48-9 comment="false" x="59" y="519">
+                                            <get-val-48-7 comment="false" id="0" x="0" y="0"/>
+                                        </set-val-48-9>
+                                        <set-val-48-10 comment="false" x="59" y="544">
+                                            <get-val-48-8 comment="false" id="0" x="0" y="0"/>
+                                        </set-val-48-10>
+                                        <print comment="false" x="59" y="569">
+                                            <int id="0" val="X="/>
+                                        </print>
+                                        <print comment="false" x="59" y="589">
+                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="0"/>
+                                            </get-xy>
+                                        </print>
+                                        <print comment="false" x="59" y="622">
+                                            <int id="0" val="y="/>
+                                        </print>
+                                        <print comment="false" x="59" y="642">
+                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="1"/>
+                                            </get-xy>
+                                        </print>
+                                        <set-game-val-44 comment="false" x="59" y="675">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-44>
+                                        <set-game-val-43 comment="false" x="59" y="700">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-43>
+                                    </group>
+                                    <int id="0" val="1"/>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
+                            </group>
+                            <int id="0" val=".01"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-44 comment="false" id="0" x="0" y="0"/>
+                        <false comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="6" id="1">
+        <dolater comment="false" x="434" y="1403">
+            <group eventID="6" id="-1"/>
+            <int id="0" val="2.5"/>
+            <ACTOR eid="this" id="2"/>
+        </dolater>
+    </group>
+    <group eventID="6" id="-1"/>
+</groups>

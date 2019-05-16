@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="21" y="20">
+            <group eventID="1" id="-1">
+                <set-game-val-0 comment="false" x="32" y="45">
+                    <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                </set-game-val-0>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

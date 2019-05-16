@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="20" y="31">
+            <group eventID="1" id="-1">
+                <scene-change-new comment="false" x="31" y="58">
+                    <scene eid="0" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val=".5"/>
+                    <int id="3" val="0"/>
+                    <int id="4" val=".5"/>
+                </scene-change-new>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>
