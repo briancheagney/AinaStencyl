@@ -15,26 +15,12 @@
                 <set-game-val-46 comment="false" x="33" y="109">
                     <int id="0" val="0"/>
                 </set-game-val-46>
-                <comment-long comment="false" x="33" y="129">
-                    <int id="0" val="rulechooser decides what rule: 1=shape; 2=color; 3=number."/>
-                </comment-long>
-                <set-val-182-44 comment="false" x="33" y="209">
-                    <int id="0" val="1"/>
-                </set-val-182-44>
-                <if comment="false" x="33" y="229">
-                    <group eventID="2" id="-1">
-                        <say-this comment="false" x="44" y="259">
-                            <int id="0" val="Rule1Setup"/>
-                        </say-this>
-                    </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-val-182-44 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="1"/>
-                    </eq>
-                </if>
-                <print comment="false" x="33" y="291">
+                <print comment="false" x="33" y="129">
                     <int id="0" val="Created02 Finished"/>
                 </print>
+                <say-this comment="false" x="33" y="149">
+                    <int id="0" val="RuleChooser"/>
+                </say-this>
             </group>
         </init>
     </group>
@@ -45,6 +31,47 @@
                 <int id="1" val="1"/>
             </randint>
         </set-val-179-44>
+    </group>
+    <group eventID="2" id="2">
+        <comment-long comment="false" x="389" y="298">
+            <int id="0" val="rulechooser decides what rule: 1=shape; 2=color; 3=number."/>
+        </comment-long>
+        <set-val-182-44 comment="false" x="389" y="378">
+            <int id="0" val="1"/>
+        </set-val-182-44>
+        <if comment="false" x="389" y="398">
+            <group eventID="2" id="-1">
+                <say-this comment="false" x="400" y="428">
+                    <int id="0" val="Rule1Setup"/>
+                </say-this>
+            </group>
+            <eq comment="false" id="0" x="0" y="0">
+                <get-val-182-44 comment="false" id="0" x="0" y="0"/>
+                <int id="1" val="1"/>
+            </eq>
+        </if>
+        <if comment="false" x="389" y="460">
+            <group eventID="2" id="-1">
+                <say-this comment="false" x="400" y="490">
+                    <int id="0" val="Rule2Setup"/>
+                </say-this>
+            </group>
+            <eq comment="false" id="0" x="0" y="0">
+                <get-val-182-44 comment="false" id="0" x="0" y="0"/>
+                <int id="1" val="2"/>
+            </eq>
+        </if>
+        <if comment="false" x="389" y="522">
+            <group eventID="2" id="-1">
+                <say-this comment="false" x="400" y="552">
+                    <int id="0" val="Rule3Setup"/>
+                </say-this>
+            </group>
+            <eq comment="false" id="0" x="0" y="0">
+                <get-val-182-44 comment="false" id="0" x="0" y="0"/>
+                <int id="1" val="3"/>
+            </eq>
+        </if>
     </group>
     <group eventID="2" id="-1"/>
     <group eventID="37" id="0">
@@ -400,6 +427,9 @@
                 <set-val-182-43 comment="false" x="26" y="758">
                     <get-val-182-41 comment="false" id="0" x="0" y="0"/>
                 </set-val-182-43>
+                <print comment="false" x="26" y="783">
+                    <int id="0" val="Rule1Setup Finished"/>
+                </print>
             </group>
             <int id="0" val="Rule1Setup"/>
         </event-custom>
@@ -433,7 +463,7 @@
                     <int id="0" val="Rule1Setup2 Begun"/>
                 </print>
                 <comment-long comment="false" x="33" y="58">
-                    <int id="0" val="First, we&amp;apos;re going to set the color of the Target."/>
+                    <int id="0" val="First, we&amp;apos;re going to set the color of the Target"/>
                 </comment-long>
                 <if comment="false" x="33" y="138">
                     <group eventID="34" id="-1">
@@ -787,47 +817,56 @@
     <group eventID="41" id="0">
         <event-custom comment="false" x="15" y="15">
             <group eventID="36" id="-1">
-                <comment-long comment="false" x="26" y="40">
+                <print comment="false" x="26" y="40">
+                    <int id="0" val="Rule1Setup4 Begun"/>
+                </print>
+                <comment-long comment="false" x="26" y="60">
                     <int id="0" val="What we&amp;apos;re doing here is determining which SHAPE everything has to be. Since we&amp;apos;re on Rule 1, the Target Shape has to match the MatchT Shape. The other two shapes are random."/>
                 </comment-long>
-                <set-val-182-38 comment="false" x="26" y="120">
+                <set-val-182-38 comment="false" x="26" y="140">
                     <randint comment="false" id="0" x="0" y="0">
                         <int id="0" val="1"/>
                         <int id="1" val="4"/>
                     </randint>
                 </set-val-182-38>
-                <set-val-182-40 comment="false" x="26" y="145">
+                <set-val-182-40 comment="false" x="26" y="165">
                     <randint comment="false" id="0" x="0" y="0">
                         <int id="0" val="1"/>
                         <int id="1" val="4"/>
                     </randint>
                 </set-val-182-40>
-                <if comment="false" x="26" y="170">
+                <if comment="false" x="26" y="190">
                     <group eventID="36" id="-1">
-                        <say-this comment="false" x="37" y="200">
+                        <say-this comment="false" x="37" y="220">
                             <int id="0" val="Rule1Setup4"/>
                         </say-this>
-                        <stop comment="false" x="37" y="220"/>
+                        <print comment="false" x="37" y="240">
+                            <int id="0" val="ASC_T = ASC_MF"/>
+                        </print>
+                        <stop comment="false" x="37" y="260"/>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <get-val-182-38 comment="false" id="0" x="0" y="0"/>
                         <get-val-182-40 comment="false" id="1" x="0" y="0"/>
                     </eq>
                 </if>
-                <else comment="false" x="26" y="252">
+                <else comment="false" x="26" y="292">
                     <group eventID="36" id="-1">
-                        <set-val-182-67 comment="false" x="37" y="272">
+                        <set-val-182-67 comment="false" x="37" y="312">
                             <randint comment="false" id="0" x="0" y="0">
                                 <int id="0" val="1"/>
                                 <int id="1" val="4"/>
                             </randint>
                         </set-val-182-67>
-                        <if comment="false" x="37" y="297">
+                        <if comment="false" x="37" y="337">
                             <group eventID="36" id="-1">
-                                <say-this comment="false" x="48" y="332">
+                                <say-this comment="false" x="48" y="372">
                                     <int id="0" val="Rule1Setup4"/>
                                 </say-this>
-                                <stop comment="false" x="48" y="352"/>
+                                <print comment="false" x="48" y="392">
+                                    <int id="0" val="ASC_MF2 = ASC_T OR ASC_MF2 = ASC_MF"/>
+                                </print>
+                                <stop comment="false" x="48" y="412"/>
                             </group>
                             <or comment="false" id="0" x="0" y="0">
                                 <eq comment="false" id="0" x="0" y="0">
@@ -840,14 +879,14 @@
                                 </eq>
                             </or>
                         </if>
-                        <else comment="false" x="37" y="384">
+                        <else comment="false" x="37" y="444">
                             <group eventID="36" id="-1">
-                                <if comment="false" x="48" y="404">
+                                <if comment="false" x="48" y="464">
                                     <group eventID="36" id="-1">
-                                        <set-val-182-72 comment="false" x="59" y="434">
+                                        <set-val-182-72 comment="false" x="59" y="494">
                                             <int id="0" val="Club"/>
                                         </set-val-182-72>
-                                        <set-val-182-73 comment="false" x="59" y="454">
+                                        <set-val-182-73 comment="false" x="59" y="514">
                                             <int id="0" val="Club"/>
                                         </set-val-182-73>
                                     </group>
@@ -856,12 +895,12 @@
                                         <int id="1" val="1"/>
                                     </eq>
                                 </if>
-                                <else-if comment="false" x="48" y="486">
+                                <else-if comment="false" x="48" y="546">
                                     <group eventID="36" id="-1">
-                                        <set-val-182-72 comment="false" x="59" y="516">
+                                        <set-val-182-72 comment="false" x="59" y="576">
                                             <int id="0" val="Diamond"/>
                                         </set-val-182-72>
-                                        <set-val-182-73 comment="false" x="59" y="536">
+                                        <set-val-182-73 comment="false" x="59" y="596">
                                             <int id="0" val="Diamond"/>
                                         </set-val-182-73>
                                     </group>
@@ -870,12 +909,12 @@
                                         <int id="1" val="2"/>
                                     </eq>
                                 </else-if>
-                                <else-if comment="false" x="48" y="568">
+                                <else-if comment="false" x="48" y="628">
                                     <group eventID="36" id="-1">
-                                        <set-val-182-72 comment="false" x="59" y="598">
+                                        <set-val-182-72 comment="false" x="59" y="658">
                                             <int id="0" val="Heart"/>
                                         </set-val-182-72>
-                                        <set-val-182-73 comment="false" x="59" y="618">
+                                        <set-val-182-73 comment="false" x="59" y="678">
                                             <int id="0" val="Heart"/>
                                         </set-val-182-73>
                                     </group>
@@ -884,19 +923,19 @@
                                         <int id="1" val="3"/>
                                     </eq>
                                 </else-if>
-                                <else comment="false" x="48" y="650">
+                                <else comment="false" x="48" y="710">
                                     <group eventID="36" id="-1">
-                                        <set-val-182-72 comment="false" x="59" y="670">
+                                        <set-val-182-72 comment="false" x="59" y="730">
                                             <int id="0" val="Moon"/>
                                         </set-val-182-72>
-                                        <set-val-182-73 comment="false" x="59" y="690">
+                                        <set-val-182-73 comment="false" x="59" y="750">
                                             <int id="0" val="Moon"/>
                                         </set-val-182-73>
                                     </group>
                                 </else>
-                                <if comment="false" x="48" y="722">
+                                <if comment="false" x="48" y="782">
                                     <group eventID="36" id="-1">
-                                        <set-val-182-74 comment="false" x="59" y="752">
+                                        <set-val-182-74 comment="false" x="59" y="812">
                                             <int id="0" val="Club"/>
                                         </set-val-182-74>
                                     </group>
@@ -905,9 +944,9 @@
                                         <int id="1" val="1"/>
                                     </eq>
                                 </if>
-                                <else-if comment="false" x="48" y="784">
+                                <else-if comment="false" x="48" y="844">
                                     <group eventID="36" id="-1">
-                                        <set-val-182-74 comment="false" x="59" y="814">
+                                        <set-val-182-74 comment="false" x="59" y="874">
                                             <int id="0" val="Diamond"/>
                                         </set-val-182-74>
                                     </group>
@@ -916,9 +955,9 @@
                                         <int id="1" val="2"/>
                                     </eq>
                                 </else-if>
-                                <else-if comment="false" x="48" y="846">
+                                <else-if comment="false" x="48" y="906">
                                     <group eventID="36" id="-1">
-                                        <set-val-182-74 comment="false" x="59" y="876">
+                                        <set-val-182-74 comment="false" x="59" y="936">
                                             <int id="0" val="Heart"/>
                                         </set-val-182-74>
                                     </group>
@@ -927,16 +966,16 @@
                                         <int id="1" val="3"/>
                                     </eq>
                                 </else-if>
-                                <else comment="false" x="48" y="908">
+                                <else comment="false" x="48" y="968">
                                     <group eventID="36" id="-1">
-                                        <set-val-182-74 comment="false" x="59" y="928">
+                                        <set-val-182-74 comment="false" x="59" y="988">
                                             <int id="0" val="Moon"/>
                                         </set-val-182-74>
                                     </group>
                                 </else>
-                                <if comment="false" x="48" y="960">
+                                <if comment="false" x="48" y="1020">
                                     <group eventID="36" id="-1">
-                                        <set-val-182-75 comment="false" x="59" y="990">
+                                        <set-val-182-75 comment="false" x="59" y="1050">
                                             <int id="0" val="Club"/>
                                         </set-val-182-75>
                                     </group>
@@ -945,9 +984,9 @@
                                         <int id="1" val="1"/>
                                     </eq>
                                 </if>
-                                <else-if comment="false" x="48" y="1022">
+                                <else-if comment="false" x="48" y="1082">
                                     <group eventID="36" id="-1">
-                                        <set-val-182-75 comment="false" x="59" y="1052">
+                                        <set-val-182-75 comment="false" x="59" y="1112">
                                             <int id="0" val="Diamond"/>
                                         </set-val-182-75>
                                     </group>
@@ -956,9 +995,9 @@
                                         <int id="1" val="2"/>
                                     </eq>
                                 </else-if>
-                                <else-if comment="false" x="48" y="1084">
+                                <else-if comment="false" x="48" y="1144">
                                     <group eventID="36" id="-1">
-                                        <set-val-182-75 comment="false" x="59" y="1114">
+                                        <set-val-182-75 comment="false" x="59" y="1174">
                                             <int id="0" val="Heart"/>
                                         </set-val-182-75>
                                     </group>
@@ -967,14 +1006,14 @@
                                         <int id="1" val="3"/>
                                     </eq>
                                 </else-if>
-                                <else comment="false" x="48" y="1146">
+                                <else comment="false" x="48" y="1206">
                                     <group eventID="36" id="-1">
-                                        <set-val-182-75 comment="false" x="59" y="1166">
+                                        <set-val-182-75 comment="false" x="59" y="1226">
                                             <int id="0" val="Moon"/>
                                         </set-val-182-75>
                                     </group>
                                 </else>
-                                <print comment="false" x="48" y="1198">
+                                <print comment="false" x="48" y="1258">
                                     <str-combine comment="false" id="0" x="0" y="0">
                                         <tostring comment="false" id="0" x="0" y="0">
                                             <int id="0" val="TargetShape = "/>
@@ -984,7 +1023,7 @@
                                         </tostring>
                                     </str-combine>
                                 </print>
-                                <print comment="false" x="48" y="1233">
+                                <print comment="false" x="48" y="1293">
                                     <str-combine comment="false" id="0" x="0" y="0">
                                         <tostring comment="false" id="0" x="0" y="0">
                                             <int id="0" val="MatchShape = "/>
@@ -994,7 +1033,7 @@
                                         </tostring>
                                     </str-combine>
                                 </print>
-                                <print comment="false" x="48" y="1268">
+                                <print comment="false" x="48" y="1328">
                                     <str-combine comment="false" id="0" x="0" y="0">
                                         <tostring comment="false" id="0" x="0" y="0">
                                             <int id="0" val="Match False Shape = "/>
@@ -1004,7 +1043,7 @@
                                         </tostring>
                                     </str-combine>
                                 </print>
-                                <print comment="false" x="48" y="1303">
+                                <print comment="false" x="48" y="1363">
                                     <str-combine comment="false" id="0" x="0" y="0">
                                         <tostring comment="false" id="0" x="0" y="0">
                                             <int id="0" val="Match False 2 Shape = "/>
@@ -1014,10 +1053,10 @@
                                         </tostring>
                                     </str-combine>
                                 </print>
-                                <comment-long comment="false" x="48" y="1338">
+                                <comment-long comment="false" x="48" y="1398">
                                     <int id="0" val="Since we just chose shape, we now need to choose the numbers for each card. We&amp;apos;ll do that next."/>
                                 </comment-long>
-                                <say-this comment="false" x="48" y="1418">
+                                <say-this comment="false" x="48" y="1478">
                                     <int id="0" val="Rule1Setup5"/>
                                 </say-this>
                             </group>
@@ -1034,10 +1073,10 @@
         </set-val-182-74>
     </group>
     <group eventID="41" id="2">
-        <set-val-182-68 comment="false" x="303" y="431">
+        <set-val-182-68 comment="false" x="389" y="458">
             <int id="0" val="TargetClub"/>
         </set-val-182-68>
-        <set-val-182-69 comment="false" x="303" y="451">
+        <set-val-182-69 comment="false" x="389" y="478">
             <int id="0" val="MatchClub"/>
         </set-val-182-69>
     </group>
@@ -1106,68 +1145,71 @@
         </set-val-182-71>
     </group>
     <group eventID="41" id="-1">
-        <get-val-182-68 comment="false" x="482" y="1217"/>
-        <get-val-182-69 comment="false" x="505" y="1249"/>
-        <get-val-182-70 comment="false" x="523" y="1284"/>
         <get-val-182-71 comment="false" x="514" y="1325"/>
+        <get-val-182-70 comment="false" x="523" y="1284"/>
+        <get-val-182-69 comment="false" x="505" y="1249"/>
+        <get-val-182-68 comment="false" x="482" y="1217"/>
     </group>
     <group eventID="42" id="0">
         <event-custom comment="false" x="22" y="17">
             <group eventID="38" id="-1">
-                <comment-long comment="false" x="33" y="42">
+                <print comment="false" x="33" y="42">
+                    <int id="0" val="Rule1Setup5 Begun"/>
+                </print>
+                <comment-long comment="false" x="33" y="62">
                     <int id="0" val="So, in order to choose 1-4 for Target, then for Match, then for... I set up the numbers 1-4 into a list of numbers. After each random number is selected, it is removed from list. No repeats!"/>
                 </comment-long>
-                <set-val-182-76 comment="false" x="33" y="122">
+                <set-val-182-76 comment="false" x="33" y="142">
                     <randint comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
                         <int id="1" val="3"/>
                     </randint>
                 </set-val-182-76>
-                <set-val-182-77 comment="false" x="33" y="147">
+                <set-val-182-77 comment="false" x="33" y="167">
                     <get-item comment="false" id="0" x="0" y="0">
                         <get-val-182-56 comment="false" id="0" x="0" y="0"/>
                         <get-val-182-76 comment="false" id="1" x="0" y="0"/>
                     </get-item>
                 </set-val-182-77>
-                <set-val-182-78 comment="false" x="33" y="177">
+                <set-val-182-78 comment="false" x="33" y="197">
                     <get-item comment="false" id="0" x="0" y="0">
                         <get-val-182-56 comment="false" id="0" x="0" y="0"/>
                         <get-val-182-76 comment="false" id="1" x="0" y="0"/>
                     </get-item>
                 </set-val-182-78>
-                <remove-index comment="false" x="33" y="207">
+                <remove-index comment="false" x="33" y="227">
                     <get-val-182-56 comment="false" id="0" x="0" y="0"/>
                     <get-val-182-76 comment="false" id="1" x="0" y="0"/>
                 </remove-index>
-                <set-val-182-76 comment="false" x="33" y="232">
+                <set-val-182-76 comment="false" x="33" y="252">
                     <randint comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
                         <int id="1" val="2"/>
                     </randint>
                 </set-val-182-76>
-                <set-val-182-79 comment="false" x="33" y="257">
+                <set-val-182-79 comment="false" x="33" y="277">
                     <get-item comment="false" id="0" x="0" y="0">
                         <get-val-182-56 comment="false" id="0" x="0" y="0"/>
                         <get-val-182-76 comment="false" id="1" x="0" y="0"/>
                     </get-item>
                 </set-val-182-79>
-                <remove-index comment="false" x="33" y="287">
+                <remove-index comment="false" x="33" y="307">
                     <get-val-182-56 comment="false" id="0" x="0" y="0"/>
                     <get-val-182-76 comment="false" id="1" x="0" y="0"/>
                 </remove-index>
-                <set-val-182-76 comment="false" x="33" y="312">
+                <set-val-182-76 comment="false" x="33" y="332">
                     <randint comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
                         <int id="1" val="1"/>
                     </randint>
                 </set-val-182-76>
-                <set-val-182-80 comment="false" x="33" y="337">
+                <set-val-182-80 comment="false" x="33" y="357">
                     <get-item comment="false" id="0" x="0" y="0">
                         <get-val-182-56 comment="false" id="0" x="0" y="0"/>
                         <get-val-182-76 comment="false" id="1" x="0" y="0"/>
                     </get-item>
                 </set-val-182-80>
-                <print comment="false" x="33" y="367">
+                <print comment="false" x="33" y="387">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <tostring comment="false" id="0" x="0" y="0">
                             <int id="0" val="Target Number = "/>
@@ -1177,7 +1219,7 @@
                         </tostring>
                     </str-combine>
                 </print>
-                <print comment="false" x="33" y="402">
+                <print comment="false" x="33" y="422">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <tostring comment="false" id="0" x="0" y="0">
                             <int id="0" val="MatchNumber = "/>
@@ -1187,7 +1229,7 @@
                         </tostring>
                     </str-combine>
                 </print>
-                <print comment="false" x="33" y="437">
+                <print comment="false" x="33" y="457">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <tostring comment="false" id="0" x="0" y="0">
                             <int id="0" val="Match False Number = "/>
@@ -1197,7 +1239,7 @@
                         </tostring>
                     </str-combine>
                 </print>
-                <print comment="false" x="33" y="472">
+                <print comment="false" x="33" y="492">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <tostring comment="false" id="0" x="0" y="0">
                             <int id="0" val="Match False 2 Number = "/>
@@ -1207,10 +1249,10 @@
                         </tostring>
                     </str-combine>
                 </print>
-                <comment-long comment="false" x="33" y="507">
+                <comment-long comment="false" x="33" y="527">
                     <int id="0" val="Since we just chose shape, we now need to choose the numbers for each card. We&amp;apos;ll do that next."/>
                 </comment-long>
-                <say-this comment="false" x="33" y="587">
+                <say-this comment="false" x="33" y="607">
                     <int id="0" val="Rule1Setup6"/>
                 </say-this>
             </group>
@@ -1284,8 +1326,24 @@
         </event-custom>
     </group>
     <group eventID="43" id="-1">
-        <tostring comment="false" x="280" y="652">
-            <get-val-182-77 comment="false" id="0" x="0" y="0"/>
+        <str-combine comment="false" x="180" y="491">
+            <tostring comment="false" id="0" x="0" y="0">
+                <get-val-182-71 comment="false" id="0" x="0" y="0"/>
+            </tostring>
+            <tostring comment="false" id="1" x="0" y="0">
+                <get-val-182-78 comment="false" id="0" x="0" y="0"/>
+            </tostring>
+        </str-combine>
+        <str-combine comment="false" x="96" y="565">
+            <tostring comment="false" id="0" x="0" y="0">
+                <get-val-182-70 comment="false" id="0" x="0" y="0"/>
+            </tostring>
+            <tostring comment="false" id="1" x="0" y="0">
+                <get-val-182-80 comment="false" id="0" x="0" y="0"/>
+            </tostring>
+        </str-combine>
+        <tostring comment="false" x="58" y="593">
+            <get-val-182-68 comment="false" id="0" x="0" y="0"/>
         </tostring>
         <str-combine comment="false" x="108" y="732">
             <tostring comment="false" id="0" x="0" y="0">
@@ -1295,25 +1353,9 @@
                 <get-val-182-79 comment="false" id="0" x="0" y="0"/>
             </tostring>
         </str-combine>
-        <tostring comment="false" x="58" y="593">
-            <get-val-182-68 comment="false" id="0" x="0" y="0"/>
+        <tostring comment="false" x="280" y="652">
+            <get-val-182-77 comment="false" id="0" x="0" y="0"/>
         </tostring>
-        <str-combine comment="false" x="96" y="565">
-            <tostring comment="false" id="0" x="0" y="0">
-                <get-val-182-70 comment="false" id="0" x="0" y="0"/>
-            </tostring>
-            <tostring comment="false" id="1" x="0" y="0">
-                <get-val-182-80 comment="false" id="0" x="0" y="0"/>
-            </tostring>
-        </str-combine>
-        <str-combine comment="false" x="180" y="491">
-            <tostring comment="false" id="0" x="0" y="0">
-                <get-val-182-71 comment="false" id="0" x="0" y="0"/>
-            </tostring>
-            <tostring comment="false" id="1" x="0" y="0">
-                <get-val-182-78 comment="false" id="0" x="0" y="0"/>
-            </tostring>
-        </str-combine>
     </group>
     <group eventID="44" id="0">
         <event-mouse-press-release comment="false" x="15" y="15">
@@ -1496,9 +1538,9 @@
                     <int id="0" val="SideChooserBegins"/>
                 </print>
                 <if comment="false" x="26" y="60">
-                    <group eventID="41" id="-1">
+                    <group eventID="45" id="-1">
                         <if comment="false" x="37" y="90">
-                            <group eventID="41" id="-1">
+                            <group eventID="45" id="-1">
                                 <set-val-182-13 comment="false" x="48" y="120">
                                     <int id="0" val="2"/>
                                 </set-val-182-13>
@@ -1509,7 +1551,7 @@
                             </more>
                         </if>
                         <else-if comment="false" x="37" y="152">
-                            <group eventID="41" id="-1">
+                            <group eventID="45" id="-1">
                                 <set-val-182-13 comment="false" x="48" y="182">
                                     <int id="0" val="3"/>
                                 </set-val-182-13>
@@ -1526,9 +1568,9 @@
                     </more>
                 </if>
                 <else-if comment="false" x="26" y="226">
-                    <group eventID="41" id="-1">
+                    <group eventID="45" id="-1">
                         <if comment="false" x="37" y="256">
-                            <group eventID="41" id="-1">
+                            <group eventID="45" id="-1">
                                 <set-val-182-13 comment="false" x="48" y="286">
                                     <int id="0" val="1"/>
                                 </set-val-182-13>
@@ -1539,7 +1581,7 @@
                             </more>
                         </if>
                         <else-if comment="false" x="37" y="318">
-                            <group eventID="41" id="-1">
+                            <group eventID="45" id="-1">
                                 <set-val-182-13 comment="false" x="48" y="348">
                                     <int id="0" val="3"/>
                                 </set-val-182-13>
@@ -1556,9 +1598,9 @@
                     </more>
                 </else-if>
                 <else-if comment="false" x="26" y="392">
-                    <group eventID="41" id="-1">
+                    <group eventID="45" id="-1">
                         <if comment="false" x="37" y="422">
-                            <group eventID="41" id="-1">
+                            <group eventID="45" id="-1">
                                 <set-val-182-13 comment="false" x="48" y="452">
                                     <int id="0" val="2"/>
                                 </set-val-182-13>
@@ -1569,7 +1611,7 @@
                             </more>
                         </if>
                         <else-if comment="false" x="37" y="484">
-                            <group eventID="41" id="-1">
+                            <group eventID="45" id="-1">
                                 <set-val-182-13 comment="false" x="48" y="514">
                                     <int id="0" val="3"/>
                                 </set-val-182-13>
@@ -1586,7 +1628,7 @@
                     </more>
                 </else-if>
                 <else comment="false" x="26" y="558">
-                    <group eventID="41" id="-1">
+                    <group eventID="45" id="-1">
                         <set-val-182-13 comment="false" x="37" y="578">
                             <randint comment="false" id="0" x="0" y="0">
                                 <int id="0" val="1"/>
@@ -1605,6 +1647,26 @@
             <int id="0" val="SideChooser"/>
         </event-custom>
     </group>
+    <group eventID="45" id="7">
+        <print comment="false" x="362" y="141">
+            <eq comment="false" id="0" x="0" y="0">
+                <int id="0" val="LeftyCount"/>
+                <get-val-182-19 comment="false" id="1" x="0" y="0"/>
+            </eq>
+        </print>
+        <print comment="false" x="362" y="171">
+            <eq comment="false" id="0" x="0" y="0">
+                <int id="0" val="RightyCount"/>
+                <get-val-182-22 comment="false" id="1" x="0" y="0"/>
+            </eq>
+        </print>
+        <print comment="false" x="362" y="201">
+            <eq comment="false" id="0" x="0" y="0">
+                <int id="0" val="MiddyCount"/>
+                <get-val-182-84 comment="false" id="1" x="0" y="0"/>
+            </eq>
+        </print>
+    </group>
     <group eventID="45" id="-1"/>
     <group eventID="46" id="0">
         <event-custom comment="false" x="15" y="15">
@@ -1616,28 +1678,31 @@
                     <group eventID="21" id="-1">
                         <if comment="false" x="37" y="90">
                             <group eventID="21" id="-1">
-                                <say-this comment="false" x="48" y="120">
+                                <print comment="false" x="48" y="120">
+                                    <int id="0" val="1"/>
+                                </print>
+                                <say-this comment="false" x="48" y="140">
                                     <int id="0" val="SideChooser"/>
                                 </say-this>
-                                <stop comment="false" x="48" y="140"/>
+                                <stop comment="false" x="48" y="160"/>
                             </group>
                             <more comment="false" id="0" x="0" y="0">
                                 <get-val-182-29 comment="false" id="0" x="0" y="0"/>
                                 <int id="1" val="2"/>
                             </more>
                         </if>
-                        <else comment="false" x="37" y="172">
+                        <else comment="false" x="37" y="192">
                             <group eventID="21" id="-1">
-                                <set-val-182-29 comment="false" x="48" y="192">
+                                <set-val-182-29 comment="false" x="48" y="212">
                                     <plus comment="false" id="0" x="0" y="0">
                                         <get-val-182-29 comment="false" id="0" x="0" y="0"/>
                                         <int id="1" val="1"/>
                                     </plus>
                                 </set-val-182-29>
-                                <set-val-182-85 comment="false" x="48" y="222">
+                                <set-val-182-85 comment="false" x="48" y="242">
                                     <int id="0" val="0"/>
                                 </set-val-182-85>
-                                <set-val-182-30 comment="false" x="48" y="242">
+                                <set-val-182-30 comment="false" x="48" y="262">
                                     <int id="0" val="0"/>
                                 </set-val-182-30>
                             </group>
@@ -1648,32 +1713,35 @@
                         <int id="1" val="1"/>
                     </eq>
                 </if>
-                <else-if comment="false" x="26" y="286">
+                <else-if comment="false" x="26" y="306">
                     <group eventID="21" id="-1">
-                        <if comment="false" x="37" y="316">
+                        <if comment="false" x="37" y="336">
                             <group eventID="21" id="-1">
-                                <say-this comment="false" x="48" y="346">
+                                <print comment="false" x="48" y="366">
+                                    <int id="0" val="2"/>
+                                </print>
+                                <say-this comment="false" x="48" y="386">
                                     <int id="0" val="SideChooser"/>
                                 </say-this>
-                                <stop comment="false" x="48" y="366"/>
+                                <stop comment="false" x="48" y="406"/>
                             </group>
                             <more comment="false" id="0" x="0" y="0">
                                 <get-val-182-85 comment="false" id="0" x="0" y="0"/>
                                 <int id="1" val="2"/>
                             </more>
                         </if>
-                        <else comment="false" x="37" y="398">
+                        <else comment="false" x="37" y="438">
                             <group eventID="21" id="-1">
-                                <set-val-182-29 comment="false" x="48" y="418">
+                                <set-val-182-29 comment="false" x="48" y="458">
                                     <int id="0" val="0"/>
                                 </set-val-182-29>
-                                <set-val-182-85 comment="false" x="48" y="438">
+                                <set-val-182-85 comment="false" x="48" y="478">
                                     <plus comment="false" id="0" x="0" y="0">
                                         <get-val-182-85 comment="false" id="0" x="0" y="0"/>
                                         <int id="1" val="1"/>
                                     </plus>
                                 </set-val-182-85>
-                                <set-val-182-30 comment="false" x="48" y="468">
+                                <set-val-182-30 comment="false" x="48" y="508">
                                     <int id="0" val="0"/>
                                 </set-val-182-30>
                             </group>
@@ -1684,29 +1752,32 @@
                         <int id="1" val="2"/>
                     </eq>
                 </else-if>
-                <else-if comment="false" x="26" y="512">
+                <else-if comment="false" x="26" y="552">
                     <group eventID="21" id="-1">
-                        <if comment="false" x="37" y="542">
+                        <if comment="false" x="37" y="582">
                             <group eventID="21" id="-1">
-                                <say-this comment="false" x="48" y="572">
+                                <print comment="false" x="48" y="612">
+                                    <int id="0" val="3"/>
+                                </print>
+                                <say-this comment="false" x="48" y="632">
                                     <int id="0" val="SideChooser"/>
                                 </say-this>
-                                <stop comment="false" x="48" y="592"/>
+                                <stop comment="false" x="48" y="652"/>
                             </group>
                             <more comment="false" id="0" x="0" y="0">
                                 <get-val-182-30 comment="false" id="0" x="0" y="0"/>
                                 <int id="1" val="2"/>
                             </more>
                         </if>
-                        <else comment="false" x="37" y="624">
+                        <else comment="false" x="37" y="684">
                             <group eventID="21" id="-1">
-                                <set-val-182-29 comment="false" x="48" y="644">
+                                <set-val-182-29 comment="false" x="48" y="704">
                                     <int id="0" val="0"/>
                                 </set-val-182-29>
-                                <set-val-182-85 comment="false" x="48" y="664">
+                                <set-val-182-85 comment="false" x="48" y="724">
                                     <int id="0" val="0"/>
                                 </set-val-182-85>
-                                <set-val-182-30 comment="false" x="48" y="684">
+                                <set-val-182-30 comment="false" x="48" y="744">
                                     <plus comment="false" id="0" x="0" y="0">
                                         <get-val-182-30 comment="false" id="0" x="0" y="0"/>
                                         <int id="1" val="1"/>
@@ -1720,7 +1791,7 @@
                         <int id="1" val="3"/>
                     </eq>
                 </else-if>
-                <say-this comment="false" x="26" y="738">
+                <say-this comment="false" x="26" y="798">
                     <int id="0" val="CardPlacer"/>
                 </say-this>
             </group>
@@ -2387,7 +2458,7 @@
                                                     <ACTOR eid="var" id="0" vid="1"/>
                                                 </clear-filter>
                                                 <say-this comment="false" x="70" y="2132">
-                                                    <int id="0" val="Rule1Setup"/>
+                                                    <int id="0" val="RuleChooser"/>
                                                 </say-this>
                                                 <dolater comment="false" x="70" y="2152">
                                                     <group eventID="16" id="-1">
@@ -3227,7 +3298,7 @@
                                                     <ACTOR eid="var" id="0" vid="1"/>
                                                 </clear-filter>
                                                 <say-this comment="false" x="70" y="2393">
-                                                    <int id="0" val="Rule1Setup"/>
+                                                    <int id="0" val="RuleChooser"/>
                                                 </say-this>
                                                 <dolater comment="false" x="70" y="2413">
                                                     <group eventID="20" id="-1">
@@ -3515,11 +3586,87 @@
         </init>
     </group>
     <group eventID="50" id="-1"/>
+    <group eventID="51" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="51" id="-1"/>
+            <int id="0" val="Rule2Setup"/>
+        </event-custom>
+    </group>
+    <group eventID="51" id="-1"/>
+    <group eventID="52" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="51" id="-1"/>
+            <int id="0" val="Rule3Setup"/>
+        </event-custom>
+    </group>
+    <group eventID="52" id="-1"/>
+    <group eventID="53" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="53" id="-1">
+                <comment-long comment="false" x="26" y="40">
+                    <int id="0" val="rulechooser decides what rule: 1=shape; 2=color; 3=number."/>
+                </comment-long>
+                <set-val-182-13 comment="false" x="26" y="120">
+                    <int id="0" val="0"/>
+                </set-val-182-13>
+                <set-val-182-19 comment="false" x="26" y="140">
+                    <int id="0" val="0"/>
+                </set-val-182-19>
+                <set-val-182-84 comment="false" x="26" y="160">
+                    <int id="0" val="0"/>
+                </set-val-182-84>
+                <set-val-182-22 comment="false" x="26" y="180">
+                    <int id="0" val="0"/>
+                </set-val-182-22>
+                <set-val-182-44 comment="false" x="26" y="200">
+                    <int id="0" val="1"/>
+                </set-val-182-44>
+                <if comment="false" x="26" y="220">
+                    <group eventID="53" id="-1">
+                        <say-this comment="false" x="37" y="250">
+                            <int id="0" val="Rule1Setup"/>
+                        </say-this>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-182-44 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="282">
+                    <group eventID="53" id="-1">
+                        <say-this comment="false" x="37" y="312">
+                            <int id="0" val="Rule2Setup"/>
+                        </say-this>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-182-44 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="344">
+                    <group eventID="53" id="-1">
+                        <say-this comment="false" x="37" y="374">
+                            <int id="0" val="Rule3Setup"/>
+                        </say-this>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-182-44 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="3"/>
+                    </eq>
+                </if>
+                <print comment="false" x="26" y="406">
+                    <int id="0" val="Rule Chooser"/>
+                </print>
+            </group>
+            <int id="0" val="RuleChooser"/>
+        </event-custom>
+    </group>
+    <group eventID="53" id="-1"/>
     <group eventID="26" id="0">
         <event-custom comment="false" x="15" y="15">
             <group eventID="26" id="-1">
                 <print comment="false" x="26" y="40">
-                    <int id="0" val="fade in now."/>
+                    <int id="0" val="Show Target - fade in now."/>
                 </print>
                 <comment-wrapper comment="false" x="26" y="60">
                     <group eventID="26" id="-1">

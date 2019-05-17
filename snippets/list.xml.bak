@@ -1500,21 +1500,24 @@
         <events>
             <event displayName="Created02" enabled="true" id="2" name="init" order="4" repeats="true"/>
             <event displayName="Created" enabled="true" id="37" name="init" order="1" repeats="true"/>
-            <event displayName="Rule1Setup" enabled="true" id="38" name="event-custom" order="5" repeats="true"/>
-            <event displayName="Rule1Setup2" enabled="true" id="39" name="event-custom" order="6" repeats="true"/>
-            <event displayName="Rule1Setup3" enabled="true" id="40" name="event-custom" order="7" repeats="true"/>
-            <event displayName="Rule1Setup4" enabled="true" id="41" name="event-custom" order="8" repeats="true"/>
-            <event displayName="Rule1Setup5" enabled="true" id="42" name="event-custom" order="9" repeats="true"/>
-            <event displayName="Rule1Setup6" enabled="true" id="43" name="event-custom" order="13" repeats="true"/>
-            <event displayName="Click on TARGETATTRIBUTE" enabled="true" id="44" name="event-mouse-press-release" order="35" repeats="true"/>
-            <event displayName="SideChooser" enabled="true" id="45" name="event-custom" order="36" repeats="true"/>
-            <event displayName="SideSwitcher" enabled="true" id="46" name="event-custom" order="38" repeats="true"/>
-            <event displayName="CardPlacer" enabled="true" id="47" name="event-custom" order="39" repeats="true"/>
-            <event displayName="False (No Match)" enabled="true" id="48" name="event-mouse-press-release" order="41" repeats="true"/>
-            <event displayName="GUI:Set" enabled="true" id="17" name="draw" order="45" repeats="true"/>
-            <event displayName="Correct (MATCHATTRIBUTE)" enabled="true" id="49" name="event-mouse-press-release" order="44" repeats="true"/>
+            <event displayName="Rule1Setup" enabled="true" id="38" name="event-custom" order="6" repeats="true"/>
+            <event displayName="Rule1Setup2" enabled="true" id="39" name="event-custom" order="7" repeats="true"/>
+            <event displayName="Rule1Setup3" enabled="true" id="40" name="event-custom" order="8" repeats="true"/>
+            <event displayName="Rule1Setup4" enabled="true" id="41" name="event-custom" order="9" repeats="true"/>
+            <event displayName="Rule1Setup5" enabled="true" id="42" name="event-custom" order="10" repeats="true"/>
+            <event displayName="Rule1Setup6" enabled="true" id="43" name="event-custom" order="11" repeats="true"/>
+            <event displayName="Click on TARGETATTRIBUTE" enabled="true" id="44" name="event-mouse-press-release" order="38" repeats="true"/>
+            <event displayName="SideChooser" enabled="true" id="45" name="event-custom" order="39" repeats="true"/>
+            <event displayName="SideSwitcher" enabled="true" id="46" name="event-custom" order="41" repeats="true"/>
+            <event displayName="CardPlacer" enabled="true" id="47" name="event-custom" order="42" repeats="true"/>
+            <event displayName="False (No Match)" enabled="true" id="48" name="event-mouse-press-release" order="44" repeats="true"/>
+            <event displayName="GUI:Set" enabled="true" id="17" name="draw" order="48" repeats="true"/>
+            <event displayName="Correct (MATCHATTRIBUTE)" enabled="true" id="49" name="event-mouse-press-release" order="47" repeats="true"/>
             <event displayName="Created01" enabled="true" id="50" name="init" order="3" repeats="true"/>
-            <event displayName="ShowTargetEvent" enabled="true" id="26" name="event-custom" order="32" repeats="true"/>
+            <event displayName="Rule2Setup" enabled="true" id="51" name="event-custom" order="15" repeats="true"/>
+            <event displayName="Rule3Setup" enabled="true" id="52" name="event-custom" order="16" repeats="true"/>
+            <event displayName="RuleChooser" enabled="true" id="53" name="event-custom" order="5" repeats="true"/>
+            <event displayName="ShowTargetEvent" enabled="true" id="26" name="event-custom" order="35" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_44" classname="scripts.SceneEvents_44" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="183" name="SceneEvents_44" oid="-1" package="scripts." sceneid="44" shared="false" type="scene">
