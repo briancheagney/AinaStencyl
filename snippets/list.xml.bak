@@ -1500,7 +1500,6 @@
         </blocks>
         <events>
             <event displayName="RuleChooser2" enabled="true" id="64" name="event-custom" order="6" repeats="true"/>
-            <event displayName="Rule3Setup3b" enabled="false" id="65" name="event-custom" order="25" repeats="true"/>
             <event displayName="Created02" enabled="true" id="2" name="init" order="4" repeats="true"/>
             <event displayName="GUI:Set" enabled="true" id="17" name="draw" order="60" repeats="true"/>
             <event displayName="ShowTargetEvent" enabled="true" id="26" name="event-custom" order="47" repeats="true"/>
