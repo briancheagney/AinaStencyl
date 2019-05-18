@@ -1494,6 +1494,12 @@
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="LRMorderPicker" hidden="false" id="87" name="_LRMorderPicker" order="84"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Matchable" hidden="false" id="88" name="_Matchable" order="85"/>
         <text default="" defaultValue="" desc="" dropdown="" fullname="CurrentRule" hidden="false" id="89" name="_CurrentRule" order="86"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="RuleShapePick" hidden="false" id="95" name="_RuleShapePick" order="87"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="RuleColorPick" hidden="false" id="96" name="_RuleColorPick" order="91"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="RuleNumberPick" hidden="false" id="97" name="_RuleNumberPick" order="92"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="RuleNumTimesShape" hidden="false" id="98" name="_RuleNumTimesShape" order="88"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="RuleNumTimesColor" hidden="false" id="99" name="_RuleNumTimesColor" order="89"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="RuleNumTimesNumber" hidden="false" id="100" name="_RuleNumTimesNumber" order="90"/>
         <blocks>
             <receiver blockID="130" id="1"/>
             <receiver blockID="131" id="2"/>
