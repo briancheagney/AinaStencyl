@@ -270,6 +270,29 @@
         </list>
         <number cid="-1" id="26" name="GetFreakingDay" save="true" value="0.0"/>
         <boolean cid="-1" id="41" name="Level04Truable" save="true" value="true"/>
+        <list cid="-1" id="136" name="Level  Names" save="true" val="list">
+            <text order="0" value="Big Button"/>
+            <text order="1" value="Smal Button"/>
+            <text order="2" value="Button Jump"/>
+            <text order="3" value="First Match Easy"/>
+            <text order="4" value="1st Match Shape"/>
+            <text order="5" value="2nd Match Shape"/>
+            <text order="6" value="1st Shape Switch"/>
+            <text order="7" value="2nd Shape Switch"/>
+            <text order="8" value="1st Match Color"/>
+            <text order="9" value="2nd Match Color"/>
+            <text order="10" value="1st Color Switch"/>
+            <text order="11" value="2nd Color Switch"/>
+            <text order="12" value="1st Number Match"/>
+            <text order="13" value="2nd Number Match"/>
+            <text order="14" value="Number Switch"/>
+            <text order="15" value="Shape True / Hue"/>
+            <text order="16" value="Hue True / Shape"/>
+            <text order="17" value="Shape Hue Switch"/>
+            <text order="18" value="Shape True / Number"/>
+            <text order="19" value="Number True / Shape"/>
+            <text order="20" value="Pre WCST"/>
+        </list>
         <boolean cid="-1" id="42" name="Level04Dingable" save="true" value="true"/>
         <number cid="-1" id="97" name="L13Num01TotalNum" save="true" value="0.0"/>
         <list cid="2" id="69" name="L07Date01" save="true" val="list">
@@ -306,7 +329,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,257,7,9,11,13,15,17,20,28,30,32,34,36,38,42,46,50,57,58,59,60,64,72,76,78,80,86,88,90,96,98,99,101,102,105,119,122,124,126,128,136,138,144,154,160,168,176,180,188,198,208,228,229,235,237,239,241,243,245,247,249,251,253,255," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,257,259,7,9,11,13,15,17,20,28,30,32,34,36,38,42,46,50,57,58,59,60,64,72,76,78,80,86,88,90,96,98,99,101,102,105,119,122,124,126,128,136,138,144,154,160,168,176,180,188,198,208,228,229,235,237,239,241,243,245,247,249,251,253,255," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

@@ -224,31 +224,31 @@ class Design_45_45_GetFreakingDay extends ActorScript
 				trace("" + (("" + "Freaking Day =") + ("" + Engine.engine.getGameAttribute("GetFreakingDay"))));
 				if((Engine.engine.getGameAttribute("GetFreakingDay") == 0))
 				{
-					Engine.engine.setGameAttribute("day", "Sunday");
+					Engine.engine.setGameAttribute("day", "Tuesday");
 				}
 				else if((Engine.engine.getGameAttribute("GetFreakingDay") == 1))
 				{
-					Engine.engine.setGameAttribute("day", "Monday");
+					Engine.engine.setGameAttribute("day", "Wednesday");
 				}
 				else if((Engine.engine.getGameAttribute("GetFreakingDay") == 2))
 				{
-					Engine.engine.setGameAttribute("day", "Tuesday");
+					Engine.engine.setGameAttribute("day", "Thursday");
 				}
 				else if((Engine.engine.getGameAttribute("GetFreakingDay") == 3))
 				{
-					Engine.engine.setGameAttribute("day", "Wednesday");
+					Engine.engine.setGameAttribute("day", "Friday");
 				}
 				else if((Engine.engine.getGameAttribute("GetFreakingDay") == 4))
 				{
-					Engine.engine.setGameAttribute("day", "Thursday");
+					Engine.engine.setGameAttribute("day", "Saturday");
 				}
 				else if((Engine.engine.getGameAttribute("GetFreakingDay") == 5))
 				{
-					Engine.engine.setGameAttribute("day", "Friday");
+					Engine.engine.setGameAttribute("day", "Sunday");
 				}
 				else if((Engine.engine.getGameAttribute("GetFreakingDay") == 6))
 				{
-					Engine.engine.setGameAttribute("day", "Saturday");
+					Engine.engine.setGameAttribute("day", "Monday");
 				}
 				trace("" + (("" + "Freaking Day = ") + ("" + Engine.engine.getGameAttribute("day"))));
 				Engine.engine.setGameAttribute("GetDayDateBool", false);

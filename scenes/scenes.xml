@@ -5,7 +5,7 @@
     <scene desc="" format="3.4.0" id="2" name="Intro"/>
     <scene desc="" format="3.4.0" id="3" name="Level02"/>
     <scene desc="" format="3.4.0" id="5" name="Level03"/>
-    <scene desc="" format="3.4.0" id="7" name="Loading"/>
+    <scene desc="" format="3.4.0" id="7" name="00Loading"/>
     <scene desc="" format="3.4.0" id="8" name="Level04"/>
     <scene desc="" format="3.4.0" id="11" name="Level05_ClubMatch"/>
     <scene desc="" format="3.4.0" id="14" name="Level06_MoonMatch"/>

@@ -14,7 +14,15 @@
         <actor a="0.0" aid="6" c="false" group="3" id="20" name="homebutton 6" sx="1.0" sy="1.0" x="2" y="266" z="0"/>
         <actor a="0.0" aid="13" c="false" group="3" id="64" name="BlackBackground 13" sx="1.0" sy="1.0" x="53" y="0" z="3"/>
     </actors>
-    <snippets/>
+    <snippets>
+        <s enabled="false" id="199">
+            <prop id="1" list="1" val=""/>
+            <prop id="2" list="0" val="0.0"/>
+            <prop id="3" list="0" val="0.0"/>
+            <prop id="4" list="0" val="false"/>
+            <prop id="5" list="1" val=""/>
+        </s>
+    </snippets>
     <terrain/>
     <atlases members="" retainAtlases="true"/>
 </scene>

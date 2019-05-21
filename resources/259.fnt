@@ -1,6 +1,6 @@
 #
-#Sun May 19 07:49:03 EDT 2019
-style=bold
+#Sun May 19 06:48:26 EDT 2019
+style=plain
 alphabet=
 color=\#ffffff
 stroke.color=\#000000
@@ -13,4 +13,4 @@ shadow.blur=0
 chars=all
 stroke.size=0
 antialias=true
-size=12
+size=11

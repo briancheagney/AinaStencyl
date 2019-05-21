@@ -97,6 +97,10 @@ class Design_80_80_EmailData extends ActorScript
 	public var _Level16Data:String;
 	public var _Level17Data:String;
 	public var _Level18Data:String;
+	public var _Level19Data:String;
+	public var _Level20Data:String;
+	public var _Level21Data:String;
+	public var _Level22Data:String;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
@@ -155,6 +159,14 @@ class Design_80_80_EmailData extends ActorScript
 		_Level17Data = "";
 		nameMap.set("Level18Data", "_Level18Data");
 		_Level18Data = "";
+		nameMap.set("Level19Data", "_Level19Data");
+		_Level19Data = "";
+		nameMap.set("Level20Data", "_Level20Data");
+		_Level20Data = "";
+		nameMap.set("Level21Data", "_Level21Data");
+		_Level21Data = "";
+		nameMap.set("Level22Data", "_Level22Data");
+		_Level22Data = "";
 		
 	}
 	
@@ -166,12 +178,14 @@ class Design_80_80_EmailData extends ActorScript
 		{
 			if(wrapper.enabled && 3 == mouseState)
 			{
+				/* This is  */
 				_mailto = "Lemurama14@gmail.com";
 				propertyChanged("_mailto", _mailto);
 				_cc = "bheagney@highpoint.edu";
 				propertyChanged("_cc", _cc);
 				_subject = (("" + (("" + "Lemur") + ("" + _space))) + ("" + "Data"));
 				propertyChanged("_subject", _subject);
+				/* We're going to write a single line of code to email, the single line of text is storted in "Email-Levels". */
 				_Level01Data = Engine.engine.getGameAttribute("L01Date01")[Std.int(0)];
 				propertyChanged("_Level01Data", _Level01Data);
 				if((Engine.engine.getGameAttribute("L01Date01").length > 1))
@@ -332,6 +346,98 @@ class Design_80_80_EmailData extends ActorScript
 						propertyChanged("_Level16Data", _Level16Data);
 					}
 				}
+				_Level17Data = Engine.engine.getGameAttribute("L17Date")[Std.int(0)];
+				propertyChanged("_Level17Data", _Level17Data);
+				if((Engine.engine.getGameAttribute("L17Date").length > 1))
+				{
+					for(index0 in 0...Std.int((Engine.engine.getGameAttribute("L17Date").length - 1)))
+					{
+						_Level17Data = (("" + (("" + _Level17Data) + ("" + _onereturn))) + ("" + Engine.engine.getGameAttribute("L17Date")[Std.int((index0 + 1))]));
+						propertyChanged("_Level17Data", _Level17Data);
+					}
+				}
+				_Level18Data = Engine.engine.getGameAttribute("L18Date")[Std.int(0)];
+				propertyChanged("_Level18Data", _Level18Data);
+				if((Engine.engine.getGameAttribute("L18Date").length > 1))
+				{
+					for(index0 in 0...Std.int((Engine.engine.getGameAttribute("L18Date").length - 1)))
+					{
+						_Level18Data = (("" + _Level18Data) + ("" + _onereturn));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + "SET: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(1)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + " | DATE: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(0)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + " | TIME: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(2)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + _Level18Data) + ("" + _onereturn));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + "# OF TRIALS: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(3)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + " | # CORRECT: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(4)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + " | PERCENT CORRECT: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(5)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + _Level18Data) + ("" + _onereturn));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + "PERSEVERATIVE ERRORS: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(6)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + " | PERCENT P ERRORS: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(7)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + _Level18Data) + ("" + _onereturn));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + "NON-PERSEVERATIVE ERRORS: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(8)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + " | TOTAL ERRORS: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(9)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + " | PERCENT ERRORS: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(10)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + _Level18Data) + ("" + _onereturn));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + "TRIALS TO COMPLETE FIRST CATEGORY: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(11)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + " | CATEGORIES ACHIEVED: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(12)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + _Level18Data) + ("" + _onereturn));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + "PERCENT CONCEPTUAL LEVEL RESPONSES: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(13)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + (("" + _Level18Data) + ("" + " | FAILURES TO MAINTAIN SET: "))) + ("" + Engine.engine.getGameAttribute("L18Date")[Std.int((index0 + 1))][Std.int(14)]));
+						propertyChanged("_Level18Data", _Level18Data);
+						_Level18Data = (("" + _Level18Data) + ("" + _onereturn));
+						propertyChanged("_Level18Data", _Level18Data);
+					}
+				}
+				_Level19Data = Engine.engine.getGameAttribute("L19Date")[Std.int(0)];
+				propertyChanged("_Level19Data", _Level19Data);
+				if((Engine.engine.getGameAttribute("L19Date").length > 1))
+				{
+					for(index0 in 0...Std.int((Engine.engine.getGameAttribute("L19Date").length - 1)))
+					{
+						_Level19Data = (("" + (("" + _Level19Data) + ("" + _onereturn))) + ("" + Engine.engine.getGameAttribute("L19Date")[Std.int((index0 + 1))]));
+						propertyChanged("_Level19Data", _Level19Data);
+					}
+				}
+				_Level20Data = Engine.engine.getGameAttribute("L20Date")[Std.int(0)];
+				propertyChanged("_Level20Data", _Level20Data);
+				if((Engine.engine.getGameAttribute("L20Date").length > 1))
+				{
+					for(index0 in 0...Std.int((Engine.engine.getGameAttribute("L20Date").length - 1)))
+					{
+						_Level20Data = (("" + (("" + _Level20Data) + ("" + _onereturn))) + ("" + Engine.engine.getGameAttribute("L20Date")[Std.int((index0 + 1))]));
+						propertyChanged("_Level20Data", _Level20Data);
+					}
+				}
+				_Level21Data = Engine.engine.getGameAttribute("L21Date")[Std.int(0)];
+				propertyChanged("_Level21Data", _Level21Data);
+				if((Engine.engine.getGameAttribute("L21Date").length > 1))
+				{
+					for(index0 in 0...Std.int((Engine.engine.getGameAttribute("L21Date").length - 1)))
+					{
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + _onereturn))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))]));
+						propertyChanged("_Level21Data", _Level21Data);
+					}
+				}
 				_Email01MailTo = (("" + (("" + (("" + (("" + (("" + "mailto:") + ("" + "brianheagney@gmail.com"))) + ("" + "?subject="))) + ("" + "LemurData"))) + ("" + "&cc=brianheagney@gmail.com"))) + ("" + "&body="));
 				propertyChanged("_Email01MailTo", _Email01MailTo);
 				_EmailLevels = (("" + (("" + (("" + (("" + _Email01MailTo) + ("" + "Level%20one%20Data"))) + ("" + _onereturn))) + ("" + _Level01Data))) + ("" + _tworeturns));
@@ -365,6 +471,16 @@ class Design_80_80_EmailData extends ActorScript
 				_EmailLevels = (("" + (("" + (("" + (("" + _EmailLevels) + ("" + "Level%20fifteen%20Data"))) + ("" + _onereturn))) + ("" + _Level15Data))) + ("" + _tworeturns));
 				propertyChanged("_EmailLevels", _EmailLevels);
 				_EmailLevels = (("" + (("" + (("" + (("" + _EmailLevels) + ("" + "Level%20sixteen%20Data"))) + ("" + _onereturn))) + ("" + _Level16Data))) + ("" + _tworeturns));
+				propertyChanged("_EmailLevels", _EmailLevels);
+				_EmailLevels = (("" + (("" + (("" + (("" + _EmailLevels) + ("" + "Level%20seventeen%20Data"))) + ("" + _onereturn))) + ("" + _Level17Data))) + ("" + _tworeturns));
+				propertyChanged("_EmailLevels", _EmailLevels);
+				_EmailLevels = (("" + (("" + (("" + (("" + _EmailLevels) + ("" + "Level%20eighteen%20Data"))) + ("" + _onereturn))) + ("" + _Level18Data))) + ("" + _tworeturns));
+				propertyChanged("_EmailLevels", _EmailLevels);
+				_EmailLevels = (("" + (("" + (("" + (("" + _EmailLevels) + ("" + "Level%20nineteen%20Data"))) + ("" + _onereturn))) + ("" + _Level19Data))) + ("" + _tworeturns));
+				propertyChanged("_EmailLevels", _EmailLevels);
+				_EmailLevels = (("" + (("" + (("" + (("" + _EmailLevels) + ("" + "Level%20twenty%20Data"))) + ("" + _onereturn))) + ("" + _Level20Data))) + ("" + _tworeturns));
+				propertyChanged("_EmailLevels", _EmailLevels);
+				_EmailLevels = (("" + (("" + (("" + (("" + _EmailLevels) + ("" + "Level%20twenty-one%20Data"))) + ("" + _onereturn))) + ("" + _Level21Data))) + ("" + _tworeturns));
 				propertyChanged("_EmailLevels", _EmailLevels);
 				openURLInBrowser(_EmailLevels);
 			}
