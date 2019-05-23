@@ -1178,17 +1178,314 @@
                             <group eventID="2" id="-1">
                                 <set-val-80-29 comment="false" x="48" y="4502">
                                     <str-combine comment="false" id="0" x="0" y="0">
+                                        <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                        <get-val-80-2 comment="false" id="1" x="0" y="0"/>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="4532">
+                                    <str-combine comment="false" id="0" x="0" y="0">
                                         <str-combine comment="false" id="0" x="0" y="0">
                                             <get-val-80-29 comment="false" id="0" x="0" y="0"/>
-                                            <get-val-80-2 comment="false" id="1" x="0" y="0"/>
+                                            <int id="1" val="SET: "/>
                                         </str-combine>
                                         <get-item comment="false" id="1" x="0" y="0">
-                                            <get-game-val-126 comment="false" id="0" x="0" y="0"/>
-                                            <plus comment="false" id="1" x="0" y="0">
-                                                <loopindex comment="false" id="0" x="0" y="0"/>
-                                                <int id="1" val="1"/>
-                                            </plus>
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="1"/>
                                         </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="4577">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val=" | DATE: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="4622">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val=" | TIME: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="2"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="4667">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                        <get-val-80-2 comment="false" id="1" x="0" y="0"/>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="4697">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="# OF TRIALS: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="3"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="4742">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val=" | # CORRECT: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="4"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="4787">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val=" | PERCENT CORRECT: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="5"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="4832">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                        <get-val-80-2 comment="false" id="1" x="0" y="0"/>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="4862">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="PERSEVERATIVE ERRORS: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="6"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="4907">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val=" | PERCENT P ERRORS: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="7"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="4952">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                        <get-val-80-2 comment="false" id="1" x="0" y="0"/>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="4982">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="NON-PERSEVERATIVE ERRORS: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="8"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="5027">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val=" | TOTAL ERRORS: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="9"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="5072">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val=" | PERCENT ERRORS: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="10"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="5117">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                        <get-val-80-2 comment="false" id="1" x="0" y="0"/>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="5147">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="TRIALS TO COMPLETE FIRST CATEGORY: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="11"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="5192">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val=" | CATEGORIES ACHIEVED: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="12"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="5237">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                        <get-val-80-2 comment="false" id="1" x="0" y="0"/>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="5267">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="PERCENT CONCEPTUAL LEVEL RESPONSES: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="13"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="5312">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-combine comment="false" id="0" x="0" y="0">
+                                            <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val=" | FAILURES TO MAINTAIN SET: "/>
+                                        </str-combine>
+                                        <get-item comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-game-val-126 comment="false" id="0" x="0" y="0"/>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="14"/>
+                                        </get-item>
+                                    </str-combine>
+                                </set-val-80-29>
+                                <set-val-80-29 comment="false" x="48" y="5357">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <get-val-80-29 comment="false" id="0" x="0" y="0"/>
+                                        <get-val-80-2 comment="false" id="1" x="0" y="0"/>
                                     </str-combine>
                                 </set-val-80-29>
                             </group>
@@ -1207,7 +1504,7 @@
                         <int id="1" val="1"/>
                     </more>
                 </if>
-                <set-val-80-14 comment="false" x="26" y="4566">
+                <set-val-80-14 comment="false" x="26" y="5411">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1225,7 +1522,7 @@
                         <int id="1" val="&amp;amp;body="/>
                     </str-combine>
                 </set-val-80-14>
-                <set-val-80-15 comment="false" x="26" y="4611">
+                <set-val-80-15 comment="false" x="26" y="5456">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1240,7 +1537,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="4656">
+                <set-val-80-15 comment="false" x="26" y="5501">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1255,7 +1552,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="4701">
+                <set-val-80-15 comment="false" x="26" y="5546">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1270,7 +1567,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="4746">
+                <set-val-80-15 comment="false" x="26" y="5591">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1285,7 +1582,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="4791">
+                <set-val-80-15 comment="false" x="26" y="5636">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1300,7 +1597,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="4836">
+                <set-val-80-15 comment="false" x="26" y="5681">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1315,7 +1612,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="4881">
+                <set-val-80-15 comment="false" x="26" y="5726">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1330,7 +1627,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="4926">
+                <set-val-80-15 comment="false" x="26" y="5771">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1345,7 +1642,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="4971">
+                <set-val-80-15 comment="false" x="26" y="5816">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1360,7 +1657,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="5016">
+                <set-val-80-15 comment="false" x="26" y="5861">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1375,7 +1672,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="5061">
+                <set-val-80-15 comment="false" x="26" y="5906">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1390,7 +1687,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="5106">
+                <set-val-80-15 comment="false" x="26" y="5951">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1405,7 +1702,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="5151">
+                <set-val-80-15 comment="false" x="26" y="5996">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1420,7 +1717,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="5196">
+                <set-val-80-15 comment="false" x="26" y="6041">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1435,7 +1732,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="5241">
+                <set-val-80-15 comment="false" x="26" y="6086">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1450,7 +1747,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="5286">
+                <set-val-80-15 comment="false" x="26" y="6131">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1465,7 +1762,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="5331">
+                <set-val-80-15 comment="false" x="26" y="6176">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1480,7 +1777,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="5376">
+                <set-val-80-15 comment="false" x="26" y="6221">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1495,7 +1792,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="5421">
+                <set-val-80-15 comment="false" x="26" y="6266">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1510,7 +1807,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="5466">
+                <set-val-80-15 comment="false" x="26" y="6311">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1525,7 +1822,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <set-val-80-15 comment="false" x="26" y="5511">
+                <set-val-80-15 comment="false" x="26" y="6356">
                     <str-combine comment="false" id="0" x="0" y="0">
                         <str-combine comment="false" id="0" x="0" y="0">
                             <str-combine comment="false" id="0" x="0" y="0">
@@ -1540,7 +1837,7 @@
                         <get-val-80-3 comment="false" id="1" x="0" y="0"/>
                     </str-combine>
                 </set-val-80-15>
-                <show-browser comment="false" x="26" y="5556">
+                <show-browser comment="false" x="26" y="6401">
                     <get-val-80-15 comment="false" id="0" x="0" y="0"/>
                 </show-browser>
             </group>
@@ -1548,223 +1845,5 @@
             <int id="1" val="2"/>
         </event-mouse-enter-exit-actor>
     </group>
-    <group eventID="2" id="1">
-        <show-browser comment="false" x="833" y="500">
-            <str-combine comment="false" id="0" x="0" y="0">
-                <str-combine comment="false" id="0" x="0" y="0">
-                    <str-combine comment="false" id="0" x="0" y="0">
-                        <str-combine comment="false" id="0" x="0" y="0">
-                            <int id="0" val="mailto:"/>
-                            <int id="1" val="Lemurama14@gmail.com"/>
-                        </str-combine>
-                        <int id="1" val="?"/>
-                    </str-combine>
-                    <str-combine comment="false" id="1" x="0" y="0">
-                        <str-combine comment="false" id="0" x="0" y="0">
-                            <str-combine comment="false" id="0" x="0" y="0">
-                                <int id="0" val="subject="/>
-                                <int id="1" val="LemurData"/>
-                            </str-combine>
-                            <str-combine comment="false" id="1" x="0" y="0">
-                                <int id="0" val="&amp;amp;cc="/>
-                                <int id="1" val="brianheagney@gmail.com"/>
-                            </str-combine>
-                        </str-combine>
-                        <str-combine comment="false" id="1" x="0" y="0">
-                            <int id="0" val="&amp;amp;body="/>
-                            <str-combine comment="false" id="1" x="0" y="0">
-                                <str-combine comment="false" id="0" x="0" y="0">
-                                    <int id="0" val="Level%20one%20Data"/>
-                                    <str-combine comment="false" id="1" x="0" y="0">
-                                        <str-combine comment="false" id="0" x="0" y="0">
-                                            <get-val-80-2 comment="false" id="0" x="0" y="0"/>
-                                            <get-val-80-7 comment="false" id="1" x="0" y="0"/>
-                                        </str-combine>
-                                        <get-val-80-3 comment="false" id="1" x="0" y="0"/>
-                                    </str-combine>
-                                </str-combine>
-                                <str-combine comment="false" id="1" x="0" y="0">
-                                    <str-combine comment="false" id="0" x="0" y="0">
-                                        <int id="0" val="Level%202%20Data"/>
-                                        <str-combine comment="false" id="1" x="0" y="0">
-                                            <str-combine comment="false" id="0" x="0" y="0">
-                                                <get-val-80-2 comment="false" id="0" x="0" y="0"/>
-                                                <get-val-80-8 comment="false" id="1" x="0" y="0"/>
-                                            </str-combine>
-                                            <get-val-80-3 comment="false" id="1" x="0" y="0"/>
-                                        </str-combine>
-                                    </str-combine>
-                                    <str-combine comment="false" id="1" x="0" y="0">
-                                        <int id="0" val="Level%203%20Data"/>
-                                        <str-combine comment="false" id="1" x="0" y="0">
-                                            <str-combine comment="false" id="0" x="0" y="0">
-                                                <get-val-80-2 comment="false" id="0" x="0" y="0"/>
-                                                <get-val-80-9 comment="false" id="1" x="0" y="0"/>
-                                            </str-combine>
-                                            <get-val-80-3 comment="false" id="1" x="0" y="0"/>
-                                        </str-combine>
-                                    </str-combine>
-                                </str-combine>
-                            </str-combine>
-                        </str-combine>
-                    </str-combine>
-                </str-combine>
-                <str-combine comment="false" id="1" x="0" y="0">
-                    <int id="0" val="Level%204%20Data"/>
-                    <str-combine comment="false" id="1" x="0" y="0">
-                        <str-combine comment="false" id="0" x="0" y="0">
-                            <get-val-80-2 comment="false" id="0" x="0" y="0"/>
-                            <get-val-80-10 comment="false" id="1" x="0" y="0"/>
-                        </str-combine>
-                        <get-val-80-3 comment="false" id="1" x="0" y="0"/>
-                    </str-combine>
-                </str-combine>
-            </str-combine>
-        </show-browser>
-    </group>
-    <group eventID="2" id="2">
-        <show-browser comment="false" x="103" y="6464">
-            <str-combine comment="false" id="0" x="0" y="0">
-                <str-combine comment="false" id="0" x="0" y="0">
-                    <str-combine comment="false" id="0" x="0" y="0">
-                        <str-combine comment="false" id="0" x="0" y="0">
-                            <str-combine comment="false" id="0" x="0" y="0">
-                                <str-combine comment="false" id="0" x="0" y="0">
-                                    <str-combine comment="false" id="0" x="0" y="0">
-                                        <str-combine comment="false" id="0" x="0" y="0">
-                                            <str-combine comment="false" id="0" x="0" y="0">
-                                                <str-combine comment="false" id="0" x="0" y="0">
-                                                    <str-combine comment="false" id="0" x="0" y="0">
-                                                        <str-combine comment="false" id="0" x="0" y="0">
-                                                            <str-combine comment="false" id="0" x="0" y="0">
-                                                                <str-combine comment="false" id="0" x="0" y="0">
-                                                                    <str-combine comment="false" id="0" x="0" y="0">
-                                                                        <str-combine comment="false" id="0" x="0" y="0">
-                                                                            <str-combine comment="false" id="0" x="0" y="0">
-                                                                                <str-combine comment="false" id="0" x="0" y="0">
-                                                                                    <str-combine comment="false" id="0" x="0" y="0">
-                                                                                        <str-combine comment="false" id="0" x="0" y="0">
-                                                                                            <int id="0" val="mailto:"/>
-                                                                                            <int id="1" val="brianheagney@gmail.com"/>
-                                                                                        </str-combine>
-                                                                                        <int id="1" val="?subject="/>
-                                                                                    </str-combine>
-                                                                                    <int id="1" val="LemurData"/>
-                                                                                </str-combine>
-                                                                                <int id="1" val="&amp;amp;cc=brianheagney@gmail.com"/>
-                                                                            </str-combine>
-                                                                            <int id="1" val="&amp;amp;body="/>
-                                                                        </str-combine>
-                                                                        <int id="1" val="Level%20one%20Data"/>
-                                                                    </str-combine>
-                                                                    <get-val-80-2 comment="false" id="1" x="0" y="0"/>
-                                                                </str-combine>
-                                                                <get-val-80-7 comment="false" id="1" x="0" y="0"/>
-                                                            </str-combine>
-                                                            <get-val-80-3 comment="false" id="1" x="0" y="0"/>
-                                                        </str-combine>
-                                                        <int id="1" val="Level%20two%20Data"/>
-                                                    </str-combine>
-                                                    <get-val-80-2 comment="false" id="1" x="0" y="0"/>
-                                                </str-combine>
-                                                <get-val-80-8 comment="false" id="1" x="0" y="0"/>
-                                            </str-combine>
-                                            <get-val-80-3 comment="false" id="1" x="0" y="0"/>
-                                        </str-combine>
-                                        <int id="1" val="Level%20three%20Data"/>
-                                    </str-combine>
-                                    <get-val-80-2 comment="false" id="1" x="0" y="0"/>
-                                </str-combine>
-                                <get-val-80-9 comment="false" id="1" x="0" y="0"/>
-                            </str-combine>
-                            <get-val-80-3 comment="false" id="1" x="0" y="0"/>
-                        </str-combine>
-                        <int id="1" val="Level%20four%20Data"/>
-                    </str-combine>
-                    <get-val-80-2 comment="false" id="1" x="0" y="0"/>
-                </str-combine>
-                <get-val-80-10 comment="false" id="1" x="0" y="0"/>
-            </str-combine>
-        </show-browser>
-    </group>
-    <group eventID="2" id="28">
-        <set-val-80-25 comment="false" x="919" y="4163">
-            <get-item comment="false" id="0" x="0" y="0">
-                <get-game-val-114 comment="false" id="0" x="0" y="0"/>
-                <int id="1" val="0"/>
-            </get-item>
-        </set-val-80-25>
-        <if comment="false" x="919" y="4193">
-            <group eventID="2" id="-1">
-                <repeat comment="false" x="930" y="4228">
-                    <group eventID="2" id="-1">
-                        <set-val-80-25 comment="false" x="941" y="4263">
-                            <str-combine comment="false" id="0" x="0" y="0">
-                                <str-combine comment="false" id="0" x="0" y="0">
-                                    <get-val-80-25 comment="false" id="0" x="0" y="0"/>
-                                    <get-val-80-2 comment="false" id="1" x="0" y="0"/>
-                                </str-combine>
-                                <get-item comment="false" id="1" x="0" y="0">
-                                    <get-game-val-114 comment="false" id="0" x="0" y="0"/>
-                                    <plus comment="false" id="1" x="0" y="0">
-                                        <loopindex comment="false" id="0" x="0" y="0"/>
-                                        <int id="1" val="1"/>
-                                    </plus>
-                                </get-item>
-                            </str-combine>
-                        </set-val-80-25>
-                    </group>
-                    <minus comment="false" id="0" x="0" y="0">
-                        <length-list comment="false" id="0" x="0" y="0">
-                            <get-game-val-114 comment="false" id="0" x="0" y="0"/>
-                        </length-list>
-                        <int id="1" val="1"/>
-                    </minus>
-                </repeat>
-            </group>
-            <more comment="false" id="0" x="0" y="0">
-                <length-list comment="false" id="0" x="0" y="0">
-                    <get-game-val-114 comment="false" id="0" x="0" y="0"/>
-                </length-list>
-                <int id="1" val="1"/>
-            </more>
-        </if>
-    </group>
-    <group eventID="2" id="-1">
-        <get-val-80-2 comment="false" x="548" y="3694"/>
-        <get-val-80-2 comment="false" x="511" y="3718"/>
-        <str-combine comment="false" x="834" y="601">
-            <str-combine comment="false" id="0" x="0" y="0">
-                <str-combine comment="false" id="0" x="0" y="0">
-                    <str-combine comment="false" id="0" x="0" y="0">
-                        <str-combine comment="false" id="0" x="0" y="0">
-                            <str-combine comment="false" id="0" x="0" y="0">
-                                <str-combine comment="false" id="0" x="0" y="0">
-                                    <str-combine comment="false" id="0" x="0" y="0">
-                                        <int id="0" val=""/>
-                                        <int id="1" val="Level%203%20Data"/>
-                                    </str-combine>
-                                    <get-val-80-2 comment="false" id="1" x="0" y="0"/>
-                                </str-combine>
-                                <get-val-80-9 comment="false" id="1" x="0" y="0"/>
-                            </str-combine>
-                            <get-val-80-3 comment="false" id="1" x="0" y="0"/>
-                        </str-combine>
-                        <int id="1" val="Level%204%20Data"/>
-                    </str-combine>
-                    <get-val-80-2 comment="false" id="1" x="0" y="0"/>
-                </str-combine>
-                <get-val-80-10 comment="false" id="1" x="0" y="0"/>
-            </str-combine>
-            <get-val-80-3 comment="false" id="1" x="0" y="0"/>
-        </str-combine>
-        <str-combine comment="false" x="1043" y="996">
-            <int id="0" val=""/>
-            <get-val-80-3 comment="false" id="1" x="0" y="0"/>
-        </str-combine>
-        <get-val-80-10 comment="false" x="1193" y="1036"/>
-        <get-val-80-9 comment="false" x="2361" y="686"/>
-        <get-val-80-8 comment="false" x="2002" y="702"/>
-        <get-val-80-8 comment="false" x="2390" y="1013"/>
-    </group>
+    <group eventID="2" id="-1"/>
 </groups>

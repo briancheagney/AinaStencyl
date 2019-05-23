@@ -1800,7 +1800,7 @@ ACC_MT = Color Chooser (Match True) */
 						}
 						else
 						{
-							runLater(1000 * 1, function(timeTask:TimedTask):Void
+							runLater(1000 * .5, function(timeTask:TimedTask):Void
 							{
 								_Target.clearFilters();
 								_customEvent_RuleChooser2();
@@ -1898,17 +1898,7 @@ ACC_MT = Color Chooser (Match True) */
 						_NoMatch2.setX(1200);
 						_NoMatch.setX(-1200);
 						_Match.setX(-1200);
-						if(((_ConsecutiveRightCounter % 10) == 0))
-						{
-							if((_RuleSwitchCount == 0))
-							{
-								_TtCFC = asNumber(_counter);
-								propertyChanged("_TtCFC", _TtCFC);
-							}
-							_RuleSwitchCount = asNumber((_RuleSwitchCount + 1));
-							propertyChanged("_RuleSwitchCount", _RuleSwitchCount);
-							_customEvent_RuleChooser();
-						}
+						/* This used to go to the If/Then statement "IF REMAINDER OF CONS.... */
 						_NPE = asNumber((_TotalWrong - _PE));
 						propertyChanged("_NPE", _NPE);
 						_Item[Std.int(0)] = (("" + (("" + (("" + (("" + (("" + Engine.engine.getGameAttribute("day")) + ("" + ", "))) + ("" + (("" + Engine.engine.getGameAttribute("Month")) + ("" + " "))))) + ("" + Date.now().getDate()))) + ("" + ", "))) + ("" + Date.now().getFullYear()));
@@ -1927,13 +1917,43 @@ ACC_MT = Color Chooser (Match True) */
 						_Item[Std.int(13)] = _PCLR;
 						_Item[Std.int(14)] = _FtMS;
 						Engine.engine.getGameAttribute("L21Date")[Std.int(Engine.engine.getGameAttribute("L21TotalNum"))] = _Item;
-						if((_RuleSwitchCount == 4))
+						trace("" + (("" + "Consecutive Right Counter = ") + ("" + _ConsecutiveRightCounter)));
+						trace("" + (("" + "Rule Switch Count = ") + ("" + _RuleSwitchCount)));
+						trace("" + (("" + "0") + ("" + "0")));
+						if(((_ConsecutiveRightCounter % 10) == 0))
 						{
-							switchScene(GameModel.get().scenes.get(46).getID(), null, createCrossfadeTransition(.25));
+							if((_RuleSwitchCount == 0))
+							{
+								_TtCFC = asNumber(_counter);
+								propertyChanged("_TtCFC", _TtCFC);
+							}
+							_RuleSwitchCount = asNumber((_RuleSwitchCount + 1));
+							propertyChanged("_RuleSwitchCount", _RuleSwitchCount);
+							_Item[Std.int(12)] = _RuleSwitchCount;
+							if((_RuleSwitchCount == 4))
+							{
+								switchScene(GameModel.get().scenes.get(46).getID(), null, createCrossfadeTransition(.25));
+							}
+							else
+							{
+								runLater(1000 * .5, function(timeTask:TimedTask):Void
+								{
+									_Target.clearFilters();
+									_customEvent_RuleChooser();
+									runLater(1000 * .1, function(timeTask:TimedTask):Void
+									{
+										Engine.engine.setGameAttribute("TargetPush", true);
+									}, null);
+								}, null);
+								saveGame("mySave", function(success:Bool):Void
+								{
+									
+								});
+							}
 						}
 						else
 						{
-							runLater(1000 * 1, function(timeTask:TimedTask):Void
+							runLater(1000 * .5, function(timeTask:TimedTask):Void
 							{
 								_Target.clearFilters();
 								_customEvent_RuleChooser2();
@@ -1942,10 +1962,6 @@ ACC_MT = Color Chooser (Match True) */
 									Engine.engine.setGameAttribute("TargetPush", true);
 								}, null);
 							}, null);
-							saveGame("mySave", function(success:Bool):Void
-							{
-								
-							});
 						}
 					}
 				}
@@ -1982,22 +1998,6 @@ ACC_MT = Color Chooser (Match True) */
 				g.drawString("" + "In A Row:", 0, 215);
 				g.setFont(getFont(101));
 				g.drawString("" + _ConsecutiveRightCounter, 0, 215);
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(259));
-				g.drawString("" + (("" + "Lefty Count = ") + ("" + _LeftyCount)), 60, 20);
-				g.drawString("" + (("" + "Middy Count = ") + ("" + _MiddyCount)), 200, 20);
-				g.drawString("" + (("" + "Righty Count = ") + ("" + _RightyCount)), 340, 20);
-				g.drawString("" + (("" + "LeftRightPicker = ") + ("" + _LeftRightPicker)), 60, 60);
-				g.drawString("" + (("" + "Left Side Counter = ") + ("" + _LeftSideCounter)), 60, 40);
-				g.drawString("" + (("" + "Mid Side Counter = ") + ("" + _MidSideCounter)), 200, 40);
-				g.drawString("" + (("" + "Right Side Counter = ") + ("" + _RightSideCounter)), 340, 40);
 			}
 		});
 		

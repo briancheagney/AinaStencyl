@@ -1746,24 +1746,8 @@
         </event-custom>
     </group>
     <group eventID="43" id="-1">
-        <str-combine comment="false" x="180" y="491">
-            <tostring comment="false" id="0" x="0" y="0">
-                <get-val-182-71 comment="false" id="0" x="0" y="0"/>
-            </tostring>
-            <tostring comment="false" id="1" x="0" y="0">
-                <get-val-182-78 comment="false" id="0" x="0" y="0"/>
-            </tostring>
-        </str-combine>
-        <str-combine comment="false" x="96" y="565">
-            <tostring comment="false" id="0" x="0" y="0">
-                <get-val-182-70 comment="false" id="0" x="0" y="0"/>
-            </tostring>
-            <tostring comment="false" id="1" x="0" y="0">
-                <get-val-182-80 comment="false" id="0" x="0" y="0"/>
-            </tostring>
-        </str-combine>
-        <tostring comment="false" x="58" y="593">
-            <get-val-182-68 comment="false" id="0" x="0" y="0"/>
+        <tostring comment="false" x="280" y="652">
+            <get-val-182-77 comment="false" id="0" x="0" y="0"/>
         </tostring>
         <str-combine comment="false" x="108" y="732">
             <tostring comment="false" id="0" x="0" y="0">
@@ -1773,9 +1757,25 @@
                 <get-val-182-79 comment="false" id="0" x="0" y="0"/>
             </tostring>
         </str-combine>
-        <tostring comment="false" x="280" y="652">
-            <get-val-182-77 comment="false" id="0" x="0" y="0"/>
+        <tostring comment="false" x="58" y="593">
+            <get-val-182-68 comment="false" id="0" x="0" y="0"/>
         </tostring>
+        <str-combine comment="false" x="96" y="565">
+            <tostring comment="false" id="0" x="0" y="0">
+                <get-val-182-70 comment="false" id="0" x="0" y="0"/>
+            </tostring>
+            <tostring comment="false" id="1" x="0" y="0">
+                <get-val-182-80 comment="false" id="0" x="0" y="0"/>
+            </tostring>
+        </str-combine>
+        <str-combine comment="false" x="180" y="491">
+            <tostring comment="false" id="0" x="0" y="0">
+                <get-val-182-71 comment="false" id="0" x="0" y="0"/>
+            </tostring>
+            <tostring comment="false" id="1" x="0" y="0">
+                <get-val-182-78 comment="false" id="0" x="0" y="0"/>
+            </tostring>
+        </str-combine>
     </group>
     <group eventID="44" id="0">
         <event-mouse-press-release comment="false" x="15" y="15">
@@ -2141,12 +2141,12 @@
             <int id="1" val=""/>
         </str-combine>
     </group>
-    <group eventID="45" id="4">
+    <group eventID="45" id="3">
         <print comment="false" x="557" y="505">
             <get-val-182-13 comment="false" id="0" x="0" y="0"/>
         </print>
     </group>
-    <group eventID="45" id="5">
+    <group eventID="45" id="4">
         <if comment="false" x="706" y="235">
             <group eventID="45" id="-1">
                 <set-val-182-13 comment="false" x="717" y="265">
@@ -2979,7 +2979,7 @@
                                                     <ACTOR eid="lastcreated" id="2"/>
                                                 </dolater>
                                             </group>
-                                            <int id="0" val="1"/>
+                                            <int id="0" val=".5"/>
                                             <ACTOR eid="lastcreated" id="2"/>
                                         </dolater>
                                         <save-game comment="false" x="59" y="2228">
@@ -3258,44 +3258,16 @@
                                     <int id="1" val="0"/>
                                     <int id="2" val="-1200"/>
                                 </set-xy>
-                                <if comment="false" x="48" y="1506">
-                                    <group eventID="49" id="-1">
-                                        <if comment="false" x="59" y="1541">
-                                            <group eventID="49" id="-1">
-                                                <set-val-182-50 comment="false" x="70" y="1571">
-                                                    <get-val-182-15 comment="false" id="0" x="0" y="0"/>
-                                                </set-val-182-50>
-                                            </group>
-                                            <eq comment="false" id="0" x="0" y="0">
-                                                <get-val-182-45 comment="false" id="0" x="0" y="0"/>
-                                                <int id="1" val="0"/>
-                                            </eq>
-                                        </if>
-                                        <set-val-182-45 comment="false" x="59" y="1608">
-                                            <plus comment="false" id="0" x="0" y="0">
-                                                <get-val-182-45 comment="false" id="0" x="0" y="0"/>
-                                                <int id="1" val="1"/>
-                                            </plus>
-                                        </set-val-182-45>
-                                        <say-this comment="false" x="59" y="1638">
-                                            <int id="0" val="RuleChooser"/>
-                                        </say-this>
-                                    </group>
-                                    <eq comment="false" id="0" x="0" y="0">
-                                        <mod comment="false" id="0" x="0" y="0">
-                                            <get-val-182-46 comment="false" id="0" x="0" y="0"/>
-                                            <int id="1" val="10"/>
-                                        </mod>
-                                        <int id="1" val="0"/>
-                                    </eq>
-                                </if>
-                                <set-val-182-54 comment="false" x="48" y="1670">
+                                <comment-long comment="false" x="48" y="1506">
+                                    <int id="0" val="This used to go to the If/Then statement &amp;quot;IF REMAINDER OF CONS...."/>
+                                </comment-long>
+                                <set-val-182-54 comment="false" x="48" y="1586">
                                     <minus comment="false" id="0" x="0" y="0">
                                         <get-val-182-49 comment="false" id="0" x="0" y="0"/>
                                         <get-val-182-48 comment="false" id="1" x="0" y="0"/>
                                     </minus>
                                 </set-val-182-54>
-                                <replace-list comment="false" x="48" y="1700">
+                                <replace-list comment="false" x="48" y="1616">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="0"/>
                                     <str-combine comment="false" id="2" x="0" y="0">
@@ -3322,12 +3294,12 @@
                                         </Date-current-all>
                                     </str-combine>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="1750">
+                                <replace-list comment="false" x="48" y="1666">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="1"/>
                                     <get-game-val-128 comment="false" id="2" x="0" y="0"/>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="1775">
+                                <replace-list comment="false" x="48" y="1691">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="2"/>
                                     <str-combine comment="false" id="2" x="0" y="0">
@@ -3350,27 +3322,27 @@
                                         </str-combine>
                                     </str-combine>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="1823">
+                                <replace-list comment="false" x="48" y="1739">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="3"/>
                                     <get-val-182-15 comment="false" id="2" x="0" y="0"/>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="1848">
+                                <replace-list comment="false" x="48" y="1764">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="4"/>
                                     <get-val-182-47 comment="false" id="2" x="0" y="0"/>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="1873">
+                                <replace-list comment="false" x="48" y="1789">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="5"/>
                                     <get-val-182-17 comment="false" id="2" x="0" y="0"/>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="1898">
+                                <replace-list comment="false" x="48" y="1814">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="6"/>
                                     <get-val-182-48 comment="false" id="2" x="0" y="0"/>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="1923">
+                                <replace-list comment="false" x="48" y="1839">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="7"/>
                                     <roundnew comment="false" id="2" x="0" y="0">
@@ -3384,17 +3356,17 @@
                                         </times>
                                     </roundnew>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="1971">
+                                <replace-list comment="false" x="48" y="1887">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="8"/>
                                     <get-val-182-54 comment="false" id="2" x="0" y="0"/>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="1996">
+                                <replace-list comment="false" x="48" y="1912">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="9"/>
                                     <get-val-182-49 comment="false" id="2" x="0" y="0"/>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="2021">
+                                <replace-list comment="false" x="48" y="1937">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="10"/>
                                     <minus comment="false" id="2" x="0" y="0">
@@ -3402,57 +3374,136 @@
                                         <get-val-182-17 comment="false" id="1" x="0" y="0"/>
                                     </minus>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="2051">
+                                <replace-list comment="false" x="48" y="1967">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="11"/>
                                     <get-val-182-50 comment="false" id="2" x="0" y="0"/>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="2076">
+                                <replace-list comment="false" x="48" y="1992">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="12"/>
                                     <get-val-182-45 comment="false" id="2" x="0" y="0"/>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="2101">
+                                <replace-list comment="false" x="48" y="2017">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="13"/>
                                     <get-val-182-52 comment="false" id="2" x="0" y="0"/>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="2126">
+                                <replace-list comment="false" x="48" y="2042">
                                     <get-val-182-16 comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="14"/>
                                     <get-val-182-53 comment="false" id="2" x="0" y="0"/>
                                 </replace-list>
-                                <replace-list comment="false" x="48" y="2151">
+                                <replace-list comment="false" x="48" y="2067">
                                     <get-game-val-126 comment="false" id="0" x="0" y="0"/>
                                     <get-game-val-128 comment="false" id="1" x="0" y="0"/>
                                     <get-val-182-16 comment="false" id="2" x="0" y="0"/>
                                 </replace-list>
-                                <if comment="false" x="48" y="2176">
+                                <print comment="false" x="48" y="2092">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="Consecutive Right Counter = "/>
+                                        <get-val-182-46 comment="false" id="1" x="0" y="0"/>
+                                    </str-combine>
+                                </print>
+                                <print comment="false" x="48" y="2122">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="Rule Switch Count = "/>
+                                        <get-val-182-45 comment="false" id="1" x="0" y="0"/>
+                                    </str-combine>
+                                </print>
+                                <print comment="false" x="48" y="2152">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                        <int id="1" val="0"/>
+                                    </str-combine>
+                                </print>
+                                <if comment="false" x="48" y="2177">
                                     <group eventID="49" id="-1">
-                                        <scene-change-through comment="false" x="59" y="2206">
-                                            <scene eid="46" id="0"/>
-                                            <int id="1" val="0"/>
-                                            <int id="2" val=".25"/>
-                                        </scene-change-through>
+                                        <if comment="false" x="59" y="2212">
+                                            <group eventID="49" id="-1">
+                                                <set-val-182-50 comment="false" x="70" y="2242">
+                                                    <get-val-182-15 comment="false" id="0" x="0" y="0"/>
+                                                </set-val-182-50>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-val-182-45 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="0"/>
+                                            </eq>
+                                        </if>
+                                        <set-val-182-45 comment="false" x="59" y="2279">
+                                            <plus comment="false" id="0" x="0" y="0">
+                                                <get-val-182-45 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="1"/>
+                                            </plus>
+                                        </set-val-182-45>
+                                        <replace-list comment="false" x="59" y="2309">
+                                            <get-val-182-16 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="12"/>
+                                            <get-val-182-45 comment="false" id="2" x="0" y="0"/>
+                                        </replace-list>
+                                        <if comment="false" x="59" y="2334">
+                                            <group eventID="49" id="-1">
+                                                <scene-change-through comment="false" x="70" y="2364">
+                                                    <scene eid="46" id="0"/>
+                                                    <int id="1" val="0"/>
+                                                    <int id="2" val=".25"/>
+                                                </scene-change-through>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-val-182-45 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="4"/>
+                                            </eq>
+                                        </if>
+                                        <else comment="false" x="59" y="2403">
+                                            <group eventID="49" id="-1">
+                                                <dolater comment="false" x="70" y="2423">
+                                                    <group eventID="49" id="-1">
+                                                        <clear-filter comment="false" x="81" y="2450">
+                                                            <ACTOR eid="var" id="0" vid="1"/>
+                                                        </clear-filter>
+                                                        <say-this comment="false" x="81" y="2477">
+                                                            <int id="0" val="RuleChooser"/>
+                                                        </say-this>
+                                                        <dolater comment="false" x="81" y="2497">
+                                                            <group eventID="49" id="-1">
+                                                                <set-game-val-36 comment="false" x="92" y="2524">
+                                                                    <true comment="false" id="0" x="0" y="0"/>
+                                                                </set-game-val-36>
+                                                            </group>
+                                                            <int id="0" val=".1"/>
+                                                            <ACTOR eid="lastcreated" id="2"/>
+                                                        </dolater>
+                                                    </group>
+                                                    <int id="0" val=".5"/>
+                                                    <ACTOR eid="lastcreated" id="2"/>
+                                                </dolater>
+                                                <save-game comment="false" x="70" y="2573">
+                                                    <group eventID="49" id="-1"/>
+                                                </save-game>
+                                            </group>
+                                        </else>
                                     </group>
                                     <eq comment="false" id="0" x="0" y="0">
-                                        <get-val-182-45 comment="false" id="0" x="0" y="0"/>
-                                        <int id="1" val="4"/>
+                                        <mod comment="false" id="0" x="0" y="0">
+                                            <get-val-182-46 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="10"/>
+                                        </mod>
+                                        <int id="1" val="0"/>
                                     </eq>
                                 </if>
-                                <else comment="false" x="48" y="2245">
+                                <else comment="false" x="48" y="2654">
                                     <group eventID="49" id="-1">
-                                        <dolater comment="false" x="59" y="2265">
+                                        <dolater comment="false" x="59" y="2674">
                                             <group eventID="49" id="-1">
-                                                <clear-filter comment="false" x="70" y="2292">
+                                                <clear-filter comment="false" x="70" y="2701">
                                                     <ACTOR eid="var" id="0" vid="1"/>
                                                 </clear-filter>
-                                                <say-this comment="false" x="70" y="2319">
+                                                <say-this comment="false" x="70" y="2728">
                                                     <int id="0" val="RuleChooser2"/>
                                                 </say-this>
-                                                <dolater comment="false" x="70" y="2339">
+                                                <dolater comment="false" x="70" y="2748">
                                                     <group eventID="49" id="-1">
-                                                        <set-game-val-36 comment="false" x="81" y="2366">
+                                                        <set-game-val-36 comment="false" x="81" y="2775">
                                                             <true comment="false" id="0" x="0" y="0"/>
                                                         </set-game-val-36>
                                                     </group>
@@ -3460,12 +3511,9 @@
                                                     <ACTOR eid="lastcreated" id="2"/>
                                                 </dolater>
                                             </group>
-                                            <int id="0" val="1"/>
+                                            <int id="0" val=".5"/>
                                             <ACTOR eid="lastcreated" id="2"/>
                                         </dolater>
-                                        <save-game comment="false" x="59" y="2415">
-                                            <group eventID="49" id="-1"/>
-                                        </save-game>
                                     </group>
                                 </else>
                             </group>
@@ -3484,9 +3532,7 @@
             <int id="0" val="0"/>
         </event-mouse-press-release>
     </group>
-    <group eventID="49" id="-1">
-        <get-game-val-127 comment="false" x="482" y="2120"/>
-    </group>
+    <group eventID="49" id="-1"/>
     <group eventID="50" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="14" id="-1">
@@ -3889,12 +3935,12 @@
         </print>
     </group>
     <group eventID="51" id="-1">
-        <get-val-182-41 comment="false" x="459" y="512"/>
-        <get-val-182-42 comment="false" x="532" y="509"/>
-        <get-val-182-58 comment="false" x="459" y="704"/>
-        <get-val-182-41 comment="false" x="533" y="700"/>
-        <get-val-182-58 comment="false" x="476" y="757"/>
         <get-val-182-42 comment="false" x="557" y="757"/>
+        <get-val-182-58 comment="false" x="476" y="757"/>
+        <get-val-182-41 comment="false" x="533" y="700"/>
+        <get-val-182-58 comment="false" x="459" y="704"/>
+        <get-val-182-42 comment="false" x="532" y="509"/>
+        <get-val-182-41 comment="false" x="459" y="512"/>
     </group>
     <group eventID="52" id="0">
         <event-custom comment="false" x="15" y="15">
@@ -4465,12 +4511,12 @@
         </event-custom>
     </group>
     <group eventID="55" id="-1">
-        <get-val-182-42 comment="false" x="400" y="36"/>
-        <get-val-182-42 comment="false" x="394" y="43"/>
-        <get-val-182-43 comment="false" x="490" y="31"/>
-        <get-val-182-43 comment="false" x="498" y="43"/>
-        <get-val-182-41 comment="false" x="576" y="23"/>
         <get-val-182-41 comment="false" x="573" y="11"/>
+        <get-val-182-41 comment="false" x="576" y="23"/>
+        <get-val-182-43 comment="false" x="498" y="43"/>
+        <get-val-182-43 comment="false" x="490" y="31"/>
+        <get-val-182-42 comment="false" x="394" y="43"/>
+        <get-val-182-42 comment="false" x="400" y="36"/>
     </group>
     <group eventID="56" id="0">
         <event-custom comment="false" x="15" y="15">
@@ -5234,10 +5280,10 @@
         </set-val-182-40>
     </group>
     <group eventID="61" id="-1">
-        <get-val-182-39 comment="false" x="247" y="198"/>
-        <get-val-182-40 comment="false" x="540" y="235"/>
-        <get-val-182-67 comment="false" x="397" y="401"/>
         <get-val-182-67 comment="false" x="390" y="378"/>
+        <get-val-182-67 comment="false" x="397" y="401"/>
+        <get-val-182-40 comment="false" x="540" y="235"/>
+        <get-val-182-39 comment="false" x="247" y="198"/>
     </group>
     <group eventID="62" id="0">
         <event-custom comment="false" x="15" y="15">

@@ -434,7 +434,49 @@ class Design_80_80_EmailData extends ActorScript
 				{
 					for(index0 in 0...Std.int((Engine.engine.getGameAttribute("L21Date").length - 1)))
 					{
-						_Level21Data = (("" + (("" + _Level21Data) + ("" + _onereturn))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))]));
+						_Level21Data = (("" + _Level21Data) + ("" + _onereturn));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + "SET: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(1)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + " | DATE: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(0)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + " | TIME: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(2)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + _Level21Data) + ("" + _onereturn));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + "# OF TRIALS: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(3)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + " | # CORRECT: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(4)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + " | PERCENT CORRECT: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(5)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + _Level21Data) + ("" + _onereturn));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + "PERSEVERATIVE ERRORS: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(6)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + " | PERCENT P ERRORS: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(7)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + _Level21Data) + ("" + _onereturn));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + "NON-PERSEVERATIVE ERRORS: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(8)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + " | TOTAL ERRORS: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(9)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + " | PERCENT ERRORS: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(10)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + _Level21Data) + ("" + _onereturn));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + "TRIALS TO COMPLETE FIRST CATEGORY: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(11)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + " | CATEGORIES ACHIEVED: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(12)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + _Level21Data) + ("" + _onereturn));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + "PERCENT CONCEPTUAL LEVEL RESPONSES: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(13)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + (("" + _Level21Data) + ("" + " | FAILURES TO MAINTAIN SET: "))) + ("" + Engine.engine.getGameAttribute("L21Date")[Std.int((index0 + 1))][Std.int(14)]));
+						propertyChanged("_Level21Data", _Level21Data);
+						_Level21Data = (("" + _Level21Data) + ("" + _onereturn));
 						propertyChanged("_Level21Data", _Level21Data);
 					}
 				}

@@ -198,21 +198,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-8 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
+                                <repeat comment="false" x="48" y="372">
                                     <group eventID="3" id="-1">
-                                        <if comment="false" x="59" y="382">
+                                        <if comment="false" x="59" y="397">
                                             <group eventID="3" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -232,7 +252,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-8 comment="false" id="0" x="0" y="0"/>
@@ -258,9 +278,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
+                                        <if comment="false" x="59" y="514">
                                             <group eventID="3" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -283,7 +303,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-8 comment="false" id="0" x="0" y="0"/>
@@ -526,14 +546,45 @@
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <set-val-0-1 comment="false" x="48" y="322">
+                                <draw-text comment="false" x="48" y="322">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-13 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-13 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
+                                    <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+                                    <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+                                </draw-text>
+                                <set-val-0-1 comment="false" x="48" y="372">
                                     <int id="0" val="0"/>
                                 </set-val-0-1>
-                                <repeat comment="false" x="48" y="342">
+                                <repeat comment="false" x="48" y="392">
                                     <group eventID="4" id="-1">
-                                        <if comment="false" x="59" y="367">
+                                        <if comment="false" x="59" y="417">
                                             <group eventID="4" id="-1">
-                                                <draw-text comment="false" x="70" y="397">
+                                                <draw-text comment="false" x="70" y="447">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -553,7 +604,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="437">
+                                                <draw-text comment="false" x="70" y="487">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-13 comment="false" id="0" x="0" y="0"/>
@@ -573,9 +624,9 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <if comment="false" x="70" y="472">
+                                                <if comment="false" x="70" y="522">
                                                     <group eventID="4" id="-1">
-                                                        <set-val-0-1 comment="false" x="81" y="512">
+                                                        <set-val-0-1 comment="false" x="81" y="562">
                                                             <plus comment="false" id="0" x="0" y="0">
                                                                 <get-val-0-1 comment="false" id="0" x="0" y="0"/>
                                                                 <int id="1" val="1"/>
@@ -602,9 +653,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="566">
+                                        <if comment="false" x="59" y="616">
                                             <group eventID="4" id="-1">
-                                                <draw-text comment="false" x="70" y="596">
+                                                <draw-text comment="false" x="70" y="646">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -627,7 +678,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="636">
+                                                <draw-text comment="false" x="70" y="686">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-13 comment="false" id="0" x="0" y="0"/>
@@ -650,9 +701,9 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <if comment="false" x="70" y="676">
+                                                <if comment="false" x="70" y="726">
                                                     <group eventID="4" id="-1">
-                                                        <set-val-0-1 comment="false" x="81" y="716">
+                                                        <set-val-0-1 comment="false" x="81" y="766">
                                                             <plus comment="false" id="0" x="0" y="0">
                                                                 <get-val-0-1 comment="false" id="0" x="0" y="0"/>
                                                                 <int id="1" val="1"/>
@@ -682,22 +733,6 @@
                                     </group>
                                     <int id="0" val="10"/>
                                 </repeat>
-                                <if comment="false" x="48" y="782">
-                                    <group eventID="4" id="-1">
-                                        <draw-text comment="false" x="59" y="812">
-                                            <str-combine comment="false" id="0" x="0" y="0">
-                                                <get-val-0-1 comment="false" id="0" x="0" y="0"/>
-                                                <int id="1" val="0% Correct!"/>
-                                            </str-combine>
-                                            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
-                                            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
-                                        </draw-text>
-                                    </group>
-                                    <more comment="false" id="0" x="0" y="0">
-                                        <get-val-0-1 comment="false" id="0" x="0" y="0"/>
-                                        <int id="1" val="0"/>
-                                    </more>
-                                </if>
                             </group>
                             <and comment="false" id="0" x="0" y="0">
                                 <moreeq comment="false" id="0" x="0" y="0">
@@ -723,7 +758,41 @@
             </group>
         </draw>
     </group>
-    <group eventID="4" id="-1"/>
+    <group eventID="4" id="1">
+        <if comment="false" x="26" y="1107">
+            <group eventID="4" id="-1">
+                <draw-text comment="false" x="37" y="1137">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <get-val-0-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0% Correct!"/>
+                    </str-combine>
+                    <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+                    <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+                </draw-text>
+            </group>
+            <more comment="false" id="0" x="0" y="0">
+                <get-val-0-1 comment="false" id="0" x="0" y="0"/>
+                <int id="1" val="0"/>
+            </more>
+        </if>
+    </group>
+    <group eventID="4" id="4">
+        <draw-text comment="false" x="38" y="1030">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-13 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
+    </group>
+    <group eventID="4" id="-1">
+        <get-game-val-8 comment="false" x="1179" y="391"/>
+        <get-game-val-8 comment="false" x="481" y="381"/>
+    </group>
     <group eventID="5" id="0">
         <draw comment="false" x="15" y="15">
             <group eventID="4" id="-1">
@@ -801,21 +870,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-33 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-33 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-33 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="5" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="5" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -835,7 +924,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-33 comment="false" id="0" x="0" y="0"/>
@@ -861,9 +950,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="5" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -886,7 +975,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-33 comment="false" id="0" x="0" y="0"/>
@@ -943,7 +1032,26 @@
             </group>
         </draw>
     </group>
-    <group eventID="5" id="-1"/>
+    <group eventID="5" id="1">
+        <draw-text comment="false" x="52" y="761">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-33 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
+    </group>
+    <group eventID="5" id="2">
+        <get-game-val-13 comment="false" x="621" y="379"/>
+    </group>
+    <group eventID="5" id="-1">
+        <get-game-val-8 comment="false" x="1208" y="378"/>
+        <get-game-val-8 comment="false" x="525" y="371"/>
+    </group>
     <group eventID="6" id="0">
         <draw comment="false" x="15" y="15">
             <group eventID="4" id="-1">
@@ -1021,21 +1129,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-60 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="6" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="6" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -1055,7 +1183,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-60 comment="false" id="0" x="0" y="0"/>
@@ -1081,9 +1209,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="6" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -1106,7 +1234,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-60 comment="false" id="0" x="0" y="0"/>
@@ -1163,7 +1291,22 @@
             </group>
         </draw>
     </group>
-    <group eventID="6" id="-1"/>
+    <group eventID="6" id="1">
+        <draw-text comment="false" x="52" y="742">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
+    </group>
+    <group eventID="6" id="-1">
+        <get-game-val-8 comment="false" x="538" y="392"/>
+    </group>
     <group eventID="7" id="0">
         <draw comment="false" x="15" y="15">
             <group eventID="7" id="-1">
@@ -1320,21 +1463,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-66 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-66 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-66 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="8" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="8" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -1354,7 +1517,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-66 comment="false" id="0" x="0" y="0"/>
@@ -1380,9 +1543,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="8" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -1405,7 +1568,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-66 comment="false" id="0" x="0" y="0"/>
@@ -1462,7 +1625,22 @@
             </group>
         </draw>
     </group>
-    <group eventID="8" id="-1"/>
+    <group eventID="8" id="1">
+        <draw-text comment="false" x="49" y="767">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-66 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
+    </group>
+    <group eventID="8" id="-1">
+        <get-game-val-8 comment="false" x="528" y="380"/>
+    </group>
     <group eventID="9" id="0">
         <draw comment="false" x="15" y="15">
             <group eventID="4" id="-1">
@@ -1540,21 +1718,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-69 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-69 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-69 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="9" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="9" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -1574,7 +1772,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-69 comment="false" id="0" x="0" y="0"/>
@@ -1600,9 +1798,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="9" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -1625,7 +1823,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-69 comment="false" id="0" x="0" y="0"/>
@@ -1681,6 +1879,19 @@
                 </if>
             </group>
         </draw>
+    </group>
+    <group eventID="9" id="1">
+        <draw-text comment="false" x="45" y="739">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-69 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
     </group>
     <group eventID="9" id="-1"/>
     <group eventID="10" id="0">
@@ -1760,21 +1971,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-73 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-73 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-73 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="10" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="10" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -1794,7 +2025,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-73 comment="false" id="0" x="0" y="0"/>
@@ -1820,9 +2051,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="10" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -1845,7 +2076,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-73 comment="false" id="0" x="0" y="0"/>
@@ -1901,6 +2132,19 @@
                 </if>
             </group>
         </draw>
+    </group>
+    <group eventID="10" id="1">
+        <draw-text comment="false" x="38" y="753">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-73 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
     </group>
     <group eventID="10" id="-1"/>
     <group eventID="11" id="0">
@@ -1980,21 +2224,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-80 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-80 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-80 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="11" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="11" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -2014,7 +2278,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-80 comment="false" id="0" x="0" y="0"/>
@@ -2040,9 +2304,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="11" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -2065,7 +2329,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-80 comment="false" id="0" x="0" y="0"/>
@@ -2122,7 +2386,22 @@
             </group>
         </draw>
     </group>
-    <group eventID="11" id="-1"/>
+    <group eventID="11" id="1">
+        <draw-text comment="false" x="47" y="737">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-80 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
+    </group>
+    <group eventID="11" id="-1">
+        <get-game-val-8 comment="false" x="528" y="381"/>
+    </group>
     <group eventID="12" id="0">
         <draw comment="false" x="15" y="15">
             <group eventID="4" id="-1">
@@ -2200,21 +2479,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-77 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-77 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-77 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="12" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="12" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -2234,7 +2533,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-77 comment="false" id="0" x="0" y="0"/>
@@ -2260,9 +2559,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="12" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -2285,7 +2584,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-77 comment="false" id="0" x="0" y="0"/>
@@ -2341,6 +2640,19 @@
                 </if>
             </group>
         </draw>
+    </group>
+    <group eventID="12" id="1">
+        <draw-text comment="false" x="46" y="731">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-77 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
     </group>
     <group eventID="12" id="-1"/>
     <group eventID="13" id="0">
@@ -2420,21 +2732,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-83 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-83 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-83 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="13" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="13" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -2454,7 +2786,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-83 comment="false" id="0" x="0" y="0"/>
@@ -2480,9 +2812,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="13" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -2505,7 +2837,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-83 comment="false" id="0" x="0" y="0"/>
@@ -2561,6 +2893,19 @@
                 </if>
             </group>
         </draw>
+    </group>
+    <group eventID="13" id="1">
+        <draw-text comment="false" x="29" y="725">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-83 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
     </group>
     <group eventID="13" id="-1"/>
     <group eventID="14" id="0">
@@ -2640,21 +2985,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-86 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-86 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-86 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="14" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="14" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -2674,7 +3039,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-86 comment="false" id="0" x="0" y="0"/>
@@ -2700,9 +3065,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="14" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -2725,7 +3090,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-86 comment="false" id="0" x="0" y="0"/>
@@ -2781,6 +3146,19 @@
                 </if>
             </group>
         </draw>
+    </group>
+    <group eventID="14" id="1">
+        <draw-text comment="false" x="46" y="724">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-86 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
     </group>
     <group eventID="14" id="-1"/>
     <group eventID="15" id="0">
@@ -2860,21 +3238,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-89 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-89 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-89 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="15" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="15" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -2894,7 +3292,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-89 comment="false" id="0" x="0" y="0"/>
@@ -2920,9 +3318,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="15" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -2945,7 +3343,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-89 comment="false" id="0" x="0" y="0"/>
@@ -3001,6 +3399,19 @@
                 </if>
             </group>
         </draw>
+    </group>
+    <group eventID="15" id="1">
+        <draw-text comment="false" x="38" y="726">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-89 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
     </group>
     <group eventID="15" id="-1"/>
     <group eventID="16" id="0">
@@ -3080,21 +3491,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-98 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-98 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-98 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="16" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="16" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -3114,7 +3545,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-98 comment="false" id="0" x="0" y="0"/>
@@ -3140,9 +3571,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="16" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -3165,7 +3596,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-98 comment="false" id="0" x="0" y="0"/>
@@ -3221,6 +3652,19 @@
                 </if>
             </group>
         </draw>
+    </group>
+    <group eventID="16" id="1">
+        <draw-text comment="false" x="40" y="750">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-98 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
     </group>
     <group eventID="16" id="-1"/>
     <group eventID="17" id="0">
@@ -3300,21 +3744,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-99 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-99 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-99 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="17" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="17" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -3334,7 +3798,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-99 comment="false" id="0" x="0" y="0"/>
@@ -3360,9 +3824,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="17" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -3385,7 +3849,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-99 comment="false" id="0" x="0" y="0"/>
@@ -3441,6 +3905,19 @@
                 </if>
             </group>
         </draw>
+    </group>
+    <group eventID="17" id="1">
+        <draw-text comment="false" x="31" y="741">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-99 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
     </group>
     <group eventID="17" id="-1"/>
     <group eventID="18" id="0">
@@ -3520,21 +3997,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-100 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-100 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-100 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="18" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="18" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -3554,7 +4051,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-100 comment="false" id="0" x="0" y="0"/>
@@ -3580,9 +4077,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="18" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -3605,7 +4102,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-100 comment="false" id="0" x="0" y="0"/>
@@ -3661,6 +4158,19 @@
                 </if>
             </group>
         </draw>
+    </group>
+    <group eventID="18" id="1">
+        <draw-text comment="false" x="42" y="738">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-100 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
     </group>
     <group eventID="18" id="-1"/>
     <group eventID="19" id="0">
@@ -3740,21 +4250,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-114 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-114 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-114 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="19" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="19" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -3774,7 +4304,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-114 comment="false" id="0" x="0" y="0"/>
@@ -3800,9 +4330,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="19" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -3825,7 +4355,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-114 comment="false" id="0" x="0" y="0"/>
@@ -3881,6 +4411,19 @@
                 </if>
             </group>
         </draw>
+    </group>
+    <group eventID="19" id="1">
+        <draw-text comment="false" x="45" y="725">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-114 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
     </group>
     <group eventID="19" id="-1"/>
     <group eventID="20" id="0">
@@ -4445,21 +4988,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-120 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-120 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-120 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="21" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="21" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -4479,7 +5042,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-120 comment="false" id="0" x="0" y="0"/>
@@ -4505,9 +5068,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="21" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -4530,7 +5093,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-120 comment="false" id="0" x="0" y="0"/>
@@ -4586,6 +5149,19 @@
                 </if>
             </group>
         </draw>
+    </group>
+    <group eventID="21" id="1">
+        <draw-text comment="false" x="48" y="721">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-120 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
     </group>
     <group eventID="21" id="-1"/>
     <group eventID="22" id="0">
@@ -4744,21 +5320,41 @@
                                     <get-val-0-6 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
                                 <draw-text comment="false" x="48" y="322">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-game-val-125 comment="false" id="0" x="0" y="0"/>
-                                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
-                                        </get-item>
-                                        <int id="1" val="3"/>
-                                    </get-item>
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <str-substring comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-game-val-125 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                </get-item>
+                                                <int id="1" val="3"/>
+                                            </get-item>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="3"/>
+                                        </str-substring>
+                                        <str-combine comment="false" id="1" x="0" y="0">
+                                            <str-space comment="false" id="0" x="0" y="0"/>
+                                            <str-substring comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-game-val-125 comment="false" id="0" x="0" y="0"/>
+                                                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                                                    </get-item>
+                                                    <int id="1" val="3"/>
+                                                </get-item>
+                                                <int id="1" val="5"/>
+                                                <int id="2" val="12"/>
+                                            </str-substring>
+                                        </str-combine>
+                                    </str-combine>
                                     <get-val-0-10 comment="false" id="1" x="0" y="0"/>
                                     <get-val-0-7 comment="false" id="2" x="0" y="0"/>
                                 </draw-text>
-                                <repeat comment="false" x="48" y="357">
-                                    <group eventID="2" id="-1">
-                                        <if comment="false" x="59" y="382">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="412">
+                                <repeat comment="false" x="48" y="372">
+                                    <group eventID="23" id="-1">
+                                        <if comment="false" x="59" y="397">
+                                            <group eventID="23" id="-1">
+                                                <draw-text comment="false" x="70" y="427">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -4778,7 +5374,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="452">
+                                                <draw-text comment="false" x="70" y="467">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-125 comment="false" id="0" x="0" y="0"/>
@@ -4804,9 +5400,9 @@
                                                 <int id="1" val="4"/>
                                             </lesseq>
                                         </if>
-                                        <if comment="false" x="59" y="499">
-                                            <group eventID="2" id="-1">
-                                                <draw-text comment="false" x="70" y="529">
+                                        <if comment="false" x="59" y="514">
+                                            <group eventID="23" id="-1">
+                                                <draw-text comment="false" x="70" y="544">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <str-combine comment="false" id="0" x="0" y="0">
                                                             <int id="0" val="Trial "/>
@@ -4829,7 +5425,7 @@
                                                         <get-val-0-8 comment="false" id="1" x="0" y="0"/>
                                                     </plus>
                                                 </draw-text>
-                                                <draw-text comment="false" x="70" y="569">
+                                                <draw-text comment="false" x="70" y="584">
                                                     <get-item comment="false" id="0" x="0" y="0">
                                                         <get-item comment="false" id="0" x="0" y="0">
                                                             <get-game-val-125 comment="false" id="0" x="0" y="0"/>
@@ -4885,6 +5481,19 @@
                 </if>
             </group>
         </draw>
+    </group>
+    <group eventID="23" id="1">
+        <draw-text comment="false" x="47" y="709">
+            <get-item comment="false" id="0" x="0" y="0">
+                <get-item comment="false" id="0" x="0" y="0">
+                    <get-game-val-125 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                </get-item>
+                <int id="1" val="3"/>
+            </get-item>
+            <get-val-0-10 comment="false" id="1" x="0" y="0"/>
+            <get-val-0-7 comment="false" id="2" x="0" y="0"/>
+        </draw-text>
     </group>
     <group eventID="23" id="-1"/>
     <group eventID="24" id="0">

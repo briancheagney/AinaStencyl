@@ -88,7 +88,7 @@ class SceneEvents_3 extends SceneScript
 		if((Engine.engine.getGameAttribute("WaitingForFalse") == false))
 		{
 			Engine.engine.setGameAttribute("WaitingForFalse", true);
-			runLater(1000 * 2, function(timeTask:TimedTask):Void
+			runLater(1000 * 1.5, function(timeTask:TimedTask):Void
 			{
 				Engine.engine.setGameAttribute("Level03Falser", true);
 				Engine.engine.setGameAttribute("WaitingForFalse", false);

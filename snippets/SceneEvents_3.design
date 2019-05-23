@@ -808,7 +808,7 @@
                                     <false comment="false" id="0" x="0" y="0"/>
                                 </set-game-val-135>
                             </group>
-                            <int id="0" val="2"/>
+                            <int id="0" val="1.5"/>
                             <ACTOR eid="lastcreated" id="2"/>
                         </dolater>
                     </group>

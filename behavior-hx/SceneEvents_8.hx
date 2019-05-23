@@ -220,8 +220,8 @@ class SceneEvents_8 extends SceneScript
 		propertyChanged("_FalseLeeway", _FalseLeeway);
 		_Target.disableActorDrawing();
 		_Match.disableActorDrawing();
-		_Target.growTo(0/100, 0/100, 0, Linear.easeNone);
-		_Match.growTo(0/100, 0/100, 0, Linear.easeNone);
+		_Target.growTo(95/100, 95/100, 0, Linear.easeNone);
+		_Match.growTo(95/100, 95/100, 0, Linear.easeNone);
 		_Target.setAnimation("" + ("" + "NullClub"));
 		
 		/* ======================= After N seconds ======================== */
@@ -232,10 +232,10 @@ class SceneEvents_8 extends SceneScript
 				trace("" + "fade in now.");
 				_Target.setAnimation("" + ("" + "NullClub"));
 				_Target.enableActorDrawing();
-				_Target.growTo(125/100, 125/100, .1, Linear.easeNone);
+				_Target.growTo(Engine.engine.getGameAttribute("ButtonGrowPercentBig")/100, Engine.engine.getGameAttribute("ButtonGrowPercentBig")/100, Engine.engine.getGameAttribute("ButtonGrowTimer"), Linear.easeNone);
 				runLater(1000 * .1, function(timeTask:TimedTask):Void
 				{
-					_Target.growTo(100/100, 100/100, .05, Linear.easeNone);
+					_Target.growTo(100/100, 100/100, Engine.engine.getGameAttribute("ButtonGrowTimer"), Linear.easeNone);
 					_Target.setAnimation("" + "00Club");
 				}, null);
 			}

@@ -218,6 +218,7 @@
         <number cid="-1" id="53" name="Level03Falsecounter" save="true" value="0.0"/>
         <number cid="3" id="67" name="LevelTrial" save="true" value="0.0"/>
         <number cid="-1" id="123" name="MatchX" save="true" value="220.0"/>
+        <number cid="-1" id="137" name="ButtonGrowPercentBig" save="true" value="102.0"/>
         <list cid="2" id="13" name="L03Date01" save="true" val="list">
             <text order="0" value="Level 03"/>
         </list>
@@ -239,6 +240,7 @@
         <number cid="-1" id="108" name="L14Num02TotalNum" save="true" value="0.0"/>
         <number cid="-1" id="115" name="TESTREMOVER" save="true" value="0.0"/>
         <boolean cid="-1" id="36" name="TargetPush" save="true" value="true"/>
+        <number cid="-1" id="138" name="ButtonGrowTimer" save="true" value="0.05"/>
         <number cid="4" id="119" name="L19_2var_Shape_Num_TotalNum" save="true" value="0.0"/>
         <number cid="4" id="72" name="L08TotalNum" save="true" value="0.0"/>
         <boolean cid="-1" id="25" name="GetDayYearBool" save="true" value="false"/>
