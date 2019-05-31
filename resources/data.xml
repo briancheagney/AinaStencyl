@@ -403,14 +403,6 @@
             <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 23" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="188" fixedrot="false" fric="0.2" gid="3" id="243" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Circle" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="244" static="false">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="244" name="Circle" shared="false" width="64">
-        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
     <music atlasID="0" desc="" id="58" loop="true" name="Click" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <music atlasID="0" desc="" id="59" loop="true" name="clicksmall" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <music atlasID="0" desc="" id="57" loop="true" name="Correct" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
@@ -1021,6 +1013,11 @@
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="265" name="Level 21 Button 2ShpNum" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="194" fixedrot="false" fric="0.2" gid="3" id="251" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Level 21 Button 2ShpNum" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="252" static="true">
         <snippets/>
     </actor>
@@ -1029,6 +1026,9 @@
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="205" fixedrot="false" fric="0.2" gid="3" id="264" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Level 22 Button 2ShpNum" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="265" static="true">
+        <snippets/>
+    </actor>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="60" fixedrot="true" fric="0.2" gid="3" id="78" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Medium" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="79" static="false">
         <snippets>
             <s enabled="true" id="2">
@@ -1045,6 +1045,200 @@
             </s>
         </snippets>
     </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="100" id="261" name="OnlyButton" shared="false" width="87">
+        <anim across="1" down="1" durations="100" height="100" id="0" loop="false" name="BlueCircle01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="BlueCircle01" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="BlueCircle02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="2" loop="true" name="BlueCircle03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="3" loop="true" name="BlueCircle04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 3" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="4" loop="true" name="BlueSquare01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="5" loop="true" name="BlueSquare02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 5" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="6" loop="true" name="BlueSquare03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 6" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="7" loop="true" name="BlueSquare04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 7" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="8" loop="true" name="BlueStar01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 8" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="9" loop="true" name="BlueStar02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 9" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="10" loop="true" name="BlueStar03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 10" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="11" loop="true" name="BlueStar04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 11" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="12" loop="true" name="BluePlus01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 12" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="13" loop="true" name="BluePlus02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 13" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="14" loop="true" name="BluePlus03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 14" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="15" loop="true" name="BluePlus04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 15" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="16" loop="true" name="GreenCircle01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 16" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="17" loop="true" name="GreenCircle02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 17" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="18" loop="true" name="GreenCircle03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 18" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="19" loop="true" name="GreenCircle04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 19" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="20" loop="true" name="GreenSquare01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 20" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="21" loop="true" name="GreenSquare02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 21" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="22" loop="true" name="GreenSquare03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 22" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="23" loop="true" name="GreenSquare04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 23" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="24" loop="true" name="GreenStar01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 24" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="25" loop="true" name="GreenStar02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 25" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="26" loop="true" name="GreenStar03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 26" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="27" loop="true" name="GreenStar04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 27" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="28" loop="true" name="GreenPlus01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 28" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="29" loop="true" name="GreenPlus02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 29" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="30" loop="true" name="GreenPlus03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 30" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="31" loop="true" name="GreenPlus04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 31" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="32" loop="true" name="RedCircle01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 32" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="33" loop="true" name="RedCircle02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 33" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="34" loop="true" name="RedCircle03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 34" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="35" loop="true" name="RedCircle04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 35" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="36" loop="true" name="RedSquare01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 36" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="37" loop="true" name="RedSquare02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 37" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="38" loop="true" name="RedSquare03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 38" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="39" loop="true" name="RedSquare04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 39" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="40" loop="true" name="RedStar01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 40" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="41" loop="true" name="RedStar02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 41" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="42" loop="true" name="RedStar03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 42" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="43" loop="true" name="RedStar04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 43" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="44" loop="true" name="RedPlus01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 44" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="45" loop="true" name="RedPlus02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 45" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="46" loop="true" name="RedPlus03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 46" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="47" loop="true" name="RedPlus04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 47" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="48" loop="true" name="YellowCircle01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 48" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="49" loop="true" name="YellowCircle02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 49" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="50" loop="true" name="YellowCircle03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 50" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="51" loop="true" name="YellowCircle04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 51" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="52" loop="true" name="YellowSquare01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 52" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="53" loop="true" name="YellowSquare02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 53" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="54" loop="true" name="YellowSquare03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 54" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="55" loop="true" name="YellowSquare04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 55" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="56" loop="true" name="YellowStar01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 56" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="57" loop="true" name="YellowStar02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 57" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="58" loop="true" name="YellowStar03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 58" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="59" loop="true" name="YellowStar04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 59" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="60" loop="true" name="YellowPlus01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 60" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="61" loop="true" name="YellowPlus02" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 61" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="62" loop="true" name="YellowPlus03" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 62" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="63" loop="true" name="YellowPlus04" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 63" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="100" id="248" name="OnlyButton" shared="false" width="87">
         <anim across="1" down="1" durations="100" height="100" id="0" loop="false" name="BlueClub01" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
             <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
@@ -1242,6 +1436,9 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="192" fixedrot="true" fric="0.2" gid="3" id="247" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="OnlyCard" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="248" static="false">
         <snippets/>
     </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="202" fixedrot="true" fric="0.2" gid="3" id="260" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="OnlyCard_WCST" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="261" static="false">
+        <snippets/>
+    </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="256" name="sliderline" shared="false" width="128">
         <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="64" originy="16" sync="false" version="2" width="128">
             <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
@@ -1359,6 +1556,14 @@
             </s>
         </snippets>
     </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="203" fixedrot="false" fric="0.2" gid="3" id="262" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="testhuecard" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="263" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="100" id="263" name="testhuecard" shared="false" width="87">
+        <anim across="1" down="1" durations="100" height="100" id="0" loop="true" name="Animation 0" numframes="1" originx="43" originy="50" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="198" fixedrot="true" fric="0.2" gid="3" id="257" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="TintBall" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="258" static="false">
         <snippets/>
     </actor>

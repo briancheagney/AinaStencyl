@@ -35,6 +35,7 @@
         <actor a="0.0" aid="27" c="false" group="3" id="249" name="Level 20 Button 2ShpNum 27" sx="0.75" sy="0.75" x="167" y="259" z="0"/>
         <actor a="0.0" aid="28" c="false" group="3" id="251" name="Level 21 Button 2ShpNum 28" sx="0.75" sy="0.75" x="220" y="259" z="0"/>
         <actor a="0.0" aid="29" c="false" group="3" id="253" name="B_Settings 29" sx="1.0" sy="1.0" x="342" y="150" z="0"/>
+        <actor a="0.0" aid="30" c="false" group="3" id="264" name="Level 21 Button 2ShpNum Copy 30" sx="0.75" sy="0.75" x="273" y="258" z="0"/>
     </actors>
     <snippets/>
     <terrain/>

@@ -277,9 +277,9 @@ This is Rule 1 = shape matches! */
 		_NumberGetters.push(4);
 		Utils.clear(_ColorsGetters);
 		_ColorsGetters.push("Blue");
-		_ColorsGetters.push("Orange");
-		_ColorsGetters.push("Pink");
-		_ColorsGetters.push("Purple");
+		_ColorsGetters.push("Yellow");
+		_ColorsGetters.push("Red");
+		_ColorsGetters.push("Green");
 		_ACCT = asNumber(randomInt(Math.floor(1), Math.floor(4)));
 		propertyChanged("_ACCT", _ACCT);
 		_ACCMT = asNumber(randomInt(Math.floor(1), Math.floor(4)));
@@ -321,23 +321,23 @@ This is Rule 1 = shape matches! */
 		}
 		else if((_ACCT == 2))
 		{
-			_ChooseColorTarget = "Orange";
+			_ChooseColorTarget = "Yellow";
 			propertyChanged("_ChooseColorTarget", _ChooseColorTarget);
-			_ChooseColorNoMatch = "Orange";
+			_ChooseColorNoMatch = "Yellow";
 			propertyChanged("_ChooseColorNoMatch", _ChooseColorNoMatch);
 		}
 		else if((_ACCT == 3))
 		{
-			_ChooseColorTarget = "Pink";
+			_ChooseColorTarget = "Red";
 			propertyChanged("_ChooseColorTarget", _ChooseColorTarget);
-			_ChooseColorNoMatch = "Pink";
+			_ChooseColorNoMatch = "Red";
 			propertyChanged("_ChooseColorNoMatch", _ChooseColorNoMatch);
 		}
 		else if((_ACCT == 4))
 		{
-			_ChooseColorTarget = "Purple";
+			_ChooseColorTarget = "Green";
 			propertyChanged("_ChooseColorTarget", _ChooseColorTarget);
-			_ChooseColorNoMatch = "Purple";
+			_ChooseColorNoMatch = "Green";
 			propertyChanged("_ChooseColorNoMatch", _ChooseColorNoMatch);
 		}
 		if((_ACCMT == 1))
@@ -347,17 +347,17 @@ This is Rule 1 = shape matches! */
 		}
 		else if((_ACCMT == 2))
 		{
-			_ChooseColorMatch = "Orange";
+			_ChooseColorMatch = "Yellow";
 			propertyChanged("_ChooseColorMatch", _ChooseColorMatch);
 		}
 		else if((_ACCMT == 3))
 		{
-			_ChooseColorMatch = "Pink";
+			_ChooseColorMatch = "Red";
 			propertyChanged("_ChooseColorMatch", _ChooseColorMatch);
 		}
 		else if((_ACCMT == 4))
 		{
-			_ChooseColorMatch = "Purple";
+			_ChooseColorMatch = "Green";
 			propertyChanged("_ChooseColorMatch", _ChooseColorMatch);
 		}
 		_customEvent_Rule1Setup3();
@@ -379,21 +379,21 @@ This is Rule 1 = shape matches! */
 		{
 			_ACCMF2 = asNumber(2);
 			propertyChanged("_ACCMF2", _ACCMF2);
-			_ChooseColorNoMatch2 = "Orange";
+			_ChooseColorNoMatch2 = "Yellow";
 			propertyChanged("_ChooseColorNoMatch2", _ChooseColorNoMatch2);
 		}
 		else if((!(_ACCMT == 3) && (!(_ACCMF == 3) && !(_ACCT == 3))))
 		{
 			_ACCMF2 = asNumber(3);
 			propertyChanged("_ACCMF2", _ACCMF2);
-			_ChooseColorNoMatch2 = "Pink";
+			_ChooseColorNoMatch2 = "Red";
 			propertyChanged("_ChooseColorNoMatch2", _ChooseColorNoMatch2);
 		}
 		else
 		{
 			_ACCMF2 = asNumber(4);
 			propertyChanged("_ACCMF2", _ACCMF2);
-			_ChooseColorNoMatch2 = "Purple";
+			_ChooseColorNoMatch2 = "Green";
 			propertyChanged("_ChooseColorNoMatch2", _ChooseColorNoMatch2);
 		}
 		trace("" + (("" + ("" + "ACC_T = ")) + ("" + ("" + _Target))));
@@ -406,6 +406,10 @@ This is Rule 1 = shape matches! */
 	/* ========================= Custom Event ========================= */
 	public function _customEvent_Rule1Setup4():Void
 	{
+		/* Clubs become Circle
+Diamond becomes Plus
+Hearts become Squares
+Moons become Stars */
 		trace("" + "Rule1Setup4 Begun");
 		/* What we're doing here is determining which SHAPE everything has to be. Since we're on Rule 1, the Target Shape has to match the MatchT Shape. The other two shapes are random. */
 		_ASCT = asNumber(randomInt(Math.floor(1), Math.floor(4)));
@@ -432,70 +436,70 @@ This is Rule 1 = shape matches! */
 			{
 				if((_ASCT == 1))
 				{
-					_ChooseShapeTarget = "Club";
+					_ChooseShapeTarget = "Circle";
 					propertyChanged("_ChooseShapeTarget", _ChooseShapeTarget);
-					_ChooseShapeMatch = "Club";
+					_ChooseShapeMatch = "Circle";
 					propertyChanged("_ChooseShapeMatch", _ChooseShapeMatch);
 				}
 				else if((_ASCT == 2))
 				{
-					_ChooseShapeTarget = "Diamond";
+					_ChooseShapeTarget = "Plus";
 					propertyChanged("_ChooseShapeTarget", _ChooseShapeTarget);
-					_ChooseShapeMatch = "Diamond";
+					_ChooseShapeMatch = "Plus";
 					propertyChanged("_ChooseShapeMatch", _ChooseShapeMatch);
 				}
 				else if((_ASCT == 3))
 				{
-					_ChooseShapeTarget = "Heart";
+					_ChooseShapeTarget = "Square";
 					propertyChanged("_ChooseShapeTarget", _ChooseShapeTarget);
-					_ChooseShapeMatch = "Heart";
+					_ChooseShapeMatch = "Square";
 					propertyChanged("_ChooseShapeMatch", _ChooseShapeMatch);
 				}
 				else
 				{
-					_ChooseShapeTarget = "Moon";
+					_ChooseShapeTarget = "Star";
 					propertyChanged("_ChooseShapeTarget", _ChooseShapeTarget);
-					_ChooseShapeMatch = "Moon";
+					_ChooseShapeMatch = "Star";
 					propertyChanged("_ChooseShapeMatch", _ChooseShapeMatch);
 				}
 				if((_ASCMF == 1))
 				{
-					_ChooseShapeNoMatch = "Club";
+					_ChooseShapeNoMatch = "Circle";
 					propertyChanged("_ChooseShapeNoMatch", _ChooseShapeNoMatch);
 				}
 				else if((_ASCMF == 2))
 				{
-					_ChooseShapeNoMatch = "Diamond";
+					_ChooseShapeNoMatch = "Plus";
 					propertyChanged("_ChooseShapeNoMatch", _ChooseShapeNoMatch);
 				}
 				else if((_ASCMF == 3))
 				{
-					_ChooseShapeNoMatch = "Heart";
+					_ChooseShapeNoMatch = "Square";
 					propertyChanged("_ChooseShapeNoMatch", _ChooseShapeNoMatch);
 				}
 				else
 				{
-					_ChooseShapeNoMatch = "Moon";
+					_ChooseShapeNoMatch = "Star";
 					propertyChanged("_ChooseShapeNoMatch", _ChooseShapeNoMatch);
 				}
 				if((_ASCMF2 == 1))
 				{
-					_ChooseShapeNoMatch2 = "Club";
+					_ChooseShapeNoMatch2 = "Circle";
 					propertyChanged("_ChooseShapeNoMatch2", _ChooseShapeNoMatch2);
 				}
 				else if((_ASCMF2 == 2))
 				{
-					_ChooseShapeNoMatch2 = "Diamond";
+					_ChooseShapeNoMatch2 = "Plus";
 					propertyChanged("_ChooseShapeNoMatch2", _ChooseShapeNoMatch2);
 				}
 				else if((_ASCMF2 == 3))
 				{
-					_ChooseShapeNoMatch2 = "Heart";
+					_ChooseShapeNoMatch2 = "Square";
 					propertyChanged("_ChooseShapeNoMatch2", _ChooseShapeNoMatch2);
 				}
 				else
 				{
-					_ChooseShapeNoMatch2 = "Moon";
+					_ChooseShapeNoMatch2 = "Star";
 					propertyChanged("_ChooseShapeNoMatch2", _ChooseShapeNoMatch2);
 				}
 				trace("" + (("" + ("" + "TargetShape = ")) + ("" + ("" + _ChooseShapeTarget))));
@@ -545,6 +549,10 @@ This is Rule 1 = shape matches! */
 		_Match.setAnimation("" + (("" + (("" + _ChooseColorMatch) + ("" + _ChooseShapeMatch))) + ("" + (("" + "0") + ("" + _ANCM)))));
 		_NoMatch.setAnimation("" + (("" + (("" + _ChooseColorNoMatch) + ("" + _ChooseShapeNoMatch))) + ("" + (("" + "0") + ("" + _ANCMF)))));
 		_NoMatch2.setAnimation("" + (("" + (("" + _ChooseColorNoMatch2) + ("" + _ChooseShapeNoMatch2))) + ("" + (("" + "0") + ("" + _ANCMF2)))));
+		trace("" + (("" + "Target = ") + ("" + (("" + (("" + _ChooseColorTarget) + ("" + _ChooseShapeTarget))) + ("" + (("" + "0") + ("" + _ANCT)))))));
+		trace("" + (("" + "Match = ") + ("" + (("" + (("" + _ChooseColorMatch) + ("" + _ChooseShapeMatch))) + ("" + (("" + "0") + ("" + _ANCM)))))));
+		trace("" + (("" + "NoMatch = ") + ("" + (("" + (("" + _ChooseColorNoMatch) + ("" + _ChooseShapeNoMatch))) + ("" + (("" + "0") + ("" + _ANCMF)))))));
+		trace("" + (("" + "NoMatch2 = ") + ("" + (("" + (("" + _ChooseColorNoMatch2) + ("" + _ChooseShapeNoMatch2))) + ("" + (("" + "0") + ("" + _ANCMF2)))))));
 		_customEvent_ShowTargetEvent();
 	}
 	
@@ -561,9 +569,9 @@ This is Rule 1 = shape matches! */
 		_NumberGetters.push(4);
 		Utils.clear(_ColorsGetters);
 		_ColorsGetters.push("Blue");
-		_ColorsGetters.push("Orange");
-		_ColorsGetters.push("Pink");
-		_ColorsGetters.push("Purple");
+		_ColorsGetters.push("Yellow");
+		_ColorsGetters.push("Red");
+		_ColorsGetters.push("Green");
 		/* ACC_T = Color Chooser (Target)
 ACC_MT = Color Chooser (Match True) */
 		_ASCT = asNumber(randomInt(Math.floor(1), Math.floor(4)));
@@ -599,50 +607,50 @@ ACC_MT = Color Chooser (Match True) */
 		/* First, we're going to set the shape of the Target */
 		if((_ASCT == 1))
 		{
-			_ChooseShapeTarget = "Club";
+			_ChooseShapeTarget = "Circle";
 			propertyChanged("_ChooseShapeTarget", _ChooseShapeTarget);
-			_ChooseShapeNoMatch = "Club";
+			_ChooseShapeNoMatch = "Circle";
 			propertyChanged("_ChooseShapeNoMatch", _ChooseShapeNoMatch);
 		}
 		else if((_ASCT == 2))
 		{
-			_ChooseShapeTarget = "Diamond";
+			_ChooseShapeTarget = "Plus";
 			propertyChanged("_ChooseShapeTarget", _ChooseShapeTarget);
-			_ChooseShapeNoMatch = "Diamond";
+			_ChooseShapeNoMatch = "Plus";
 			propertyChanged("_ChooseShapeNoMatch", _ChooseShapeNoMatch);
 		}
 		else if((_ASCT == 3))
 		{
-			_ChooseShapeTarget = "Heart";
+			_ChooseShapeTarget = "Square";
 			propertyChanged("_ChooseShapeTarget", _ChooseShapeTarget);
-			_ChooseShapeNoMatch = "Heart";
+			_ChooseShapeNoMatch = "Square";
 			propertyChanged("_ChooseShapeNoMatch", _ChooseShapeNoMatch);
 		}
 		else if((_ASCT == 4))
 		{
-			_ChooseShapeTarget = "Moon";
+			_ChooseShapeTarget = "Star";
 			propertyChanged("_ChooseShapeTarget", _ChooseShapeTarget);
-			_ChooseShapeNoMatch = "Moon";
+			_ChooseShapeNoMatch = "Star";
 			propertyChanged("_ChooseShapeNoMatch", _ChooseShapeNoMatch);
 		}
 		if((_ASCMT == 1))
 		{
-			_ChooseShapeMatch = "Club";
+			_ChooseShapeMatch = "Circle";
 			propertyChanged("_ChooseShapeMatch", _ChooseShapeMatch);
 		}
 		else if((_ASCMT == 2))
 		{
-			_ChooseShapeMatch = "Diamond";
+			_ChooseShapeMatch = "Plus";
 			propertyChanged("_ChooseShapeMatch", _ChooseShapeMatch);
 		}
 		else if((_ASCMT == 3))
 		{
-			_ChooseShapeMatch = "Heart";
+			_ChooseShapeMatch = "Square";
 			propertyChanged("_ChooseShapeMatch", _ChooseShapeMatch);
 		}
 		else if((_ASCMT == 4))
 		{
-			_ChooseShapeMatch = "Moon";
+			_ChooseShapeMatch = "Star";
 			propertyChanged("_ChooseShapeMatch", _ChooseShapeMatch);
 		}
 		_customEvent_Rule2Setup3();
@@ -657,28 +665,28 @@ ACC_MT = Color Chooser (Match True) */
 		{
 			_ASCMF2 = asNumber(1);
 			propertyChanged("_ASCMF2", _ASCMF2);
-			_ChooseShapeNoMatch2 = "Club";
+			_ChooseShapeNoMatch2 = "Circle";
 			propertyChanged("_ChooseShapeNoMatch2", _ChooseShapeNoMatch2);
 		}
 		else if((!(_ASCMT == 2) && (!(_ASCMF == 2) && !(_ASCT == 2))))
 		{
 			_ASCMF2 = asNumber(2);
 			propertyChanged("_ASCMF2", _ASCMF2);
-			_ChooseShapeNoMatch2 = "Diamond";
+			_ChooseShapeNoMatch2 = "Plus";
 			propertyChanged("_ChooseShapeNoMatch2", _ChooseShapeNoMatch2);
 		}
 		else if((!(_ASCMT == 3) && (!(_ASCMF == 3) && !(_ASCT == 3))))
 		{
 			_ASCMF2 = asNumber(3);
 			propertyChanged("_ASCMF2", _ASCMF2);
-			_ChooseShapeNoMatch2 = "Heart";
+			_ChooseShapeNoMatch2 = "Square";
 			propertyChanged("_ChooseShapeNoMatch2", _ChooseShapeNoMatch2);
 		}
 		else
 		{
 			_ASCMF2 = asNumber(4);
 			propertyChanged("_ASCMF2", _ASCMF2);
-			_ChooseShapeNoMatch2 = "Moon";
+			_ChooseShapeNoMatch2 = "Star";
 			propertyChanged("_ChooseShapeNoMatch2", _ChooseShapeNoMatch2);
 		}
 		trace("" + (("" + ("" + "ASC_T = ")) + ("" + ("" + _Target))));
@@ -709,8 +717,8 @@ ACC_MT = Color Chooser (Match True) */
 			propertyChanged("_ACCMF2", _ACCMF2);
 			if(((_ACCMF2 == _ACCT) || (_ACCMF2 == _ACCMF)))
 			{
-				_customEvent_Rule2Setup4();
 				trace("" + "ACC_MF2 = ACC_T OR ACC_MF2 = ACC_MF");
+				_customEvent_Rule2Setup4();
 				return;
 			}
 			else
@@ -724,23 +732,23 @@ ACC_MT = Color Chooser (Match True) */
 				}
 				else if((_ACCT == 2))
 				{
-					_ChooseColorTarget = "Orange";
+					_ChooseColorTarget = "Yellow";
 					propertyChanged("_ChooseColorTarget", _ChooseColorTarget);
-					_ChooseColorMatch = "Orange";
+					_ChooseColorMatch = "Yellow";
 					propertyChanged("_ChooseColorMatch", _ChooseColorMatch);
 				}
 				else if((_ACCT == 3))
 				{
-					_ChooseColorTarget = "Pink";
+					_ChooseColorTarget = "Red";
 					propertyChanged("_ChooseColorTarget", _ChooseColorTarget);
-					_ChooseColorMatch = "Pink";
+					_ChooseColorMatch = "Red";
 					propertyChanged("_ChooseColorMatch", _ChooseColorMatch);
 				}
 				else
 				{
-					_ChooseColorTarget = "Purple";
+					_ChooseColorTarget = "Green";
 					propertyChanged("_ChooseColorTarget", _ChooseColorTarget);
-					_ChooseColorMatch = "Purple";
+					_ChooseColorMatch = "Green";
 					propertyChanged("_ChooseColorMatch", _ChooseColorMatch);
 				}
 				if((_ACCMF == 1))
@@ -750,17 +758,17 @@ ACC_MT = Color Chooser (Match True) */
 				}
 				else if((_ACCMF == 2))
 				{
-					_ChooseColorNoMatch = "Orange";
+					_ChooseColorNoMatch = "Yellow";
 					propertyChanged("_ChooseColorNoMatch", _ChooseColorNoMatch);
 				}
 				else if((_ACCMF == 3))
 				{
-					_ChooseColorNoMatch = "Pink";
+					_ChooseColorNoMatch = "Red";
 					propertyChanged("_ChooseColorNoMatch", _ChooseColorNoMatch);
 				}
 				else
 				{
-					_ChooseColorNoMatch = "Purple";
+					_ChooseColorNoMatch = "Green";
 					propertyChanged("_ChooseColorNoMatch", _ChooseColorNoMatch);
 				}
 				if((_ACCMF2 == 1))
@@ -770,17 +778,17 @@ ACC_MT = Color Chooser (Match True) */
 				}
 				else if((_ACCMF2 == 2))
 				{
-					_ChooseColorNoMatch2 = "Orange";
+					_ChooseColorNoMatch2 = "Yellow";
 					propertyChanged("_ChooseColorNoMatch2", _ChooseColorNoMatch2);
 				}
 				else if((_ACCMF2 == 3))
 				{
-					_ChooseColorNoMatch2 = "Pink";
+					_ChooseColorNoMatch2 = "Red";
 					propertyChanged("_ChooseColorNoMatch2", _ChooseColorNoMatch2);
 				}
 				else
 				{
-					_ChooseColorNoMatch2 = "Purple";
+					_ChooseColorNoMatch2 = "Green";
 					propertyChanged("_ChooseColorNoMatch2", _ChooseColorNoMatch2);
 				}
 				trace("" + (("" + ("" + "TargetColor = ")) + ("" + ("" + _ChooseColorTarget))));
@@ -829,6 +837,10 @@ ACC_MT = Color Chooser (Match True) */
 		_Match.setAnimation("" + (("" + (("" + _ChooseColorMatch) + ("" + _ChooseShapeMatch))) + ("" + (("" + "0") + ("" + _ANCM)))));
 		_NoMatch.setAnimation("" + (("" + (("" + _ChooseColorNoMatch) + ("" + _ChooseShapeNoMatch))) + ("" + (("" + "0") + ("" + _ANCMF)))));
 		_NoMatch2.setAnimation("" + (("" + (("" + _ChooseColorNoMatch2) + ("" + _ChooseShapeNoMatch2))) + ("" + (("" + "0") + ("" + _ANCMF2)))));
+		trace("" + (("" + "Target = ") + ("" + (("" + (("" + _ChooseColorTarget) + ("" + _ChooseShapeTarget))) + ("" + (("" + "0") + ("" + _ANCT)))))));
+		trace("" + (("" + "Match = ") + ("" + (("" + (("" + _ChooseColorMatch) + ("" + _ChooseShapeMatch))) + ("" + (("" + "0") + ("" + _ANCM)))))));
+		trace("" + (("" + "No Match = ") + ("" + (("" + (("" + _ChooseColorNoMatch) + ("" + _ChooseShapeNoMatch))) + ("" + (("" + "0") + ("" + _ANCMF)))))));
+		trace("" + (("" + "No Match2 = ") + ("" + (("" + (("" + _ChooseColorNoMatch2) + ("" + _ChooseShapeNoMatch2))) + ("" + (("" + "0") + ("" + _ANCMF2)))))));
 		_customEvent_ShowTargetEvent();
 	}
 	
@@ -844,9 +856,9 @@ ACC_MT = Color Chooser (Match True) */
 		_NumberGetters.push(4);
 		Utils.clear(_ColorsGetters);
 		_ColorsGetters.push("Blue");
-		_ColorsGetters.push("Orange");
-		_ColorsGetters.push("Pink");
-		_ColorsGetters.push("Purple");
+		_ColorsGetters.push("Yellow");
+		_ColorsGetters.push("Red");
+		_ColorsGetters.push("Green");
 		/* So, in order to choose 1-4 for Target, then for Match, then for... I set up the numbers 1-4 into a list of numbers. After each random number is selected, it is removed from list. No repeats! */
 		_04getter = asNumber(randomInt(Math.floor(0), Math.floor(3)));
 		propertyChanged("_04getter", _04getter);
@@ -917,23 +929,23 @@ ACC_MT = Color Chooser (Match True) */
 		}
 		else if((_ACCT == 2))
 		{
-			_ChooseColorTarget = "Orange";
+			_ChooseColorTarget = "Yellow";
 			propertyChanged("_ChooseColorTarget", _ChooseColorTarget);
-			_ChooseColorNoMatch = "Orange";
+			_ChooseColorNoMatch = "Yellow";
 			propertyChanged("_ChooseColorNoMatch", _ChooseColorNoMatch);
 		}
 		else if((_ACCT == 3))
 		{
-			_ChooseColorTarget = "Pink";
+			_ChooseColorTarget = "Red";
 			propertyChanged("_ChooseColorTarget", _ChooseColorTarget);
-			_ChooseColorNoMatch = "Pink";
+			_ChooseColorNoMatch = "Red";
 			propertyChanged("_ChooseColorNoMatch", _ChooseColorNoMatch);
 		}
 		else if((_ACCT == 4))
 		{
-			_ChooseColorTarget = "Purple";
+			_ChooseColorTarget = "Green";
 			propertyChanged("_ChooseColorTarget", _ChooseColorTarget);
-			_ChooseColorNoMatch = "Purple";
+			_ChooseColorNoMatch = "Green";
 			propertyChanged("_ChooseColorNoMatch", _ChooseColorNoMatch);
 		}
 		if((_ACCMT == 1))
@@ -943,17 +955,17 @@ ACC_MT = Color Chooser (Match True) */
 		}
 		else if((_ACCMT == 2))
 		{
-			_ChooseColorMatch = "Orange";
+			_ChooseColorMatch = "Yellow";
 			propertyChanged("_ChooseColorMatch", _ChooseColorMatch);
 		}
 		else if((_ACCMT == 3))
 		{
-			_ChooseColorMatch = "Pink";
+			_ChooseColorMatch = "Red";
 			propertyChanged("_ChooseColorMatch", _ChooseColorMatch);
 		}
 		else if((_ACCMT == 4))
 		{
-			_ChooseColorMatch = "Purple";
+			_ChooseColorMatch = "Green";
 			propertyChanged("_ChooseColorMatch", _ChooseColorMatch);
 		}
 		if((_ACCMF2 == 1))
@@ -963,17 +975,17 @@ ACC_MT = Color Chooser (Match True) */
 		}
 		else if((_ACCMF2 == 2))
 		{
-			_ChooseColorNoMatch2 = "Orange";
+			_ChooseColorNoMatch2 = "Yellow";
 			propertyChanged("_ChooseColorNoMatch2", _ChooseColorNoMatch2);
 		}
 		else if((_ACCMF2 == 3))
 		{
-			_ChooseColorNoMatch2 = "Pink";
+			_ChooseColorNoMatch2 = "Red";
 			propertyChanged("_ChooseColorNoMatch2", _ChooseColorNoMatch2);
 		}
 		else if((_ACCMF2 == 4))
 		{
-			_ChooseColorNoMatch2 = "Purple";
+			_ChooseColorNoMatch2 = "Green";
 			propertyChanged("_ChooseColorNoMatch2", _ChooseColorNoMatch2);
 		}
 		_customEvent_Rule3Setup4();
@@ -1018,70 +1030,70 @@ ACC_MT = Color Chooser (Match True) */
 		/* First, we're going to set the shape of the Target */
 		if((_ASCT == 1))
 		{
-			_ChooseShapeTarget = "Club";
+			_ChooseShapeTarget = "Circle";
 			propertyChanged("_ChooseShapeTarget", _ChooseShapeTarget);
-			_ChooseShapeNoMatch2 = "Club";
+			_ChooseShapeNoMatch2 = "Circle";
 			propertyChanged("_ChooseShapeNoMatch2", _ChooseShapeNoMatch2);
 		}
 		else if((_ASCT == 2))
 		{
-			_ChooseShapeTarget = "Diamond";
+			_ChooseShapeTarget = "Plus";
 			propertyChanged("_ChooseShapeTarget", _ChooseShapeTarget);
-			_ChooseShapeNoMatch2 = "Diamond";
+			_ChooseShapeNoMatch2 = "Plus";
 			propertyChanged("_ChooseShapeNoMatch2", _ChooseShapeNoMatch2);
 		}
 		else if((_ASCT == 3))
 		{
-			_ChooseShapeTarget = "Heart";
+			_ChooseShapeTarget = "Square";
 			propertyChanged("_ChooseShapeTarget", _ChooseShapeTarget);
-			_ChooseShapeNoMatch2 = "Heart";
+			_ChooseShapeNoMatch2 = "Square";
 			propertyChanged("_ChooseShapeNoMatch2", _ChooseShapeNoMatch2);
 		}
 		else if((_ASCT == 4))
 		{
-			_ChooseShapeTarget = "Moon";
+			_ChooseShapeTarget = "Star";
 			propertyChanged("_ChooseShapeTarget", _ChooseShapeTarget);
-			_ChooseShapeNoMatch2 = "Moon";
+			_ChooseShapeNoMatch2 = "Star";
 			propertyChanged("_ChooseShapeNoMatch2", _ChooseShapeNoMatch2);
 		}
 		if((_ASCMT == 1))
 		{
-			_ChooseShapeMatch = "Club";
+			_ChooseShapeMatch = "Circle";
 			propertyChanged("_ChooseShapeMatch", _ChooseShapeMatch);
 		}
 		else if((_ASCMT == 2))
 		{
-			_ChooseShapeMatch = "Diamond";
+			_ChooseShapeMatch = "Plus";
 			propertyChanged("_ChooseShapeMatch", _ChooseShapeMatch);
 		}
 		else if((_ASCMT == 3))
 		{
-			_ChooseShapeMatch = "Heart";
+			_ChooseShapeMatch = "Square";
 			propertyChanged("_ChooseShapeMatch", _ChooseShapeMatch);
 		}
 		else if((_ASCMT == 4))
 		{
-			_ChooseShapeMatch = "Moon";
+			_ChooseShapeMatch = "Star";
 			propertyChanged("_ChooseShapeMatch", _ChooseShapeMatch);
 		}
 		if((_ASCMF == 1))
 		{
-			_ChooseShapeNoMatch = "Club";
+			_ChooseShapeNoMatch = "Circle";
 			propertyChanged("_ChooseShapeNoMatch", _ChooseShapeNoMatch);
 		}
 		else if((_ASCMF == 2))
 		{
-			_ChooseShapeNoMatch = "Diamond";
+			_ChooseShapeNoMatch = "Plus";
 			propertyChanged("_ChooseShapeNoMatch", _ChooseShapeNoMatch);
 		}
 		else if((_ASCMF == 3))
 		{
-			_ChooseShapeNoMatch = "Heart";
+			_ChooseShapeNoMatch = "Square";
 			propertyChanged("_ChooseShapeNoMatch", _ChooseShapeNoMatch);
 		}
 		else if((_ASCMF == 4))
 		{
-			_ChooseShapeNoMatch = "Moon";
+			_ChooseShapeNoMatch = "Star";
 			propertyChanged("_ChooseShapeNoMatch", _ChooseShapeNoMatch);
 		}
 		_customEvent_Rule3Setup6();
@@ -1197,6 +1209,10 @@ ACC_MT = Color Chooser (Match True) */
 	public function _customEvent_SideSwitcher():Void
 	{
 		trace("" + "SideSwitcher Begins");
+		trace("" + (("" + "LeftRightPicker = ") + ("" + _LeftRightPicker)));
+		trace("" + (("" + "LeftSideCounter = ") + ("" + _LeftSideCounter)));
+		trace("" + (("" + "MidSideCounter = ") + ("" + _MidSideCounter)));
+		trace("" + (("" + "RightSideCounter = ") + ("" + _RightSideCounter)));
 		if((_LeftRightPicker == 1))
 		{
 			if((_LeftSideCounter > 2))
@@ -1235,7 +1251,7 @@ ACC_MT = Color Chooser (Match True) */
 				_customEvent_CardPlacer();
 			}
 		}
-		else if((_LeftRightPicker == 3))
+		else
 		{
 			if((_RightSideCounter > 2))
 			{
@@ -1522,6 +1538,12 @@ ACC_MT = Color Chooser (Match True) */
 	{
 		
 		/* ======================== When Creating ========================= */
+		/* This is just a copy of Level 21.
+Blue turns to Blue
+Orange turns to Yellow
+Pink turns to Red
+Purple turns to Green
+ */
 		for(index0 in 0...Std.int(1))
 		{
 			if((Date.now().getMonth() == 0))
@@ -1573,19 +1595,19 @@ ACC_MT = Color Chooser (Match True) */
 				Engine.engine.setGameAttribute("Month", "December");
 			}
 		}
-		Engine.engine.setGameAttribute("L21TotalNum", (Engine.engine.getGameAttribute("L21TotalNum") + 1));
+		Engine.engine.setGameAttribute("L22TotalNum", (Engine.engine.getGameAttribute("L22TotalNum") + 1));
 		runLater(1000 * .1, function(timeTask:TimedTask):Void
 		{
 			_Item = new Array<Dynamic>();
 			propertyChanged("_Item", _Item);
 			_Item[Std.int(0)] = (("" + (("" + (("" + (("" + (("" + Engine.engine.getGameAttribute("day")) + ("" + ", "))) + ("" + (("" + Engine.engine.getGameAttribute("Month")) + ("" + " "))))) + ("" + Date.now().getDate()))) + ("" + ", "))) + ("" + Date.now().getFullYear()));
-			_Item[Std.int(1)] = Engine.engine.getGameAttribute("L21TotalNum");
+			_Item[Std.int(1)] = Engine.engine.getGameAttribute("L22TotalNum");
 			_Item[Std.int(2)] = (("" + (("" + Date.now().getHours()) + ("" + ":"))) + ("" + (("" + (("" + Date.now().getMinutes()) + ("" + ":"))) + ("" + Date.now().getSeconds()))));
-			Engine.engine.getGameAttribute("L21Date")[Std.int(Engine.engine.getGameAttribute("L21TotalNum"))] = _Item;
+			Engine.engine.getGameAttribute("L22Date")[Std.int(Engine.engine.getGameAttribute("L22TotalNum"))] = _Item;
 		}, null);
 		
 		/* ======================== When Creating ========================= */
-		Engine.engine.setGameAttribute("LevelNumber", 21);
+		Engine.engine.setGameAttribute("LevelNumber", 22);
 		/* LeftyCount will count how many times the match is on the left side of the screen. Once it gets to 5, the program will not let the random side become left again, in order to balance the sides. (same w/ Right) */
 		_Matchable = false;
 		propertyChanged("_Matchable", _Matchable);
@@ -1627,22 +1649,22 @@ ACC_MT = Color Chooser (Match True) */
 		_TargetChooser = asNumber(0);
 		propertyChanged("_TargetChooser", _TargetChooser);
 		/* Create the target */
-		createRecycledActor(getActorType(247), Engine.engine.getGameAttribute("TargetX"), Engine.engine.getGameAttribute("TargetY"), Script.FRONT);
+		createRecycledActor(getActorType(260), Engine.engine.getGameAttribute("TargetX"), Engine.engine.getGameAttribute("TargetY"), Script.FRONT);
 		_Target = getLastCreatedActor();
 		propertyChanged("_Target", _Target);
 		_Target.disableActorDrawing();
 		/* create the match */
-		createRecycledActor(getActorType(247), Engine.engine.getGameAttribute("MatchX"), Engine.engine.getGameAttribute("MatchY"), Script.FRONT);
+		createRecycledActor(getActorType(260), Engine.engine.getGameAttribute("MatchX"), Engine.engine.getGameAttribute("MatchY"), Script.FRONT);
 		_Match = getLastCreatedActor();
 		propertyChanged("_Match", _Match);
 		_Match.disableActorDrawing();
 		/* create the NONmatch */
-		createRecycledActor(getActorType(247), Engine.engine.getGameAttribute("MatchX"), Engine.engine.getGameAttribute("MatchY"), Script.FRONT);
+		createRecycledActor(getActorType(260), Engine.engine.getGameAttribute("MatchX"), Engine.engine.getGameAttribute("MatchY"), Script.FRONT);
 		_NoMatch = getLastCreatedActor();
 		propertyChanged("_NoMatch", _NoMatch);
 		_NoMatch.disableActorDrawing();
 		/* create the NONmatch2 */
-		createRecycledActor(getActorType(247), Engine.engine.getGameAttribute("MatchX"), Engine.engine.getGameAttribute("MatchY"), Script.FRONT);
+		createRecycledActor(getActorType(260), Engine.engine.getGameAttribute("MatchX"), Engine.engine.getGameAttribute("MatchY"), Script.FRONT);
 		_NoMatch2 = getLastCreatedActor();
 		propertyChanged("_NoMatch2", _NoMatch2);
 		_NoMatch2.disableActorDrawing();
@@ -1779,7 +1801,7 @@ ACC_MT = Color Chooser (Match True) */
 						_NPE = asNumber((_TotalWrong - _PE));
 						propertyChanged("_NPE", _NPE);
 						_Item[Std.int(0)] = (("" + (("" + (("" + (("" + (("" + Engine.engine.getGameAttribute("day")) + ("" + ", "))) + ("" + (("" + Engine.engine.getGameAttribute("Month")) + ("" + " "))))) + ("" + Date.now().getDate()))) + ("" + ", "))) + ("" + Date.now().getFullYear()));
-						_Item[Std.int(1)] = Engine.engine.getGameAttribute("L21TotalNum");
+						_Item[Std.int(1)] = Engine.engine.getGameAttribute("L22TotalNum");
 						_Item[Std.int(2)] = (("" + (("" + Date.now().getHours()) + ("" + ":"))) + ("" + (("" + (("" + Date.now().getMinutes()) + ("" + ":"))) + ("" + Date.now().getSeconds()))));
 						_Item[Std.int(3)] = _counter;
 						_Item[Std.int(4)] = _NumCorrect;
@@ -1793,7 +1815,7 @@ ACC_MT = Color Chooser (Match True) */
 						_Item[Std.int(12)] = _RuleSwitchCount;
 						_Item[Std.int(13)] = _PCLR;
 						_Item[Std.int(14)] = _FtMS;
-						Engine.engine.getGameAttribute("L21Date")[Std.int(Engine.engine.getGameAttribute("L21TotalNum"))] = _Item;
+						Engine.engine.getGameAttribute("L22Date")[Std.int(Engine.engine.getGameAttribute("L22TotalNum"))] = _Item;
 						if((_counter == 100))
 						{
 							switchScene(GameModel.get().scenes.get(46).getID(), null, createCrossfadeTransition(.25));
@@ -1902,7 +1924,7 @@ ACC_MT = Color Chooser (Match True) */
 						_NPE = asNumber((_TotalWrong - _PE));
 						propertyChanged("_NPE", _NPE);
 						_Item[Std.int(0)] = (("" + (("" + (("" + (("" + (("" + Engine.engine.getGameAttribute("day")) + ("" + ", "))) + ("" + (("" + Engine.engine.getGameAttribute("Month")) + ("" + " "))))) + ("" + Date.now().getDate()))) + ("" + ", "))) + ("" + Date.now().getFullYear()));
-						_Item[Std.int(1)] = Engine.engine.getGameAttribute("L21TotalNum");
+						_Item[Std.int(1)] = Engine.engine.getGameAttribute("L22TotalNum");
 						_Item[Std.int(2)] = (("" + (("" + Date.now().getHours()) + ("" + ":"))) + ("" + (("" + (("" + Date.now().getMinutes()) + ("" + ":"))) + ("" + Date.now().getSeconds()))));
 						_Item[Std.int(3)] = _counter;
 						_Item[Std.int(4)] = _NumCorrect;
@@ -1916,7 +1938,7 @@ ACC_MT = Color Chooser (Match True) */
 						_Item[Std.int(12)] = _RuleSwitchCount;
 						_Item[Std.int(13)] = _PCLR;
 						_Item[Std.int(14)] = _FtMS;
-						Engine.engine.getGameAttribute("L21Date")[Std.int(Engine.engine.getGameAttribute("L21TotalNum"))] = _Item;
+						Engine.engine.getGameAttribute("L22Date")[Std.int(Engine.engine.getGameAttribute("L22TotalNum"))] = _Item;
 						trace("" + (("" + "Consecutive Right Counter = ") + ("" + _ConsecutiveRightCounter)));
 						trace("" + (("" + "Rule Switch Count = ") + ("" + _RuleSwitchCount)));
 						trace("" + (("" + "0") + ("" + "0")));
@@ -1976,7 +1998,7 @@ ACC_MT = Color Chooser (Match True) */
 				g.setFont(getFont(102));
 				g.drawString("" + "Set: ", 0, 5);
 				g.setFont(getFont(101));
-				g.drawString("" + (Engine.engine.getGameAttribute("L18Date").length - 1), 0, 5);
+				g.drawString("" + (Engine.engine.getGameAttribute("L22Date").length - 1), 0, 5);
 				g.setFont(getFont(102));
 				g.drawString("" + "Trial: ", 0, 50);
 				g.setFont(getFont(101));

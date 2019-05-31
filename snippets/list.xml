@@ -40,6 +40,7 @@
             <event displayName="Created" enabled="true" id="22" name="init" order="2" repeats="true"/>
             <event displayName="UI Level 20" enabled="true" id="23" name="draw" order="24" repeats="true"/>
             <event displayName="UI Level 21" enabled="true" id="24" name="draw" order="25" repeats="true"/>
+            <event displayName="UI Level 22" enabled="true" id="25" name="draw" order="26" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="0" attachedevent="true" class="scripts.ActorEvents_0" classname="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_0" oid="-1" package="scripts." shared="false" type="actor">
@@ -87,15 +88,7 @@
         <list default="list" defaultValue="list" desc="" dropdown="" fullname="deletedatalist" hidden="false" id="2" name="_deletedatalist" order="1"/>
         <text default="" defaultValue="" desc="" dropdown="" fullname="KeepText" hidden="false" id="3" name="_KeepText" order="2"/>
         <blocks/>
-        <events>
-            <event displayName="1" enabled="true" id="1" name="event-key-press-release" order="3" repeats="true"/>
-            <event displayName="2" enabled="true" id="2" name="event-key-press-release" order="4" repeats="true"/>
-            <event displayName="3" enabled="true" id="3" name="event-key-press-release" order="6" repeats="true"/>
-            <event displayName="4" enabled="true" id="4" name="event-key-press-release" order="7" repeats="true"/>
-            <event displayName="Drawing" enabled="false" id="5" name="draw" order="8" repeats="true"/>
-            <event displayName="Created" enabled="true" id="6" name="init" order="2" repeats="true"/>
-            <event displayName="Updating" enabled="true" id="7" name="step" order="9" repeats="true"/>
-        </events>
+        <events/>
     </snippet>
     <snippet actorid="9" attachedevent="true" class="scripts.ActorEvents_9" classname="scripts.ActorEvents_9" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="8" name="ActorEvents_9" oid="-1" package="scripts." shared="false" type="actor">
         <list default="list" defaultValue="list" desc="" dropdown="" fullname="Item" hidden="false" id="1" name="_Item" order="0"/>
@@ -1740,14 +1733,6 @@
             <event displayName="Every N secs" enabled="true" id="4" name="event-periodic" order="2" repeats="true"/>
         </events>
     </snippet>
-    <snippet actorid="243" attachedevent="true" class="scripts.ActorEvents_243" classname="scripts.ActorEvents_243" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="188" name="ActorEvents_243" oid="-1" package="scripts." shared="false" type="actor">
-        <blocks/>
-        <events/>
-    </snippet>
-    <snippet attachedevent="true" class="scripts.SceneEvents_47" classname="scripts.SceneEvents_47" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="189" name="SceneEvents_47" oid="-1" package="scripts." sceneid="47" shared="false" type="scene">
-        <blocks/>
-        <events/>
-    </snippet>
     <snippet actorid="245" attachedevent="true" class="scripts.ActorEvents_245" classname="scripts.ActorEvents_245" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="190" name="ActorEvents_245" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
@@ -1845,15 +1830,33 @@
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_199_199_GUI" classname="scripts.Design_199_199_GUI" desc="" description="" design="true" drawOrder="0" id="199" name="GUI" oid="-1" package="scripts" shared="false" type="scene">
-        <list default="list" defaultValue="list" desc="" dropdown="" fullname="CurrentList" hidden="false" id="1" name="_CurrentList" order="0"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="CurrentList" hidden="false" id="1" name="_CurrentList" order="0">
+            <number order="0" value="0.0"/>
+            <number order="1" value="0.0"/>
+            <number order="2" value="0.0"/>
+            <number order="3" value="0.0"/>
+            <number order="4" value="0.0"/>
+            <number order="5" value="0.0"/>
+            <number order="6" value="0.0"/>
+            <number order="7" value="0.0"/>
+            <number order="8" value="0.0"/>
+            <number order="9" value="0.0"/>
+            <number order="10" value="0.0"/>
+            <number order="11" value="0.0"/>
+            <number order="12" value="0.0"/>
+            <number order="13" value="0.0"/>
+            <number order="14" value="0.0"/>
+            <number order="15" value="0.0"/>
+        </list>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="PercentRight" hidden="false" id="2" name="_PercentRight" order="1"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="LevelTotalNum" hidden="false" id="3" name="_LevelTotalNum" order="2"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="GUIsetter" hidden="false" id="4" name="_GUIsetter" order="3"/>
         <list default="list" defaultValue="list" desc="" dropdown="" fullname="Item" hidden="true" id="5" name="_Item" order="4"/>
         <blocks/>
         <events>
-            <event displayName="GUI:Set" enabled="true" id="1" name="draw" order="4" repeats="true"/>
-            <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
+            <event displayName="GUI:Set" enabled="true" id="1" name="draw" order="5" repeats="true"/>
+            <event displayName="Created02" enabled="true" id="2" name="init" order="2" repeats="true"/>
+            <event displayName="Created01" enabled="true" id="3" name="init" order="1" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_200_200_STATSetup" classname="scripts.Design_200_200_STATSetup" desc="" description="" design="true" drawOrder="0" id="200" name="STATSetup" oid="-1" package="scripts" shared="false" type="scene">
@@ -1865,6 +1868,176 @@
         <events>
             <event displayName="GUI:Set" enabled="true" id="1" name="draw" order="2" repeats="true"/>
             <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_50" classname="scripts.SceneEvents_50" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="201" name="SceneEvents_50" oid="-1" package="scripts." sceneid="50" shared="false" type="scene">
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Target" hidden="false" id="1" name="_Target" order="0"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Match" hidden="false" id="2" name="_Match" order="1"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="tint" hidden="false" id="3" name="_tint" order="2"/>
+        <boolean default="" defaultValue="" desc="" dropdown="" fullname="Pressed" hidden="false" id="4" name="_Pressed" order="3"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="SizeW" hidden="false" id="5" name="_SizeW" order="4"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="SizeH" hidden="false" id="6" name="_SizeH" order="5"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="FalseLeeway" hidden="false" id="7" name="_FalseLeeway" order="6"/>
+        <boolean default="" defaultValue="" desc="" dropdown="" fullname="FalseLeewayBool" hidden="false" id="8" name="_FalseLeewayBool" order="7"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="TargetAnim" hidden="false" id="9" name="_TargetAnim" order="8"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="MatchAnim" hidden="false" id="10" name="_MatchAnim" order="9"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="CardPicker" hidden="false" id="11" name="_CardPicker" order="10"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="NoMatch" hidden="false" id="12" name="_NoMatch" order="11"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="LeftRightPicker" hidden="false" id="13" name="_LeftRightPicker" order="12"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="Matchyvalue" hidden="false" id="14" name="_Matchyvalue" order="13"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="counter" hidden="true" id="15" name="_counter" order="19"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="Item" hidden="true" id="16" name="_Item" order="20"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="PercentRight" hidden="false" id="17" name="_PercentRight" order="21"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="DateHolder" hidden="true" id="18" name="_DateHolder" order="23"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="LeftyCount" hidden="false" id="19" name="_LeftyCount" order="24"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="TrialCounter" hidden="false" id="21" name="_TrialCounter" order="25"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="RightyCount" hidden="false" id="22" name="_RightyCount" order="26"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="TargetChooser" hidden="false" id="23" name="_TargetChooser" order="27"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ClubPicker" hidden="false" id="24" name="_ClubPicker" order="28"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="MoonPicker" hidden="false" id="25" name="_MoonPicker" order="29"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="2Picker" hidden="false" id="26" name="_2Picker" order="30"/>
+        <boolean default="" defaultValue="" desc="" dropdown="" fullname="NoMatchRed" hidden="false" id="27" name="_NoMatchRed" order="31"/>
+        <boolean default="" defaultValue="" desc="" dropdown="" fullname="NoMatchGreen" hidden="false" id="28" name="_NoMatchGreen" order="32"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="LeftSideCounter" hidden="false" id="29" name="_LeftSideCounter" order="33"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="RightSideCounter" hidden="false" id="30" name="_RightSideCounter" order="34"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="COLRedPicker" hidden="false" id="32" name="_COLRedPicker" order="14"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ColGreenPicker" hidden="false" id="33" name="_ColGreenPicker" order="16"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ColOrangePicker" hidden="false" id="34" name="_ColOrangePicker" order="17"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ColPurplePicker" hidden="false" id="35" name="_ColPurplePicker" order="18"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="COL0ColorPicker" hidden="false" id="36" name="_COL0ColorPicker" order="15"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ShapeChooser" hidden="false" id="37" name="_ShapeChooser" order="35"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ASC_T" hidden="false" id="38" name="_ASCT" order="36"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ASC_MT" hidden="false" id="39" name="_ASCMT" order="37"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ASC_MF" hidden="false" id="40" name="_ASCMF" order="38"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ACC_T" hidden="false" id="41" name="_ACCT" order="39"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ACC_MT" hidden="false" id="42" name="_ACCMT" order="40"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ACC_MF" hidden="false" id="43" name="_ACCMF" order="41"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="RuleChooser" hidden="false" id="44" name="_RuleChooser" order="42"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="RuleSwitchCount" hidden="false" id="45" name="_RuleSwitchCount" order="43"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ConsecutiveRightCounter" hidden="false" id="46" name="_ConsecutiveRightCounter" order="44"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="NumCorrect" hidden="false" id="47" name="_NumCorrect" order="22"/>
+        <number default="" defaultValue="" desc="Number of Perseverative Errors" dropdown="" fullname="PE" hidden="false" id="48" name="_PE" order="45"/>
+        <number default="" defaultValue="" desc="Number of wrong Responses" dropdown="" fullname="TotalWrong" hidden="false" id="49" name="_TotalWrong" order="46"/>
+        <number default="" defaultValue="" desc="Number of Trials to Complete First Category" dropdown="" fullname="TtCFC" hidden="false" id="50" name="_TtCFC" order="47"/>
+        <number default="" defaultValue="" desc="Number of Conceptual Level Responses" dropdown="" fullname="CLR" hidden="false" id="51" name="_CLR" order="48"/>
+        <number default="" defaultValue="" desc="% of Conceptual Level Responses" dropdown="" fullname="PCLR" hidden="false" id="52" name="_PCLR" order="49"/>
+        <number default="" defaultValue="" desc="Faliures to Maintain Set" dropdown="" fullname="FtMS" hidden="false" id="53" name="_FtMS" order="50"/>
+        <number default="" defaultValue="" desc="Number of Non Perseverative Erros" dropdown="" fullname="NPE" hidden="false" id="54" name="_NPE" order="51"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="ATTLIST" hidden="false" id="55" name="_ATTLIST" order="52"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="NumberGetters" hidden="false" id="56" name="_NumberGetters" order="53">
+            <number order="0" value="1.0"/>
+            <number order="1" value="2.0"/>
+            <number order="2" value="3.0"/>
+            <number order="3" value="4.0"/>
+        </list>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="ColorsGetters" hidden="false" id="57" name="_ColorsGetters" order="54">
+            <text order="0" value="Brown"/>
+            <text order="1" value="Pink"/>
+            <text order="2" value="Purple"/>
+            <text order="3" value="Orange"/>
+        </list>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ACC_MF2" hidden="false" id="58" name="_ACCMF2" order="55"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="1X" hidden="false" id="59" name="_1X" order="56"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="2X" hidden="false" id="60" name="_2X" order="57"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="3X" hidden="false" id="61" name="_3X" order="58"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="ChooseColorTarget" hidden="false" id="62" name="_ChooseColorTarget" order="59"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="ChooseColorMatch" hidden="false" id="63" name="_ChooseColorMatch" order="60"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="ChooseColorNoMatch" hidden="false" id="64" name="_ChooseColorNoMatch" order="61"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="NoMatch2" hidden="false" id="65" name="_NoMatch2" order="62"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="ChooseColorNoMatch2" hidden="false" id="66" name="_ChooseColorNoMatch2" order="63"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ASC_MF2" hidden="false" id="67" name="_ASCMF2" order="64"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="TargetShape" hidden="false" id="68" name="_TargetShape" order="65"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="MatchShape" hidden="false" id="69" name="_MatchShape" order="66"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="MatchFalseShape" hidden="false" id="70" name="_MatchFalseShape" order="67"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="MatchFalse2Shape" hidden="false" id="71" name="_MatchFalse2Shape" order="68"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="ChooseShapeTarget" hidden="false" id="72" name="_ChooseShapeTarget" order="69"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="ChooseShapeMatch" hidden="false" id="73" name="_ChooseShapeMatch" order="70"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="ChooseShapeNoMatch" hidden="false" id="74" name="_ChooseShapeNoMatch" order="71"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="ChooseShapeNoMatch2" hidden="false" id="75" name="_ChooseShapeNoMatch2" order="72"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="04getter" hidden="false" id="76" name="_04getter" order="73"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ANC_T" hidden="false" id="77" name="_ANCT" order="74"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ANC_MF2" hidden="false" id="78" name="_ANCMF2" order="75"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ANC_M" hidden="false" id="79" name="_ANCM" order="76"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="ANC_MF" hidden="false" id="80" name="_ANCMF" order="77"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="XPos1" hidden="false" id="81" name="_XPos1" order="78"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="Xpos2" hidden="false" id="82" name="_Xpos2" order="79"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="Xpos3" hidden="false" id="83" name="_Xpos3" order="80"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="MiddyCount" hidden="false" id="84" name="_MiddyCount" order="81"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="MidSideCounter" hidden="false" id="85" name="_MidSideCounter" order="82"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="MatchFPos" hidden="false" id="86" name="_MatchFPos" order="83"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="LRMorderPicker" hidden="false" id="87" name="_LRMorderPicker" order="84"/>
+        <boolean default="" defaultValue="" desc="" dropdown="" fullname="Matchable" hidden="false" id="88" name="_Matchable" order="85"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="CurrentRule" hidden="false" id="89" name="_CurrentRule" order="86"/>
+        <boolean default="" defaultValue="" desc="" dropdown="" fullname="RuleShapePick" hidden="false" id="95" name="_RuleShapePick" order="87"/>
+        <boolean default="" defaultValue="" desc="" dropdown="" fullname="RuleColorPick" hidden="false" id="96" name="_RuleColorPick" order="91"/>
+        <boolean default="" defaultValue="" desc="" dropdown="" fullname="RuleNumberPick" hidden="false" id="97" name="_RuleNumberPick" order="92"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="RuleNumTimesShape" hidden="false" id="98" name="_RuleNumTimesShape" order="88"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="RuleNumTimesColor" hidden="false" id="99" name="_RuleNumTimesColor" order="89"/>
+        <number default="" defaultValue="" desc="" dropdown="" fullname="RuleNumTimesNumber" hidden="false" id="100" name="_RuleNumTimesNumber" order="90"/>
+        <blocks>
+            <receiver blockID="130" id="1"/>
+            <receiver blockID="131" id="2"/>
+        </blocks>
+        <events>
+            <event displayName="RuleChooser2" enabled="true" id="64" name="event-custom" order="6" repeats="true"/>
+            <event displayName="StackOverflow" enabled="false" id="65" name="draw" order="61" repeats="true"/>
+            <event displayName="Created02" enabled="true" id="2" name="init" order="4" repeats="true"/>
+            <event displayName="GUI:Set" enabled="true" id="17" name="draw" order="60" repeats="true"/>
+            <event displayName="ShowTargetEvent" enabled="true" id="26" name="event-custom" order="47" repeats="true"/>
+            <event displayName="Created" enabled="true" id="37" name="init" order="1" repeats="true"/>
+            <event displayName="Rule1Setup" enabled="true" id="38" name="event-custom" order="7" repeats="true"/>
+            <event displayName="Rule1Setup2" enabled="true" id="39" name="event-custom" order="8" repeats="true"/>
+            <event displayName="Rule1Setup3" enabled="true" id="40" name="event-custom" order="9" repeats="true"/>
+            <event displayName="Rule1Setup4" enabled="true" id="41" name="event-custom" order="10" repeats="true"/>
+            <event displayName="Rule1Setup5" enabled="true" id="42" name="event-custom" order="11" repeats="true"/>
+            <event displayName="Rule1Setup6" enabled="true" id="43" name="event-custom" order="12" repeats="true"/>
+            <event displayName="Click on TARGETATTRIBUTE" enabled="true" id="44" name="event-mouse-press-release" order="50" repeats="true"/>
+            <event displayName="SideChooser" enabled="true" id="45" name="event-custom" order="51" repeats="true"/>
+            <event displayName="SideSwitcher" enabled="true" id="46" name="event-custom" order="53" repeats="true"/>
+            <event displayName="CardPlacer" enabled="true" id="47" name="event-custom" order="54" repeats="true"/>
+            <event displayName="False (No Match)" enabled="true" id="48" name="event-mouse-press-release" order="56" repeats="true"/>
+            <event displayName="Correct (MATCHATTRIBUTE)" enabled="true" id="49" name="event-mouse-press-release" order="59" repeats="true"/>
+            <event displayName="Created01" enabled="true" id="50" name="init" order="3" repeats="true"/>
+            <event displayName="Rule2Setup" enabled="true" id="51" name="event-custom" order="16" repeats="true"/>
+            <event displayName="Rule3Setup" enabled="true" id="52" name="event-custom" order="22" repeats="true"/>
+            <event displayName="RuleChooser" enabled="true" id="53" name="event-custom" order="5" repeats="true"/>
+            <event displayName="Rule2Setup2" enabled="true" id="54" name="event-custom" order="17" repeats="true"/>
+            <event displayName="Rule2Setup3" enabled="true" id="55" name="event-custom" order="18" repeats="true"/>
+            <event displayName="Rule2Setup4" enabled="true" id="56" name="event-custom" order="19" repeats="true"/>
+            <event displayName="Rule2Setup5" enabled="true" id="57" name="event-custom" order="20" repeats="true"/>
+            <event displayName="Rule2Setup6" enabled="true" id="58" name="event-custom" order="21" repeats="true"/>
+            <event displayName="Rule3Setup2" enabled="true" id="59" name="event-custom" order="23" repeats="true"/>
+            <event displayName="Rule3Setup3" enabled="true" id="60" name="event-custom" order="24" repeats="true"/>
+            <event displayName="Rule3Setup4" enabled="true" id="61" name="event-custom" order="26" repeats="true"/>
+            <event displayName="Rule3Setup5" enabled="true" id="62" name="event-custom" order="27" repeats="true"/>
+            <event displayName="Rule3Setup6" enabled="true" id="63" name="event-custom" order="28" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="260" attachedevent="true" class="scripts.ActorEvents_260" classname="scripts.ActorEvents_260" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="202" name="ActorEvents_260" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="262" attachedevent="true" class="scripts.ActorEvents_262" classname="scripts.ActorEvents_262" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="203" name="ActorEvents_262" oid="-1" package="scripts." shared="false" type="actor">
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Hue" hidden="false" id="1" name="_Hue" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Up" enabled="true" id="1" name="event-key-press-release" order="3" repeats="true"/>
+            <event displayName="Down" enabled="true" id="2" name="event-key-press-release" order="4" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="3" name="draw" order="5" repeats="true"/>
+            <event displayName="Created" enabled="true" id="4" name="init" order="1" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="5" name="event-key-press-release" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_51" classname="scripts.SceneEvents_51" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="204" name="SceneEvents_51" oid="-1" package="scripts." sceneid="51" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="264" attachedevent="true" class="scripts.ActorEvents_264" classname="scripts.ActorEvents_264" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="205" name="ActorEvents_264" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
         </events>
     </snippet>
 </pack>

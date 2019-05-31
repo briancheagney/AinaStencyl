@@ -7,7 +7,7 @@
                     <int id="0" val="21"/>
                 </set-game-val-31>
                 <scene-change-through comment="false" x="85" y="51">
-                    <scene eid="43" id="0"/>
+                    <scene eid="50" id="0"/>
                     <int id="1" val="0"/>
                     <int id="2" val=".5"/>
                 </scene-change-through>

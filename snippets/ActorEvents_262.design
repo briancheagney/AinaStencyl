@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-val-203-1 comment="false" x="26" y="42">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-val-203-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="5"/>
+                    </plus>
+                </set-val-203-1>
+                <clear-filter comment="false" x="26" y="72">
+                    <ACTOR eid="this" id="0"/>
+                </clear-filter>
+                <apply-filter comment="false" x="26" y="99">
+                    <ACTOR eid="this" id="0"/>
+                    <filter-hsb comment="false" id="1" x="0" y="0">
+                        <get-val-203-1 comment="false" id="0" x="0" y="0"/>
+                    </filter-hsb>
+                </apply-filter>
+            </group>
+            <control eid="0" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-val-203-1 comment="false" x="26" y="42">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-val-203-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="-5"/>
+                    </plus>
+                </set-val-203-1>
+                <clear-filter comment="false" x="26" y="72">
+                    <ACTOR eid="this" id="0"/>
+                </clear-filter>
+                <apply-filter comment="false" x="26" y="99">
+                    <ACTOR eid="this" id="0"/>
+                    <filter-hsb comment="false" id="1" x="0" y="0">
+                        <get-val-203-1 comment="false" id="0" x="0" y="0"/>
+                    </filter-hsb>
+                </apply-filter>
+            </group>
+            <control eid="1" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="259" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <get-val-203-1 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="-100"/>
+                    <int id="2" val="-100"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <set-val-203-1 comment="false" x="26" y="40">
+                    <int id="0" val="0"/>
+                </set-val-203-1>
+            </group>
+        </init>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="5" id="-1"/>
+            <control eid="7" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="5" id="-1"/>
+</groups>

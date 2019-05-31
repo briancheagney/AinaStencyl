@@ -67,47 +67,14 @@
                         <set-font-new comment="false" x="37" y="378">
                             <font eid="102" id="0"/>
                         </set-font-new>
-                    </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-val-199-4 comment="false" id="0" x="0" y="0"/>
-                        <true comment="false" id="1" x="0" y="0"/>
-                    </eq>
-                </if>
-                <repeat comment="false" x="26" y="417">
-                    <group eventID="1" id="-1">
-                        <draw-text comment="false" x="37" y="442">
-                            <plus comment="false" id="0" x="0" y="0">
-                                <loopindex comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="1"/>
-                            </plus>
-                            <int id="1" val="0"/>
-                            <plus comment="false" id="2" x="0" y="0">
-                                <int id="0" val="100"/>
-                                <times comment="false" id="1" x="0" y="0">
-                                    <loopindex comment="false" id="0" x="0" y="0"/>
-                                    <int id="1" val="15"/>
-                                </times>
-                            </plus>
-                        </draw-text>
-                        <if comment="false" x="37" y="477">
+                        <repeat comment="false" x="37" y="405">
                             <group eventID="1" id="-1">
-                                <draw-text comment="false" x="48" y="532">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-val-199-1 comment="false" id="0" x="0" y="0"/>
-                                            <minus comment="false" id="1" x="0" y="0">
-                                                <length-list comment="false" id="0" x="0" y="0">
-                                                    <get-val-199-1 comment="false" id="0" x="0" y="0"/>
-                                                </length-list>
-                                                <int id="1" val="1"/>
-                                            </minus>
-                                        </get-item>
-                                        <plus comment="false" id="1" x="0" y="0">
-                                            <loopindex comment="false" id="0" x="0" y="0"/>
-                                            <int id="1" val="4"/>
-                                        </plus>
-                                    </get-item>
-                                    <int id="1" val="10"/>
+                                <draw-text comment="false" x="48" y="430">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <loopindex comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </plus>
+                                    <int id="1" val="0"/>
                                     <plus comment="false" id="2" x="0" y="0">
                                         <int id="0" val="100"/>
                                         <times comment="false" id="1" x="0" y="0">
@@ -116,70 +83,9 @@
                                         </times>
                                     </plus>
                                 </draw-text>
-                            </group>
-                            <or comment="false" id="0" x="0" y="0">
-                                <eq comment="false" id="0" x="0" y="0">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-val-199-1 comment="false" id="0" x="0" y="0"/>
-                                            <minus comment="false" id="1" x="0" y="0">
-                                                <length-list comment="false" id="0" x="0" y="0">
-                                                    <get-val-199-1 comment="false" id="0" x="0" y="0"/>
-                                                </length-list>
-                                                <int id="1" val="1"/>
-                                            </minus>
-                                        </get-item>
-                                        <plus comment="false" id="1" x="0" y="0">
-                                            <loopindex comment="false" id="0" x="0" y="0"/>
-                                            <int id="1" val="4"/>
-                                        </plus>
-                                    </get-item>
-                                    <int id="1" val="T"/>
-                                </eq>
-                                <eq comment="false" id="1" x="0" y="0">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-val-199-1 comment="false" id="0" x="0" y="0"/>
-                                            <minus comment="false" id="1" x="0" y="0">
-                                                <length-list comment="false" id="0" x="0" y="0">
-                                                    <get-val-199-1 comment="false" id="0" x="0" y="0"/>
-                                                </length-list>
-                                                <int id="1" val="1"/>
-                                            </minus>
-                                        </get-item>
-                                        <plus comment="false" id="1" x="0" y="0">
-                                            <loopindex comment="false" id="0" x="0" y="0"/>
-                                            <int id="1" val="4"/>
-                                        </plus>
-                                    </get-item>
-                                    <int id="1" val="F"/>
-                                </eq>
-                            </or>
-                        </if>
-                    </group>
-                    <int id="0" val="5"/>
-                </repeat>
-                <repeat comment="false" x="26" y="601">
-                    <group eventID="1" id="-1">
-                        <draw-text comment="false" x="37" y="626">
-                            <plus comment="false" id="0" x="0" y="0">
-                                <loopindex comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="6"/>
-                            </plus>
-                            <int id="1" val="25"/>
-                            <plus comment="false" id="2" x="0" y="0">
-                                <int id="0" val="100"/>
-                                <times comment="false" id="1" x="0" y="0">
-                                    <loopindex comment="false" id="0" x="0" y="0"/>
-                                    <int id="1" val="15"/>
-                                </times>
-                            </plus>
-                        </draw-text>
-                        <if comment="false" x="37" y="661">
-                            <group eventID="1" id="-1">
-                                <if comment="false" x="48" y="716">
+                                <if comment="false" x="48" y="465">
                                     <group eventID="1" id="-1">
-                                        <draw-text comment="false" x="59" y="751">
+                                        <draw-text comment="false" x="59" y="520">
                                             <get-item comment="false" id="0" x="0" y="0">
                                                 <get-item comment="false" id="0" x="0" y="0">
                                                     <get-val-199-1 comment="false" id="0" x="0" y="0"/>
@@ -192,10 +98,10 @@
                                                 </get-item>
                                                 <plus comment="false" id="1" x="0" y="0">
                                                     <loopindex comment="false" id="0" x="0" y="0"/>
-                                                    <int id="1" val="9"/>
+                                                    <int id="1" val="4"/>
                                                 </plus>
                                             </get-item>
-                                            <int id="1" val="35"/>
+                                            <int id="1" val="10"/>
                                             <plus comment="false" id="2" x="0" y="0">
                                                 <int id="0" val="100"/>
                                                 <times comment="false" id="1" x="0" y="0">
@@ -205,17 +111,134 @@
                                             </plus>
                                         </draw-text>
                                     </group>
-                                    <less comment="false" id="0" x="0" y="0">
-                                        <plus comment="false" id="0" x="0" y="0">
-                                            <loopindex comment="false" id="0" x="0" y="0"/>
-                                            <int id="1" val="9"/>
-                                        </plus>
-                                        <int id="1" val="12"/>
-                                    </less>
+                                    <or comment="false" id="0" x="0" y="0">
+                                        <eq comment="false" id="0" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                                                    <minus comment="false" id="1" x="0" y="0">
+                                                        <length-list comment="false" id="0" x="0" y="0">
+                                                            <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                                                        </length-list>
+                                                        <int id="1" val="1"/>
+                                                    </minus>
+                                                </get-item>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="4"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="T"/>
+                                        </eq>
+                                        <eq comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                                                    <minus comment="false" id="1" x="0" y="0">
+                                                        <length-list comment="false" id="0" x="0" y="0">
+                                                            <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                                                        </length-list>
+                                                        <int id="1" val="1"/>
+                                                    </minus>
+                                                </get-item>
+                                                <plus comment="false" id="1" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="4"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="F"/>
+                                        </eq>
+                                    </or>
                                 </if>
-                                <else comment="false" x="48" y="808">
+                            </group>
+                            <int id="0" val="5"/>
+                        </repeat>
+                        <repeat comment="false" x="37" y="589">
+                            <group eventID="1" id="-1">
+                                <draw-text comment="false" x="48" y="614">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <loopindex comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="6"/>
+                                    </plus>
+                                    <int id="1" val="25"/>
+                                    <plus comment="false" id="2" x="0" y="0">
+                                        <int id="0" val="100"/>
+                                        <times comment="false" id="1" x="0" y="0">
+                                            <loopindex comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="15"/>
+                                        </times>
+                                    </plus>
+                                </draw-text>
+                                <if comment="false" x="48" y="649">
                                     <group eventID="1" id="-1">
-                                        <draw-text comment="false" x="59" y="828">
+                                        <if comment="false" x="59" y="704">
+                                            <group eventID="1" id="-1">
+                                                <draw-text comment="false" x="70" y="739">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-item comment="false" id="0" x="0" y="0">
+                                                            <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                                                            <minus comment="false" id="1" x="0" y="0">
+                                                                <length-list comment="false" id="0" x="0" y="0">
+                                                                    <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                                                                </length-list>
+                                                                <int id="1" val="1"/>
+                                                            </minus>
+                                                        </get-item>
+                                                        <plus comment="false" id="1" x="0" y="0">
+                                                            <loopindex comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="9"/>
+                                                        </plus>
+                                                    </get-item>
+                                                    <int id="1" val="35"/>
+                                                    <plus comment="false" id="2" x="0" y="0">
+                                                        <int id="0" val="100"/>
+                                                        <times comment="false" id="1" x="0" y="0">
+                                                            <loopindex comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="15"/>
+                                                        </times>
+                                                    </plus>
+                                                </draw-text>
+                                            </group>
+                                            <less comment="false" id="0" x="0" y="0">
+                                                <plus comment="false" id="0" x="0" y="0">
+                                                    <loopindex comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="9"/>
+                                                </plus>
+                                                <int id="1" val="12"/>
+                                            </less>
+                                        </if>
+                                        <else comment="false" x="59" y="796">
+                                            <group eventID="1" id="-1">
+                                                <draw-text comment="false" x="70" y="816">
+                                                    <get-item comment="false" id="0" x="0" y="0">
+                                                        <get-item comment="false" id="0" x="0" y="0">
+                                                            <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                                                            <minus comment="false" id="1" x="0" y="0">
+                                                                <length-list comment="false" id="0" x="0" y="0">
+                                                                    <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                                                                </length-list>
+                                                                <int id="1" val="1"/>
+                                                            </minus>
+                                                        </get-item>
+                                                        <plus comment="false" id="1" x="0" y="0">
+                                                            <loopindex comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="9"/>
+                                                        </plus>
+                                                    </get-item>
+                                                    <int id="1" val="40"/>
+                                                    <plus comment="false" id="2" x="0" y="0">
+                                                        <int id="0" val="100"/>
+                                                        <times comment="false" id="1" x="0" y="0">
+                                                            <loopindex comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="15"/>
+                                                        </times>
+                                                    </plus>
+                                                </draw-text>
+                                            </group>
+                                        </else>
+                                    </group>
+                                    <or comment="false" id="0" x="0" y="0">
+                                        <eq comment="false" id="0" x="0" y="0">
                                             <get-item comment="false" id="0" x="0" y="0">
                                                 <get-item comment="false" id="0" x="0" y="0">
                                                     <get-val-199-1 comment="false" id="0" x="0" y="0"/>
@@ -231,62 +254,58 @@
                                                     <int id="1" val="9"/>
                                                 </plus>
                                             </get-item>
-                                            <int id="1" val="40"/>
-                                            <plus comment="false" id="2" x="0" y="0">
-                                                <int id="0" val="100"/>
-                                                <times comment="false" id="1" x="0" y="0">
+                                            <int id="1" val="T"/>
+                                        </eq>
+                                        <eq comment="false" id="1" x="0" y="0">
+                                            <get-item comment="false" id="0" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                                                    <minus comment="false" id="1" x="0" y="0">
+                                                        <length-list comment="false" id="0" x="0" y="0">
+                                                            <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                                                        </length-list>
+                                                        <int id="1" val="1"/>
+                                                    </minus>
+                                                </get-item>
+                                                <plus comment="false" id="1" x="0" y="0">
                                                     <loopindex comment="false" id="0" x="0" y="0"/>
-                                                    <int id="1" val="15"/>
-                                                </times>
-                                            </plus>
-                                        </draw-text>
-                                    </group>
-                                </else>
+                                                    <int id="1" val="9"/>
+                                                </plus>
+                                            </get-item>
+                                            <int id="1" val="F"/>
+                                        </eq>
+                                    </or>
+                                </if>
                             </group>
-                            <or comment="false" id="0" x="0" y="0">
-                                <eq comment="false" id="0" x="0" y="0">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-val-199-1 comment="false" id="0" x="0" y="0"/>
-                                            <minus comment="false" id="1" x="0" y="0">
-                                                <length-list comment="false" id="0" x="0" y="0">
-                                                    <get-val-199-1 comment="false" id="0" x="0" y="0"/>
-                                                </length-list>
-                                                <int id="1" val="1"/>
-                                            </minus>
-                                        </get-item>
-                                        <plus comment="false" id="1" x="0" y="0">
-                                            <loopindex comment="false" id="0" x="0" y="0"/>
-                                            <int id="1" val="9"/>
-                                        </plus>
-                                    </get-item>
-                                    <int id="1" val="T"/>
-                                </eq>
-                                <eq comment="false" id="1" x="0" y="0">
-                                    <get-item comment="false" id="0" x="0" y="0">
-                                        <get-item comment="false" id="0" x="0" y="0">
-                                            <get-val-199-1 comment="false" id="0" x="0" y="0"/>
-                                            <minus comment="false" id="1" x="0" y="0">
-                                                <length-list comment="false" id="0" x="0" y="0">
-                                                    <get-val-199-1 comment="false" id="0" x="0" y="0"/>
-                                                </length-list>
-                                                <int id="1" val="1"/>
-                                            </minus>
-                                        </get-item>
-                                        <plus comment="false" id="1" x="0" y="0">
-                                            <loopindex comment="false" id="0" x="0" y="0"/>
-                                            <int id="1" val="9"/>
-                                        </plus>
-                                    </get-item>
-                                    <int id="1" val="F"/>
-                                </eq>
-                            </or>
-                        </if>
+                            <int id="0" val="5"/>
+                        </repeat>
                     </group>
-                    <int id="0" val="5"/>
-                </repeat>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-199-4 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
             </group>
         </draw>
+    </group>
+    <group eventID="1" id="1">
+        <if comment="false" x="210" y="1027">
+            <group eventID="1" id="-1"/>
+            <more comment="false" id="0" x="0" y="0">
+                <length-list comment="false" id="0" x="0" y="0">
+                    <get-item comment="false" id="0" x="0" y="0">
+                        <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                        <minus comment="false" id="1" x="0" y="0">
+                            <length-list comment="false" id="0" x="0" y="0">
+                                <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                            </length-list>
+                            <int id="1" val="1"/>
+                        </minus>
+                    </get-item>
+                </length-list>
+                <int id="1" val="7"/>
+            </more>
+        </if>
     </group>
     <group eventID="1" id="-1"/>
     <group eventID="2" id="0">
@@ -630,4 +649,26 @@
         </else-if>
     </group>
     <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <repeat comment="false" x="26" y="40">
+                    <group eventID="3" id="-1">
+                        <replace-list comment="false" x="37" y="70">
+                            <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                            <loopindex comment="false" id="1" x="0" y="0"/>
+                            <get-game-val-136 comment="false" id="2" x="0" y="0"/>
+                        </replace-list>
+                        <print comment="false" x="37" y="95">
+                            <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                        </print>
+                    </group>
+                    <length-list comment="false" id="0" x="0" y="0">
+                        <get-val-199-1 comment="false" id="0" x="0" y="0"/>
+                    </length-list>
+                </repeat>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="-1"/>
 </groups>

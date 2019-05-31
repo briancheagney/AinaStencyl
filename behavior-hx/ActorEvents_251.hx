@@ -88,7 +88,7 @@ class ActorEvents_251 extends ActorScript
 			if(wrapper.enabled && 3 == mouseState)
 			{
 				Engine.engine.setGameAttribute("LevelNumber", 21);
-				switchScene(GameModel.get().scenes.get(43).getID(), null, createCrossfadeTransition(.5));
+				switchScene(GameModel.get().scenes.get(50).getID(), null, createCrossfadeTransition(.5));
 			}
 		});
 		

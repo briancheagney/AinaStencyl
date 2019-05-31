@@ -83,6 +83,7 @@ class Design_199_199_GUI extends SceneScript
 	{
 		super();
 		nameMap.set("CurrentList", "_CurrentList");
+		_CurrentList = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0];
 		nameMap.set("PercentRight", "_PercentRight");
 		_PercentRight = 0.0;
 		nameMap.set("LevelTotalNum", "_LevelTotalNum");
@@ -95,6 +96,13 @@ class Design_199_199_GUI extends SceneScript
 	
 	override public function init()
 	{
+		
+		/* ======================== When Creating ========================= */
+		for(index0 in 0...Std.int(_CurrentList.length))
+		{
+			_CurrentList[Std.int(index0)] = Engine.engine.getGameAttribute("Level  Names");
+			trace("" + _CurrentList);
+		}
 		
 		/* ======================== When Creating ========================= */
 		if((Engine.engine.getGameAttribute("LevelNumber") == 1))
@@ -267,27 +275,27 @@ class Design_199_199_GUI extends SceneScript
 					g.setFont(getFont(101));
 					g.drawString("" + (Engine.engine.getGameAttribute("LevelTrial") + 1), 0, 60);
 					g.setFont(getFont(102));
-				}
-				for(index0 in 0...Std.int(5))
-				{
-					g.drawString("" + (index0 + 1), 0, (100 + (index0 * 15)));
-					if(((_CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 4))] == "T") || (_CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 4))] == "F")))
+					for(index0 in 0...Std.int(5))
 					{
-						g.drawString("" + _CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 4))], 10, (100 + (index0 * 15)));
-					}
-				}
-				for(index0 in 0...Std.int(5))
-				{
-					g.drawString("" + (index0 + 6), 25, (100 + (index0 * 15)));
-					if(((_CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 9))] == "T") || (_CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 9))] == "F")))
-					{
-						if(((index0 + 9) < 12))
+						g.drawString("" + (index0 + 1), 0, (100 + (index0 * 15)));
+						if(((_CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 4))] == "T") || (_CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 4))] == "F")))
 						{
-							g.drawString("" + _CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 9))], 35, (100 + (index0 * 15)));
+							g.drawString("" + _CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 4))], 10, (100 + (index0 * 15)));
 						}
-						else
+					}
+					for(index0 in 0...Std.int(5))
+					{
+						g.drawString("" + (index0 + 6), 25, (100 + (index0 * 15)));
+						if(((_CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 9))] == "T") || (_CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 9))] == "F")))
 						{
-							g.drawString("" + _CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 9))], 40, (100 + (index0 * 15)));
+							if(((index0 + 9) < 12))
+							{
+								g.drawString("" + _CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 9))], 35, (100 + (index0 * 15)));
+							}
+							else
+							{
+								g.drawString("" + _CurrentList[Std.int((_CurrentList.length - 1))][Std.int((index0 + 9))], 40, (100 + (index0 * 15)));
+							}
 						}
 					}
 				}
