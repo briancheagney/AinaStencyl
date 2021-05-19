@@ -1103,60 +1103,6 @@
         </setanim>
     </group>
     <group eventID="22" id="-1">
-        <minus comment="false" x="313" y="262">
-            <div comment="false" id="0" x="0" y="0">
-                <screen-wh comment="false" id="0" x="0" y="0">
-                    <int id="0" val="0"/>
-                </screen-wh>
-                <int id="1" val="2"/>
-            </div>
-            <plus comment="false" id="1" x="0" y="0">
-                <div comment="false" id="0" x="0" y="0">
-                    <get-wh comment="false" id="0" x="0" y="0">
-                        <ACTOR eid="var" id="0" vid="12"/>
-                        <int id="1" val="0"/>
-                    </get-wh>
-                    <int id="1" val="1"/>
-                </div>
-                <div comment="false" id="1" x="0" y="0">
-                    <get-wh comment="false" id="0" x="0" y="0">
-                        <ACTOR eid="var" id="0" vid="12"/>
-                        <int id="1" val="0"/>
-                    </get-wh>
-                    <int id="1" val="4"/>
-                </div>
-            </plus>
-        </minus>
-        <plus comment="false" x="315" y="217">
-            <div comment="false" id="0" x="0" y="0">
-                <screen-wh comment="false" id="0" x="0" y="0">
-                    <int id="0" val="0"/>
-                </screen-wh>
-                <int id="1" val="2"/>
-            </div>
-            <div comment="false" id="1" x="0" y="0">
-                <get-wh comment="false" id="0" x="0" y="0">
-                    <ACTOR eid="var" id="0" vid="2"/>
-                    <int id="1" val="0"/>
-                </get-wh>
-                <int id="1" val="4"/>
-            </div>
-        </plus>
-        <plus comment="false" x="297" y="148">
-            <div comment="false" id="0" x="0" y="0">
-                <screen-wh comment="false" id="0" x="0" y="0">
-                    <int id="0" val="0"/>
-                </screen-wh>
-                <int id="1" val="2"/>
-            </div>
-            <div comment="false" id="1" x="0" y="0">
-                <get-wh comment="false" id="0" x="0" y="0">
-                    <ACTOR eid="var" id="0" vid="12"/>
-                    <int id="1" val="0"/>
-                </get-wh>
-                <int id="1" val="4"/>
-            </div>
-        </plus>
         <minus comment="false" x="299" y="97">
             <div comment="false" id="0" x="0" y="0">
                 <screen-wh comment="false" id="0" x="0" y="0">
@@ -1175,6 +1121,60 @@
                 <div comment="false" id="1" x="0" y="0">
                     <get-wh comment="false" id="0" x="0" y="0">
                         <ACTOR eid="var" id="0" vid="2"/>
+                        <int id="1" val="0"/>
+                    </get-wh>
+                    <int id="1" val="4"/>
+                </div>
+            </plus>
+        </minus>
+        <plus comment="false" x="297" y="148">
+            <div comment="false" id="0" x="0" y="0">
+                <screen-wh comment="false" id="0" x="0" y="0">
+                    <int id="0" val="0"/>
+                </screen-wh>
+                <int id="1" val="2"/>
+            </div>
+            <div comment="false" id="1" x="0" y="0">
+                <get-wh comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="var" id="0" vid="12"/>
+                    <int id="1" val="0"/>
+                </get-wh>
+                <int id="1" val="4"/>
+            </div>
+        </plus>
+        <plus comment="false" x="315" y="217">
+            <div comment="false" id="0" x="0" y="0">
+                <screen-wh comment="false" id="0" x="0" y="0">
+                    <int id="0" val="0"/>
+                </screen-wh>
+                <int id="1" val="2"/>
+            </div>
+            <div comment="false" id="1" x="0" y="0">
+                <get-wh comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="var" id="0" vid="2"/>
+                    <int id="1" val="0"/>
+                </get-wh>
+                <int id="1" val="4"/>
+            </div>
+        </plus>
+        <minus comment="false" x="313" y="262">
+            <div comment="false" id="0" x="0" y="0">
+                <screen-wh comment="false" id="0" x="0" y="0">
+                    <int id="0" val="0"/>
+                </screen-wh>
+                <int id="1" val="2"/>
+            </div>
+            <plus comment="false" id="1" x="0" y="0">
+                <div comment="false" id="0" x="0" y="0">
+                    <get-wh comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="12"/>
+                        <int id="1" val="0"/>
+                    </get-wh>
+                    <int id="1" val="1"/>
+                </div>
+                <div comment="false" id="1" x="0" y="0">
+                    <get-wh comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="12"/>
                         <int id="1" val="0"/>
                     </get-wh>
                     <int id="1" val="4"/>

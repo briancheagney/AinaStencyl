@@ -1,2 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<groups/>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <create-actor3 comment="false" x="26" y="40">
+                    <actortype eid="260" id="0"/>
+                    <int id="1" val="100"/>
+                    <int id="2" val="100"/>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <set-val-204-1 comment="false" x="26" y="67">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-204-1>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <print comment="false" x="26" y="42">
+                    <str-substring comment="false" id="0" x="0" y="0">
+                        <getanim comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                        </getanim>
+                        <minus comment="false" id="1" x="0" y="0">
+                            <str-length comment="false" id="0" x="0" y="0">
+                                <getanim comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="var" id="0" vid="1"/>
+                                </getanim>
+                            </str-length>
+                            <int id="1" val="2"/>
+                        </minus>
+                        <str-length comment="false" id="2" x="0" y="0">
+                            <getanim comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="var" id="0" vid="1"/>
+                            </getanim>
+                        </str-length>
+                    </str-substring>
+                </print>
+            </group>
+            <control eid="8" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

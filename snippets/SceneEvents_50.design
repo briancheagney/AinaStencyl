@@ -1746,8 +1746,24 @@
         </event-custom>
     </group>
     <group eventID="43" id="-1">
-        <tostring comment="false" x="280" y="652">
-            <get-val-201-77 comment="false" id="0" x="0" y="0"/>
+        <str-combine comment="false" x="180" y="491">
+            <tostring comment="false" id="0" x="0" y="0">
+                <get-val-201-71 comment="false" id="0" x="0" y="0"/>
+            </tostring>
+            <tostring comment="false" id="1" x="0" y="0">
+                <get-val-201-78 comment="false" id="0" x="0" y="0"/>
+            </tostring>
+        </str-combine>
+        <str-combine comment="false" x="96" y="565">
+            <tostring comment="false" id="0" x="0" y="0">
+                <get-val-201-70 comment="false" id="0" x="0" y="0"/>
+            </tostring>
+            <tostring comment="false" id="1" x="0" y="0">
+                <get-val-201-80 comment="false" id="0" x="0" y="0"/>
+            </tostring>
+        </str-combine>
+        <tostring comment="false" x="58" y="593">
+            <get-val-201-68 comment="false" id="0" x="0" y="0"/>
         </tostring>
         <str-combine comment="false" x="108" y="732">
             <tostring comment="false" id="0" x="0" y="0">
@@ -1757,25 +1773,9 @@
                 <get-val-201-79 comment="false" id="0" x="0" y="0"/>
             </tostring>
         </str-combine>
-        <tostring comment="false" x="58" y="593">
-            <get-val-201-68 comment="false" id="0" x="0" y="0"/>
+        <tostring comment="false" x="280" y="652">
+            <get-val-201-77 comment="false" id="0" x="0" y="0"/>
         </tostring>
-        <str-combine comment="false" x="96" y="565">
-            <tostring comment="false" id="0" x="0" y="0">
-                <get-val-201-70 comment="false" id="0" x="0" y="0"/>
-            </tostring>
-            <tostring comment="false" id="1" x="0" y="0">
-                <get-val-201-80 comment="false" id="0" x="0" y="0"/>
-            </tostring>
-        </str-combine>
-        <str-combine comment="false" x="180" y="491">
-            <tostring comment="false" id="0" x="0" y="0">
-                <get-val-201-71 comment="false" id="0" x="0" y="0"/>
-            </tostring>
-            <tostring comment="false" id="1" x="0" y="0">
-                <get-val-201-78 comment="false" id="0" x="0" y="0"/>
-            </tostring>
-        </str-combine>
     </group>
     <group eventID="44" id="0">
         <event-mouse-press-release comment="false" x="15" y="15">
@@ -3935,12 +3935,12 @@
         </print>
     </group>
     <group eventID="51" id="-1">
-        <get-val-201-42 comment="false" x="557" y="757"/>
-        <get-val-201-58 comment="false" x="476" y="757"/>
-        <get-val-201-41 comment="false" x="533" y="700"/>
-        <get-val-201-58 comment="false" x="459" y="704"/>
-        <get-val-201-42 comment="false" x="532" y="509"/>
         <get-val-201-41 comment="false" x="459" y="512"/>
+        <get-val-201-42 comment="false" x="532" y="509"/>
+        <get-val-201-58 comment="false" x="459" y="704"/>
+        <get-val-201-41 comment="false" x="533" y="700"/>
+        <get-val-201-58 comment="false" x="476" y="757"/>
+        <get-val-201-42 comment="false" x="557" y="757"/>
     </group>
     <group eventID="52" id="0">
         <event-custom comment="false" x="15" y="15">
@@ -4511,12 +4511,12 @@
         </event-custom>
     </group>
     <group eventID="55" id="-1">
-        <get-val-201-41 comment="false" x="573" y="11"/>
-        <get-val-201-41 comment="false" x="576" y="23"/>
-        <get-val-201-43 comment="false" x="498" y="43"/>
-        <get-val-201-43 comment="false" x="490" y="31"/>
-        <get-val-201-42 comment="false" x="394" y="43"/>
         <get-val-201-42 comment="false" x="400" y="36"/>
+        <get-val-201-42 comment="false" x="394" y="43"/>
+        <get-val-201-43 comment="false" x="490" y="31"/>
+        <get-val-201-43 comment="false" x="498" y="43"/>
+        <get-val-201-41 comment="false" x="576" y="23"/>
+        <get-val-201-41 comment="false" x="573" y="11"/>
     </group>
     <group eventID="56" id="0">
         <event-custom comment="false" x="15" y="15">
@@ -5280,10 +5280,10 @@
         </set-val-201-40>
     </group>
     <group eventID="61" id="-1">
-        <get-val-201-67 comment="false" x="390" y="378"/>
-        <get-val-201-67 comment="false" x="397" y="401"/>
-        <get-val-201-40 comment="false" x="540" y="235"/>
         <get-val-201-39 comment="false" x="247" y="198"/>
+        <get-val-201-40 comment="false" x="540" y="235"/>
+        <get-val-201-67 comment="false" x="397" y="401"/>
+        <get-val-201-67 comment="false" x="390" y="378"/>
     </group>
     <group eventID="62" id="0">
         <event-custom comment="false" x="15" y="15">

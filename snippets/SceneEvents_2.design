@@ -1,2 +1,80 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<groups/>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-xy comment="false" x="26" y="40">
+                    <ACTOR eid="23" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="121"/>
+                </set-xy>
+                <set-xy comment="false" x="26" y="67">
+                    <ACTOR eid="23" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="214"/>
+                </set-xy>
+                <set-xy comment="false" x="26" y="94">
+                    <ACTOR eid="24" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="174"/>
+                </set-xy>
+                <set-xy comment="false" x="26" y="121">
+                    <ACTOR eid="24" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="214"/>
+                </set-xy>
+                <set-xy comment="false" x="26" y="148">
+                    <ACTOR eid="25" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="228"/>
+                </set-xy>
+                <set-xy comment="false" x="26" y="175">
+                    <ACTOR eid="25" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="214"/>
+                </set-xy>
+                <set-xy comment="false" x="26" y="202">
+                    <ACTOR eid="26" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="121"/>
+                </set-xy>
+                <set-xy comment="false" x="26" y="229">
+                    <ACTOR eid="26" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="267"/>
+                </set-xy>
+                <set-xy comment="false" x="26" y="256">
+                    <ACTOR eid="27" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="169"/>
+                </set-xy>
+                <set-xy comment="false" x="26" y="283">
+                    <ACTOR eid="27" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="261"/>
+                </set-xy>
+                <set-xy comment="false" x="26" y="310">
+                    <ACTOR eid="28" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="222"/>
+                </set-xy>
+                <set-xy comment="false" x="26" y="337">
+                    <ACTOR eid="28" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="261"/>
+                </set-xy>
+                <set-xy comment="false" x="26" y="364">
+                    <ACTOR eid="30" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="275"/>
+                </set-xy>
+                <set-xy comment="false" x="26" y="391">
+                    <ACTOR eid="30" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="261"/>
+                </set-xy>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

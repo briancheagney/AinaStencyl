@@ -118,6 +118,7 @@ class ActorEvents_20 extends ActorScript
 				{
 					saveGame("mySave", function(success:Bool):Void
 					{
+						Engine.engine.setGameAttribute("KillActors", true);
 						switchScene(GameModel.get().scenes.get(2).getID(), null, createCrossfadeTransition(.5));
 						_pushnum = asNumber(0);
 						propertyChanged("_pushnum", _pushnum);

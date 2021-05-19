@@ -98,13 +98,6 @@ class Design_199_199_GUI extends SceneScript
 	{
 		
 		/* ======================== When Creating ========================= */
-		for(index0 in 0...Std.int(_CurrentList.length))
-		{
-			_CurrentList[Std.int(index0)] = Engine.engine.getGameAttribute("Level  Names");
-			trace("" + _CurrentList);
-		}
-		
-		/* ======================== When Creating ========================= */
 		if((Engine.engine.getGameAttribute("LevelNumber") == 1))
 		{
 			_CurrentList = Engine.engine.getGameAttribute("L01Date01");

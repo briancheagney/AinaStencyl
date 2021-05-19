@@ -90,6 +90,22 @@ class SceneEvents_2 extends SceneScript
 	override public function init()
 	{
 		
+		/* ======================== When Creating ========================= */
+		getActor(23).setX(121);
+		getActor(23).setY(214);
+		getActor(24).setX(174);
+		getActor(24).setY(214);
+		getActor(25).setX(228);
+		getActor(25).setY(214);
+		getActor(26).setX(121);
+		getActor(26).setY(267);
+		getActor(27).setX(169);
+		getActor(27).setY(261);
+		getActor(28).setX(222);
+		getActor(28).setY(261);
+		getActor(30).setX(275);
+		getActor(30).setY(261);
+		
 	}
 	
 	override public function forwardMessage(msg:String)

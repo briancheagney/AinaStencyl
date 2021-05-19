@@ -72,16 +72,32 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 class SceneEvents_51 extends SceneScript
 {
+	public var _card:Actor;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
+		nameMap.set("card", "_card");
 		
 	}
 	
 	override public function init()
 	{
+		
+		/* ======================== When Creating ========================= */
+		createRecycledActor(getActorType(260), 100, 100, Script.FRONT);
+		_card = getLastCreatedActor();
+		propertyChanged("_card", _card);
+		
+		/* =========================== Keyboard =========================== */
+		addKeyStateListener("TWO", function(pressed:Bool, released:Bool, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && pressed)
+			{
+				trace("" + ("" + _card.getAnimation()).substring(Std.int((("" + _card.getAnimation()).length - 2)), Std.int(("" + _card.getAnimation()).length)));
+			}
+		});
 		
 	}
 	

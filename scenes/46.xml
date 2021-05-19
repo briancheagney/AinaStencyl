@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="2" desc="" eventsnippetid="186" extheight="384" extwidth="544" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="320" id="46" name="Sc_RetryAll" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
+<scene depth="2" desc="" eventsnippetid="186" extheight="384" extwidth="544" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="320" id="46" name="Sc_RetryAll" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
     <layers>
         <color-bg blue="0" green="0" red="0"/>
         <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="BiggerButton" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
@@ -9,8 +9,8 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="3" id="42" name="BackToStart 1" sx="1.0" sy="1.0" x="9" y="197" z="2"/>
-        <actor a="0.0" aid="3" c="false" group="3" id="241" name="Retry All 3" sx="1.0" sy="1.0" x="9" y="257" z="2"/>
+        <actor a="0.0" aid="1" c="false" group="3" id="42" name="BackToStart 1" order="0" sx="1.0" sy="1.0" x="9" y="197" z="2"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="241" name="Retry All 3" order="1" sx="1.0" sy="1.0" x="9" y="257" z="2"/>
     </actors>
     <snippets/>
     <terrain/>
