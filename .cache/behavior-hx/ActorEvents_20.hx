@@ -81,7 +81,7 @@ class ActorEvents_20 extends ActorScript
 		_pushnum = 0;
 		
 		/* ======================= Every N seconds ======================== */
-		runPeriodically(1000 * 3, function(timeTask:TimedTask):Void
+		runPeriodically(1000 * 2, function(timeTask:TimedTask):Void
 		{
 			if(wrapper.enabled)
 			{
@@ -103,7 +103,7 @@ class ActorEvents_20 extends ActorScript
 		{
 			if(wrapper.enabled)
 			{
-				if((_pushnum >= 2))
+				if((_pushnum >= 3))
 				{
 					saveGame("mySave", function(success:Bool):Void
 					{

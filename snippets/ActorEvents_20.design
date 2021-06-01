@@ -48,7 +48,7 @@
                     </group>
                     <moreeq comment="false" id="0" x="0" y="0">
                         <get-val-15-1 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="2"/>
+                        <int id="1" val="3"/>
                     </moreeq>
                 </if>
             </group>
@@ -62,7 +62,7 @@
                     <int id="0" val="0"/>
                 </set-val-15-1>
             </group>
-            <int id="0" val="3"/>
+            <int id="0" val="2"/>
             <ACTOR eid="this" id="2"/>
         </event-periodic>
     </group>
