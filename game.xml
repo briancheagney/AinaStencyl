@@ -13,9 +13,9 @@
     </exts>
     <bundles>
         <bundle id="com.yourcompany.gamename" internalVersion="11" name="Aina" store="Mac App Store" version="3.0"/>
-        <bundle author="" id="com.yourcompany.gamename" internalVersion="1" metroColor="-12566464" name="" store="Windows Store" version="3.0"/>
-        <bundle id="com.brianheagney.aina" internalVersion="215" name="Aina" store="Google Play" version="3.0"/>
         <bundle id="com.brianheagney.aina" internalVersion="11" name="Aina" store="App Store" version="3.0"/>
+        <bundle id="com.brianheagney.aina" internalVersion="215" name="Aina" store="Google Play" version="3.0"/>
+        <bundle author="" id="com.yourcompany.gamename" internalVersion="1" metroColor="-12566464" name="" store="Windows Store" version="3.0"/>
     </bundles>
     <scales>
         <scale detailed="1x" id="0" name="1x" size="1.0"/>
@@ -104,15 +104,6 @@
             <r id="272"/>
             <r id="274"/>
         </group>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <group desc="" id="5" name="HeagneySuriStuff" type="actortype">
-            <r id="276"/>
-        </group>
-=======
->>>>>>> parent of d2949e8 (Created Test scene and buttons)
-=======
->>>>>>> parent of 5e6483a (Added test buttons and test scene)
     </folders>
     <packs/>
     <groups>
