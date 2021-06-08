@@ -1077,6 +1077,7 @@
         </snippets>
     </actor>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="212" fixedrot="false" fric="0.2" gid="3" id="276" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="LevelButtonHeagney" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="277" static="false">
         <snippets/>
     </actor>
@@ -1087,6 +1088,8 @@
     </sprite>
 =======
 >>>>>>> parent of d2949e8 (Created Test scene and buttons)
+=======
+>>>>>>> parent of 5e6483a (Added test buttons and test scene)
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="60" fixedrot="true" fric="0.2" gid="3" id="78" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Medium" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="79" static="false">
         <snippets>
             <s enabled="true" id="2">
