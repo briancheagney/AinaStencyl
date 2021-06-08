@@ -30,5 +30,8 @@
     <scene desc="" format="4.0.1" id="49" name="Settings"/>
     <scene desc="" format="4.0.1" id="50" name="Level21_2New_Variables"/>
     <scene desc="" format="4.0.1" id="51" name="testhuer"/>
+<<<<<<< HEAD
     <scene desc="" format="4.0.1" id="52" name="HeagneyLevelButtonTests"/>
+=======
+>>>>>>> parent of d2949e8 (Created Test scene and buttons)
 </scenes>
