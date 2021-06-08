@@ -2098,4 +2098,12 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet actorid="276" attachedevent="true" class="scripts.ActorEvents_276" classname="scripts.ActorEvents_276" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="212" name="ActorEvents_276" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_52" classname="scripts.SceneEvents_52" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="213" name="SceneEvents_52" oid="-1" package="scripts." sceneid="52" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
 </pack>
