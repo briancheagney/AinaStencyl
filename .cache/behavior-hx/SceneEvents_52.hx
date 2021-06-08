@@ -62,41 +62,18 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_46 extends SceneScript
+class SceneEvents_52 extends SceneScript
 {
-	public var _Box:Actor;
-	public var _BoxX:Float;
-	public var _Boxy:Float;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
-		nameMap.set("Box", "_Box");
-		nameMap.set("BoxX", "_BoxX");
-		_BoxX = 0.0;
-		nameMap.set("Boxy", "_Boxy");
-		_Boxy = 0.0;
 		
 	}
 	
 	override public function init()
 	{
-		
-		/* ======================== When Creating ========================= */
-		_Box = getActor(3);
-		_BoxX = _Box.getX();
-		_Boxy = _Box.getY();
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(119));
-				g.drawString("" + (("Retry Level ") + ("" + Engine.engine.getGameAttribute("LevelNumber"))), _BoxX, _Boxy);
-			}
-		});
 		
 	}
 	
