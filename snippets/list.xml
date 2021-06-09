@@ -2106,4 +2106,12 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet actorid="278" attachedevent="true" class="scripts.ActorEvents_278" classname="scripts.ActorEvents_278" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="214" name="ActorEvents_278" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="280" attachedevent="true" class="scripts.ActorEvents_280" classname="scripts.ActorEvents_280" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="215" name="ActorEvents_280" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
 </pack>

@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scenes>
-    <scene desc="" format="4.0.1" id="0" name="Stats"/>
-    <scene desc="" format="4.0.1" id="1" name="Level01"/>
-    <scene desc="" format="4.0.1" id="2" name="Intro"/>
-    <scene desc="" format="4.0.1" id="3" name="Level02"/>
-    <scene desc="" format="4.0.1" id="5" name="Level03"/>
-    <scene desc="" format="4.0.1" id="7" name="00Loading"/>
-    <scene desc="" format="4.0.1" id="8" name="Level04"/>
-    <scene desc="" format="4.0.1" id="11" name="Level05_ClubMatch"/>
-    <scene desc="" format="4.0.1" id="14" name="Level06_MoonMatch"/>
-    <scene desc="" format="4.0.1" id="15" name="Level07_ClubMoonMatch"/>
-    <scene desc="" format="4.0.1" id="18" name="Loading2"/>
-    <scene desc="" format="4.0.1" id="20" name="Level11_ColorSwitch"/>
-    <scene desc="" format="4.0.1" id="25" name="Level09_Color01"/>
-    <scene desc="" format="4.0.1" id="26" name="Level10_Color02"/>
-    <scene desc="" format="4.0.1" id="28" name="Level13_Numbers01"/>
-    <scene desc="" format="4.0.1" id="35" name="Level08_ShapeSwitch_New"/>
-    <scene desc="" format="4.0.1" id="36" name="Level12_ColorSwitch_New"/>
-    <scene desc="" format="4.0.1" id="37" name="Level16_2Variables_Shape_Color"/>
-    <scene desc="" format="4.0.1" id="38" name="Level15_NumbersSwitch Copy"/>
-    <scene desc="" format="4.0.1" id="39" name="Level17_2Variables_Color_Shape"/>
-    <scene desc="" format="4.0.1" id="41" name="Level18_2New_Variables"/>
-    <scene desc="" format="4.0.1" id="42" name="SaveDataTest"/>
-    <scene desc="" format="4.0.1" id="43" name="Level22_WCST"/>
-    <scene desc="" format="4.0.1" id="44" name="Level19_2Variables_Shape_Number"/>
-    <scene desc="" format="4.0.1" id="45" name="Level20_2Variables_Shape_Number"/>
-    <scene desc="" format="4.0.1" id="46" name="Sc_RetryAll"/>
-    <scene desc="" format="4.0.1" id="48" name="Level14_NEWONE"/>
-    <scene desc="" format="4.0.1" id="49" name="Settings"/>
-    <scene desc="" format="4.0.1" id="50" name="Level21_2New_Variables"/>
-    <scene desc="" format="4.0.1" id="51" name="testhuer"/>
-    <scene desc="" format="4.0.1" id="52" name="ZZZGreene"/>
+    <scene desc="" id="0" name="Stats"/>
+    <scene desc="" id="1" name="Level01"/>
+    <scene desc="" id="2" name="Intro"/>
+    <scene desc="" id="3" name="Level02"/>
+    <scene desc="" id="5" name="Level03"/>
+    <scene desc="" id="7" name="00Loading"/>
+    <scene desc="" id="8" name="Level04"/>
+    <scene desc="" id="11" name="Level05_ClubMatch"/>
+    <scene desc="" id="14" name="Level06_MoonMatch"/>
+    <scene desc="" id="15" name="Level07_ClubMoonMatch"/>
+    <scene desc="" id="18" name="Loading2"/>
+    <scene desc="" id="20" name="Level11_ColorSwitch"/>
+    <scene desc="" id="25" name="Level09_Color01"/>
+    <scene desc="" id="26" name="Level10_Color02"/>
+    <scene desc="" id="28" name="Level13_Numbers01"/>
+    <scene desc="" id="35" name="Level08_ShapeSwitch_New"/>
+    <scene desc="" id="36" name="Level12_ColorSwitch_New"/>
+    <scene desc="" id="37" name="Level16_2Variables_Shape_Color"/>
+    <scene desc="" id="38" name="Level15_NumbersSwitch Copy"/>
+    <scene desc="" id="39" name="Level17_2Variables_Color_Shape"/>
+    <scene desc="" id="41" name="Level18_2New_Variables"/>
+    <scene desc="" id="42" name="SaveDataTest"/>
+    <scene desc="" id="43" name="Level22_WCST"/>
+    <scene desc="" id="44" name="Level19_2Variables_Shape_Number"/>
+    <scene desc="" id="45" name="Level20_2Variables_Shape_Number"/>
+    <scene desc="" id="46" name="Sc_RetryAll"/>
+    <scene desc="" id="48" name="Level14_NEWONE"/>
+    <scene desc="" id="49" name="Settings"/>
+    <scene desc="" id="50" name="Level21_2New_Variables"/>
+    <scene desc="" id="51" name="testhuer"/>
+    <scene desc="" id="52" name="ZZZGreene"/>
 </scenes>
