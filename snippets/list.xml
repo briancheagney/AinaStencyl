@@ -2098,10 +2098,6 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet actorid="276" attachedevent="true" class="scripts.ActorEvents_276" classname="scripts.ActorEvents_276" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="212" name="ActorEvents_276" oid="-1" package="scripts." shared="false" type="actor">
-        <blocks/>
-        <events/>
-    </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_52" classname="scripts.SceneEvents_52" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="213" name="SceneEvents_52" oid="-1" package="scripts." sceneid="52" shared="false" type="scene">
         <blocks/>
         <events/>
@@ -2111,6 +2107,87 @@
         <events/>
     </snippet>
     <snippet actorid="280" attachedevent="true" class="scripts.ActorEvents_280" classname="scripts.ActorEvents_280" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="215" name="ActorEvents_280" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_53" classname="scripts.SceneEvents_53" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="216" name="SceneEvents_53" oid="-1" package="scripts." sceneid="53" shared="false" type="scene">
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Target" hidden="false" id="1" name="_Target" order="0"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="deletedatalist" hidden="false" id="2" name="_deletedatalist" order="1"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="KeepText" hidden="false" id="3" name="_KeepText" order="2"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="282" attachedevent="true" class="scripts.ActorEvents_282" classname="scripts.ActorEvents_282" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="217" name="ActorEvents_282" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="284" attachedevent="true" class="scripts.ActorEvents_284" classname="scripts.ActorEvents_284" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="218" name="ActorEvents_284" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="286" attachedevent="true" class="scripts.ActorEvents_286" classname="scripts.ActorEvents_286" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="219" name="ActorEvents_286" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="288" attachedevent="true" class="scripts.ActorEvents_288" classname="scripts.ActorEvents_288" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="220" name="ActorEvents_288" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="290" attachedevent="true" class="scripts.ActorEvents_290" classname="scripts.ActorEvents_290" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="221" name="ActorEvents_290" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="294" attachedevent="true" class="scripts.ActorEvents_294" classname="scripts.ActorEvents_294" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="223" name="ActorEvents_294" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="296" attachedevent="true" class="scripts.ActorEvents_296" classname="scripts.ActorEvents_296" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="224" name="ActorEvents_296" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="298" attachedevent="true" class="scripts.ActorEvents_298" classname="scripts.ActorEvents_298" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="225" name="ActorEvents_298" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="300" attachedevent="true" class="scripts.ActorEvents_300" classname="scripts.ActorEvents_300" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="226" name="ActorEvents_300" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="302" attachedevent="true" class="scripts.ActorEvents_302" classname="scripts.ActorEvents_302" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="227" name="ActorEvents_302" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="304" attachedevent="true" class="scripts.ActorEvents_304" classname="scripts.ActorEvents_304" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="228" name="ActorEvents_304" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="306" attachedevent="true" class="scripts.ActorEvents_306" classname="scripts.ActorEvents_306" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="229" name="ActorEvents_306" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="308" attachedevent="true" class="scripts.ActorEvents_308" classname="scripts.ActorEvents_308" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="230" name="ActorEvents_308" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="310" attachedevent="true" class="scripts.ActorEvents_310" classname="scripts.ActorEvents_310" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="231" name="ActorEvents_310" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="312" attachedevent="true" class="scripts.ActorEvents_312" classname="scripts.ActorEvents_312" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="232" name="ActorEvents_312" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="314" attachedevent="true" class="scripts.ActorEvents_314" classname="scripts.ActorEvents_314" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="233" name="ActorEvents_314" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="316" attachedevent="true" class="scripts.ActorEvents_316" classname="scripts.ActorEvents_316" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="234" name="ActorEvents_316" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="318" attachedevent="true" class="scripts.ActorEvents_318" classname="scripts.ActorEvents_318" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="235" name="ActorEvents_318" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>

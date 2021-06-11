@@ -8,10 +8,26 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="3" id="9" name="Level 01 Button 1" order="0" sx="1.0" sy="1.0" x="34" y="15" z="0"/>
-        <actor a="0.0" aid="2" c="false" group="3" id="278" name="Mock Button 4 2" order="1" sx="1.0" sy="1.0" x="117" y="15" z="0"/>
-        <actor a="0.0" aid="3" c="false" group="3" id="280" name="Mock Button 5 3" order="2" sx="1.0" sy="1.0" x="33" y="97" z="0"/>
-        <actor a="0.0" aid="4" c="false" group="3" id="235" name="Level 17 Button 2VarShape 4" order="3" sx="1.0" sy="1.0" x="196" y="16" z="0"/>
+        <actor a="0.0" aid="1" c="false" group="3" id="282" name="Mock Design 1 1" order="0" sx="0.75" sy="0.75" x="1" y="0" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="284" name="Mock Design 2 3" order="1" sx="0.75" sy="0.75" x="56" y="0" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="286" name="Mock Design 3 4" order="2" sx="0.75" sy="0.75" x="112" y="0" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="278" name="Mock Button 4 5" order="3" sx="0.75" sy="0.75" x="169" y="1" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="280" name="Mock Button 5 6" order="4" sx="0.75" sy="0.75" x="224" y="0" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="288" name="Mock Design 6 7" order="5" sx="0.75" sy="0.75" x="278" y="0" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="290" name="Mock Design 7 8" order="6" sx="0.75" sy="0.75" x="332" y="0" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="294" name="Mock Design 9 10" order="7" sx="0.75" sy="0.75" x="-1" y="67" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="296" name="Mock Design 10 11" order="8" sx="0.75" sy="0.75" x="55" y="66" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="3" id="298" name="Mock Design 11 12" order="9" sx="0.75" sy="0.75" x="112" y="65" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="3" id="300" name="Mock Design 12 13" order="10" sx="0.75" sy="0.75" x="168" y="66" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="3" id="302" name="Mock Design 13 14" order="11" sx="0.75" sy="0.75" x="223" y="66" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="3" id="304" name="Mock Design 14 15" order="12" sx="0.75" sy="0.75" x="278" y="65" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="3" id="306" name="Mock Design 15 16" order="13" sx="0.75" sy="0.75" x="331" y="65" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="3" id="308" name="Mock Design 16 17" order="14" sx="0.75" sy="0.75" x="387" y="64" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="3" id="310" name="Mock Design 17 18" order="15" sx="0.75" sy="0.75" x="-3" y="133" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="3" id="312" name="Mock Design 18 19" order="16" sx="0.75" sy="0.75" x="54" y="133" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="3" id="314" name="Mock Design 19 20" order="17" sx="0.75" sy="0.75" x="111" y="134" z="0"/>
+        <actor a="0.0" aid="21" c="false" group="3" id="316" name="Mock Design 20 21" order="18" sx="0.75" sy="0.75" x="167" y="134" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="3" id="318" name="Mock Design 8 22" order="19" sx="0.75" sy="0.75" x="389" y="1" z="0"/>
     </actors>
     <snippets/>
     <terrain/>
