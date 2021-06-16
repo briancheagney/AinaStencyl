@@ -1113,7 +1113,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="283" name="Mock Design 1" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="224" fixedrot="false" fric="0.2" gid="3" id="296" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 10" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="297" static="false">
@@ -1121,7 +1121,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="297" name="Mock Design 10" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="225" fixedrot="false" fric="0.2" gid="3" id="298" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 11" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="299" static="false">
@@ -1129,7 +1129,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="299" name="Mock Design 11" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="226" fixedrot="false" fric="0.2" gid="3" id="300" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 12" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="301" static="false">
@@ -1137,7 +1137,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="301" name="Mock Design 12" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="227" fixedrot="false" fric="0.2" gid="3" id="302" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 13" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="303" static="false">
@@ -1145,7 +1145,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="303" name="Mock Design 13" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="228" fixedrot="false" fric="0.2" gid="3" id="304" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 14" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="305" static="false">
@@ -1153,7 +1153,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="305" name="Mock Design 14" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="229" fixedrot="false" fric="0.2" gid="3" id="306" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 15" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="307" static="false">
@@ -1161,7 +1161,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="307" name="Mock Design 15" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="230" fixedrot="false" fric="0.2" gid="3" id="308" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 16" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="309" static="false">
@@ -1169,7 +1169,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="309" name="Mock Design 16" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="231" fixedrot="false" fric="0.2" gid="3" id="310" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 17" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="311" static="false">
@@ -1177,7 +1177,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="311" name="Mock Design 17" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="232" fixedrot="false" fric="0.2" gid="3" id="312" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 18" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="313" static="false">
@@ -1185,7 +1185,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="313" name="Mock Design 18" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="233" fixedrot="false" fric="0.2" gid="3" id="314" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 19" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="315" static="false">
@@ -1193,7 +1193,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="315" name="Mock Design 19" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="218" fixedrot="false" fric="0.2" gid="3" id="284" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="285" static="false">
@@ -1201,7 +1201,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="285" name="Mock Design 2" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="234" fixedrot="false" fric="0.2" gid="3" id="316" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 20" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="317" static="false">
@@ -1209,7 +1209,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="317" name="Mock Design 20" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="219" fixedrot="false" fric="0.2" gid="3" id="286" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="287" static="false">
@@ -1217,7 +1217,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="287" name="Mock Design 3" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="220" fixedrot="false" fric="0.2" gid="3" id="288" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 6" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="289" static="false">
@@ -1225,7 +1225,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="289" name="Mock Design 6" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="221" fixedrot="false" fric="0.2" gid="3" id="290" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 7" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="291" static="false">
@@ -1233,7 +1233,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="291" name="Mock Design 7" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="235" fixedrot="false" fric="0.2" gid="3" id="318" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 8" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="319" static="false">
@@ -1241,7 +1241,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="319" name="Mock Design 8" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="223" fixedrot="false" fric="0.2" gid="3" id="294" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mock Design 9" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="295" static="false">
@@ -1249,7 +1249,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="295" name="Mock Design 9" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="210" fixedrot="false" fric="0.2" gid="3" id="272" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="MonkeyHead" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="273" static="false">
