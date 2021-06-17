@@ -2191,4 +2191,28 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet actorid="320" attachedevent="true" class="scripts.ActorEvents_320" classname="scripts.ActorEvents_320" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="236" name="ActorEvents_320" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="322" attachedevent="true" class="scripts.ActorEvents_322" classname="scripts.ActorEvents_322" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="237" name="ActorEvents_322" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="324" attachedevent="true" class="scripts.ActorEvents_324" classname="scripts.ActorEvents_324" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="238" name="ActorEvents_324" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="326" attachedevent="true" class="scripts.ActorEvents_326" classname="scripts.ActorEvents_326" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="239" name="ActorEvents_326" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="328" attachedevent="true" class="scripts.ActorEvents_328" classname="scripts.ActorEvents_328" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="240" name="ActorEvents_328" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_54" classname="scripts.SceneEvents_54" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="241" name="SceneEvents_54" oid="-1" package="scripts." sceneid="54" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
 </pack>

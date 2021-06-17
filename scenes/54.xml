@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="241" extheight="384" extwidth="544" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="320" id="54" name="ZZGreene" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
+    <layers>
+        <color-bg blue="0" green="0" red="0"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="2" c="false" group="3" id="320" name="Mock Design E1 2" order="0" sx="1.0" sy="1.0" x="8" y="7" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="322" name="Mock Design E2 3" order="1" sx="1.0" sy="1.0" x="144" y="7" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="324" name="Mock Design E3 4" order="2" sx="1.0" sy="1.0" x="278" y="7" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="326" name="Mock Design E4 5" order="3" sx="1.0" sy="1.0" x="7" y="100" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="328" name="Mock Design E5 6" order="4" sx="1.0" sy="1.0" x="144" y="101" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="0,1,2,3," retainAtlases="false"/>
+</scene>
