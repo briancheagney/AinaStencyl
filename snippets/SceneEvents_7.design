@@ -19,10 +19,48 @@
                             <ACTOR eid="1" id="0"/>
                             <int id="1" val="0"/>
                         </toggle-image>
+                        <dolater comment="false" x="76" y="245">
+                            <group eventID="2" id="-1">
+                                <setanim comment="false" x="87" y="272">
+                                    <ACTOR eid="1" id="0"/>
+                                    <int id="1" val="Load02"/>
+                                </setanim>
+                                <set-val-40-2 comment="false" x="87" y="299">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-40-2>
+                            </group>
+                            <int id="0" val="2"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
                     </group>
                 </load-game>
             </group>
         </init>
     </group>
     <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-mouse-press-release comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="3" id="-1">
+                        <scene-change-color comment="false" x="37" y="72">
+                            <scene eid="18" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                            <color b="0" g="0" id="3" r="0"/>
+                            <int id="4" val="0"/>
+                            <int id="5" val="0"/>
+                            <color b="0" g="0" id="6" r="0"/>
+                        </scene-change-color>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-40-2 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+            <int id="0" val="1"/>
+        </event-mouse-press-release>
+    </group>
+    <group eventID="3" id="-1"/>
 </groups>

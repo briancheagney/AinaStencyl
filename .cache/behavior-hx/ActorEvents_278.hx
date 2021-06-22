@@ -43,7 +43,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import com.stencyl.graphics.shaders.BasicShader;
 import com.stencyl.graphics.shaders.GrayscaleShader;
@@ -62,36 +61,18 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_18 extends SceneScript
+class ActorEvents_278 extends ActorScript
 {
-	public var _Beginbutton:Actor;
 	
 	
-	public function new(dummy:Int, dummy2:Engine)
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		super();
-		nameMap.set("Beginbutton", "_Beginbutton");
+		super(actor);
 		
 	}
 	
 	override public function init()
 	{
-		
-		/* ======================== When Creating ========================= */
-		runLater(1000 * 2, function(timeTask:TimedTask):Void
-		{
-			switchScene(GameModel.get().scenes.get(2).getID(), null, createCrossfadeTransition(.25));
-		}, null);
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(17));
-				g.drawString("" + "Loading...", ((getScreenWidth() / 2) - (getFont(17).getTextWidth("Loading...")/Engine.SCALE / 2)), ((getScreenHeight() / 2) - (g.font.getHeight()/Engine.SCALE / 2)));
-			}
-		});
 		
 	}
 	

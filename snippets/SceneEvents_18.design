@@ -1,62 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
-    <group eventID="2" id="0">
-        <init comment="false" x="54" y="41">
-            <group eventID="2" id="-1">
-                <create-actor3 comment="false" x="65" y="66">
-                    <actortype eid="138" id="0"/>
-                    <int id="1" val="200"/>
-                    <int id="2" val="140"/>
-                    <int id="3" val="0"/>
-                </create-actor3>
-                <push-shove comment="false" x="65" y="93">
-                    <ACTOR eid="lastcreated" id="0"/>
-                    <int id="1" val="1"/>
-                    <int id="2" val="-180"/>
-                    <int id="3" val="0"/>
-                    <int id="4" val="40"/>
-                </push-shove>
-                <set-val-106-1 comment="false" x="65" y="120">
-                    <ACTOR eid="lastcreated" id="0"/>
-                </set-val-106-1>
-                <create-actor3 comment="false" x="65" y="147">
-                    <actortype eid="138" id="0"/>
-                    <int id="1" val="200"/>
-                    <int id="2" val="140"/>
-                    <int id="3" val="2"/>
-                </create-actor3>
-                <push-shove comment="false" x="65" y="174">
-                    <ACTOR eid="lastcreated" id="0"/>
-                    <int id="1" val="1"/>
-                    <int id="2" val="180"/>
-                    <int id="3" val="0"/>
-                    <int id="4" val="40"/>
-                </push-shove>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="17" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <int id="0" val="Loading..."/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <screen-wh comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </screen-wh>
+                            <int id="1" val="2"/>
+                        </div>
+                        <div comment="false" id="1" x="0" y="0">
+                            <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                <font eid="17" id="0"/>
+                                <int id="1" val="Loading..."/>
+                            </get-font-width2-new>
+                            <int id="1" val="2"/>
+                        </div>
+                    </minus>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <screen-wh comment="false" id="0" x="0" y="0">
+                                <int id="0" val="1"/>
+                            </screen-wh>
+                            <int id="1" val="2"/>
+                        </div>
+                        <div comment="false" id="1" x="0" y="0">
+                            <get-font-height comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="2"/>
+                        </div>
+                    </minus>
+                </draw-text>
             </group>
-        </init>
+        </draw>
     </group>
-    <group eventID="2" id="-1"/>
-    <group eventID="3" id="0">
-        <step comment="false" x="15" y="15">
-            <group eventID="3" id="-1">
-                <if comment="false" x="26" y="40">
-                    <group eventID="3" id="-1">
-                        <scene-change-through comment="false" x="37" y="78">
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <dolater comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <scene-change-through comment="false" x="37" y="67">
                             <scene eid="2" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val=".25"/>
                         </scene-change-through>
                     </group>
-                    <less comment="false" id="0" x="0" y="0">
-                        <get-xy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="var" id="0" vid="1"/>
-                            <int id="1" val="0"/>
-                        </get-xy>
-                        <int id="1" val="-75"/>
-                    </less>
-                </if>
+                    <int id="0" val="2"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </dolater>
             </group>
-        </step>
+        </init>
     </group>
-    <group eventID="3" id="-1"/>
+    <group eventID="2" id="-1"/>
 </groups>

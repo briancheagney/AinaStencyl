@@ -8,7 +8,7 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="3" id="136" name="BBegin Copy 1" order="0" sx="1.0" sy="1.0" x="200" y="140" z="0"/>
+        <actor a="0.0" aid="1" c="false" group="3" id="278" name="B_Loading_Pawprint 1" order="0" sx="0.56875" sy="0.56875" x="-22" y="103" z="0"/>
     </actors>
     <snippets/>
     <terrain/>

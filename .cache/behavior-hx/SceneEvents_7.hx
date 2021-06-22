@@ -62,15 +62,18 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_18 extends SceneScript
+class SceneEvents_7 extends SceneScript
 {
 	public var _Beginbutton:Actor;
+	public var _IsReady:Bool;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
 		nameMap.set("Beginbutton", "_Beginbutton");
+		nameMap.set("IsReady", "_IsReady");
+		_IsReady = false;
 		
 	}
 	
@@ -78,18 +81,28 @@ class SceneEvents_18 extends SceneScript
 	{
 		
 		/* ======================== When Creating ========================= */
-		runLater(1000 * 2, function(timeTask:TimedTask):Void
+		/* This scene is necessary to load data for the application. Without this scene, a user's data will not be loaded.  */
+		getActor(1).disableActorDrawing();
+		loadGame("mySave", function(success:Bool):Void
 		{
-			switchScene(GameModel.get().scenes.get(2).getID(), null, createCrossfadeTransition(.25));
-		}, null);
+			trace("Load successful");
+			getActor(1).enableActorDrawing();
+			runLater(1000 * 2, function(timeTask:TimedTask):Void
+			{
+				getActor(1).setAnimation("Load02");
+				_IsReady = true;
+			}, null);
+		});
 		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		/* ============================ Click ============================= */
+		addMouseReleasedListener(function(list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				g.setFont(getFont(17));
-				g.drawString("" + "Loading...", ((getScreenWidth() / 2) - (getFont(17).getTextWidth("Loading...")/Engine.SCALE / 2)), ((getScreenHeight() / 2) - (g.font.getHeight()/Engine.SCALE / 2)));
+				if((_IsReady == true))
+				{
+					switchScene(GameModel.get().scenes.get(18).getID(), createFadeOut(0, Utils.getColorRGB(0,0,0)), createFadeIn(0, Utils.getColorRGB(0,0,0)));
+				}
 			}
 		});
 		

@@ -62,15 +62,20 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_18 extends SceneScript
+class SceneEvents_2 extends SceneScript
 {
-	public var _Beginbutton:Actor;
+	public var _Target:Actor;
+	public var _deletedatalist:Array<Dynamic>;
+	public var _KeepText:String;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
-		nameMap.set("Beginbutton", "_Beginbutton");
+		nameMap.set("Target", "_Target");
+		nameMap.set("deletedatalist", "_deletedatalist");
+		nameMap.set("KeepText", "_KeepText");
+		_KeepText = "";
 		
 	}
 	
@@ -78,20 +83,20 @@ class SceneEvents_18 extends SceneScript
 	{
 		
 		/* ======================== When Creating ========================= */
-		runLater(1000 * 2, function(timeTask:TimedTask):Void
-		{
-			switchScene(GameModel.get().scenes.get(2).getID(), null, createCrossfadeTransition(.25));
-		}, null);
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(17));
-				g.drawString("" + "Loading...", ((getScreenWidth() / 2) - (getFont(17).getTextWidth("Loading...")/Engine.SCALE / 2)), ((getScreenHeight() / 2) - (g.font.getHeight()/Engine.SCALE / 2)));
-			}
-		});
+		getActor(23).setX(121);
+		getActor(23).setY(214);
+		getActor(24).setX(174);
+		getActor(24).setY(214);
+		getActor(25).setX(228);
+		getActor(25).setY(214);
+		getActor(26).setX(121);
+		getActor(26).setY(267);
+		getActor(27).setX(169);
+		getActor(27).setY(261);
+		getActor(28).setX(222);
+		getActor(28).setY(261);
+		getActor(30).setX(275);
+		getActor(30).setY(261);
 		
 	}
 	

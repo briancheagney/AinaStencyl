@@ -62,15 +62,21 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_18 extends SceneScript
+class SceneEvents_46 extends SceneScript
 {
-	public var _Beginbutton:Actor;
+	public var _Box:Actor;
+	public var _BoxX:Float;
+	public var _Boxy:Float;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
-		nameMap.set("Beginbutton", "_Beginbutton");
+		nameMap.set("Box", "_Box");
+		nameMap.set("BoxX", "_BoxX");
+		_BoxX = 0.0;
+		nameMap.set("Boxy", "_Boxy");
+		_Boxy = 0.0;
 		
 	}
 	
@@ -78,18 +84,17 @@ class SceneEvents_18 extends SceneScript
 	{
 		
 		/* ======================== When Creating ========================= */
-		runLater(1000 * 2, function(timeTask:TimedTask):Void
-		{
-			switchScene(GameModel.get().scenes.get(2).getID(), null, createCrossfadeTransition(.25));
-		}, null);
+		_Box = getActor(3);
+		_BoxX = _Box.getX();
+		_Boxy = _Box.getY();
 		
 		/* ========================= When Drawing ========================= */
 		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				g.setFont(getFont(17));
-				g.drawString("" + "Loading...", ((getScreenWidth() / 2) - (getFont(17).getTextWidth("Loading...")/Engine.SCALE / 2)), ((getScreenHeight() / 2) - (g.font.getHeight()/Engine.SCALE / 2)));
+				g.setFont(getFont(119));
+				g.drawString("" + (("Retry Level ") + ("" + Engine.engine.getGameAttribute("LevelNumber"))), _BoxX, _Boxy);
 			}
 		});
 		
