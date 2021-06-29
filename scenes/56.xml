@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="262" extheight="384" extwidth="544" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="320" id="56" name="Stats Copy" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
+    <layers>
+        <color-bg blue="0" green="0" red="0"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="20" name="homebutton 1" order="0" sx="1.0" sy="1.0" x="425" y="265" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="9" name="Level 01 Button 2" order="1" sx="0.75" sy="0.75" x="-5" y="-4" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="11" name="Level 02 Button 3" order="2" sx="0.75" sy="0.75" x="50" y="-4" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="13" name="Level 03 Button 5" order="3" sx="0.75" sy="0.75" x="104" y="-4" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="72" name="Level 04 Button 6" order="4" sx="0.75" sy="0.75" x="157" y="-4" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="105" name="Level 05 Button 8" order="5" sx="0.75" sy="0.75" x="-5" y="52" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="3" id="122" name="Level 06 Button 9" order="6" sx="0.75" sy="0.75" x="48" y="52" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="128" name="Level 07 Button 10" order="7" sx="0.75" sy="0.75" x="101" y="51" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="198" name="Level 08 Shape Switch NEW 11" order="8" sx="0.75" sy="0.75" x="156" y="50" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="3" id="144" name="Level 09 Color01 12" order="9" sx="0.75" sy="0.75" x="-5" y="106" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="3" id="160" name="Level 10 Color02 Button 13" order="10" sx="0.75" sy="0.75" x="48" y="105" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="3" id="154" name="Level 11 Button ColorSwitch 14" order="11" sx="0.75" sy="0.75" x="103" y="104" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="3" id="208" name="Level 12 Button ColorSwitch 15" order="12" sx="0.75" sy="0.75" x="155" y="104" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="3" id="168" name="Level 13 Numbers01 16" order="13" sx="0.75" sy="0.75" x="-5" y="160" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="3" id="176" name="Level 14 Button Numbers02 17" order="14" sx="0.75" sy="0.75" x="49" y="161" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="3" id="180" name="Level 15 Button Numbers Switch 18" order="15" sx="0.75" sy="0.75" x="103" y="161" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="3" id="229" name="Level 16 Button 2VarHue 19" order="16" sx="0.75" sy="0.75" x="-4" y="213" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="3" id="235" name="Level 17 Button 2VarShape 20" order="17" sx="0.75" sy="0.75" x="49" y="213" z="0"/>
+        <actor a="0.0" aid="21" c="false" group="3" id="237" name="Level 18 Button 2NewVar 21" order="18" sx="0.75" sy="0.75" x="102" y="213" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="3" id="239" name="Level 19 Button 2HueNum 22" order="19" sx="0.75" sy="0.75" x="157" y="213" z="0"/>
+        <actor a="0.0" aid="23" c="false" group="3" id="249" name="Level 20 Button 2ShpNum 23" order="20" sx="0.75" sy="0.75" x="-5" y="259" z="0"/>
+        <actor a="0.0" aid="24" c="false" group="3" id="251" name="Level 21 Button 2ShpNum 24" order="21" sx="0.75" sy="0.75" x="79" y="250" z="0"/>
+        <actor a="0.0" aid="25" c="false" group="3" id="264" name="Level 22 Button 2ShpNum 25" order="22" sx="0.75" sy="0.75" x="160" y="248" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

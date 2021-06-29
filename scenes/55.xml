@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="261" extheight="384" extwidth="544" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="320" id="55" name="ZGreene" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
+    <layers>
+        <color-bg blue="0" green="0" red="0"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="330" name="Mock 1 1" order="0" sx="0.75" sy="0.75" x="-7" y="0" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="332" name="Mock 15 2" order="1" sx="0.75" sy="0.75" x="101" y="0" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="334" name="Mock 2 3" order="2" sx="0.75" sy="0.75" x="205" y="1" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="336" name="Mock 25 4" order="3" sx="0.75" sy="0.75" x="313" y="1" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="338" name="Mock 3 5" order="4" sx="0.75" sy="0.75" x="-9" y="62" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="340" name="Mock 35 6" order="5" sx="0.75" sy="0.75" x="102" y="62" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="342" name="Mock 4 7" order="6" sx="0.75" sy="0.75" x="208" y="62" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="344" name="Mock 45 8" order="7" sx="0.75" sy="0.75" x="316" y="63" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="3" id="346" name="Mock 5 9" order="8" sx="0.75" sy="0.75" x="-8" y="121" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="348" name="Mock 55 10" order="9" sx="0.75" sy="0.75" x="101" y="122" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="350" name="Mock 6 11" order="10" sx="0.75" sy="0.75" x="207" y="121" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="3" id="352" name="Mock 65 12" order="11" sx="0.75" sy="0.75" x="316" y="122" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="3" id="354" name="Mock 7 13" order="12" sx="0.75" sy="0.75" x="-6" y="184" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="3" id="356" name="Mock 75 14" order="13" sx="0.75" sy="0.75" x="100" y="183" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="3" id="358" name="Mock 8 15" order="14" sx="0.75" sy="0.75" x="205" y="183" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="3" id="360" name="Mock 85 16" order="15" sx="0.75" sy="0.75" x="312" y="182" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="3" id="362" name="Mock 9 17" order="16" sx="0.75" sy="0.75" x="-5" y="248" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="3" id="364" name="Mock 95 18" order="17" sx="0.75" sy="0.75" x="97" y="248" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="0,1,2,3," retainAtlases="false"/>
+</scene>
