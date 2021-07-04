@@ -134,6 +134,10 @@
             <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
         </events>
     </snippet>
+    <snippet actorid="366" attachedevent="true" class="scripts.ActorEvents_366" classname="scripts.ActorEvents_366" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="264" name="ActorEvents_366" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
     <snippet actorid="11" attachedevent="true" class="scripts.ActorEvents_11" classname="scripts.ActorEvents_11" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="9" name="ActorEvents_11" oid="-1" package="scripts." shared="false" type="actor">
         <text default="" defaultValue="" desc="" dropdown="" fullname="Month" hidden="false" id="1" name="_Month" order="0"/>
         <list default="list" defaultValue="list" desc="" dropdown="" fullname="Item" hidden="false" id="2" name="_Item" order="1"/>
@@ -142,6 +146,10 @@
             <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
         </events>
     </snippet>
+    <snippet actorid="368" attachedevent="true" class="scripts.ActorEvents_368" classname="scripts.ActorEvents_368" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="265" name="ActorEvents_368" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
     <snippet actorid="13" attachedevent="true" class="scripts.ActorEvents_13" classname="scripts.ActorEvents_13" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="10" name="ActorEvents_13" oid="-1" package="scripts." shared="false" type="actor">
         <list default="list" defaultValue="list" desc="" dropdown="" fullname="Item" hidden="false" id="1" name="_Item" order="0"/>
         <blocks/>
@@ -149,11 +157,19 @@
             <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
         </events>
     </snippet>
+    <snippet actorid="370" attachedevent="true" class="scripts.ActorEvents_370" classname="scripts.ActorEvents_370" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="266" name="ActorEvents_370" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
     <snippet actorid="15" attachedevent="true" class="scripts.ActorEvents_15" classname="scripts.ActorEvents_15" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="11" name="ActorEvents_15" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events>
             <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
         </events>
+    </snippet>
+    <snippet actorid="372" attachedevent="true" class="scripts.ActorEvents_372" classname="scripts.ActorEvents_372" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="267" name="ActorEvents_372" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_12_12_Hover" classname="scripts.Design_12_12_Hover" desc="" description="" design="true" drawOrder="0" id="12" name="Hover" oid="-1" package="scripts" shared="false" type="actor">
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
@@ -162,6 +178,10 @@
             <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
             <event displayName="On Actor" enabled="true" id="2" name="event-mouse-enter-exit-actor" order="2" repeats="true"/>
         </events>
+    </snippet>
+    <snippet actorid="374" attachedevent="true" class="scripts.ActorEvents_374" classname="scripts.ActorEvents_374" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="268" name="ActorEvents_374" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_3" classname="scripts.SceneEvents_3" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="13" name="SceneEvents_3" oid="-1" package="scripts." sceneid="3" shared="false" type="scene">
         <animation default="" defaultValue="" desc="" dropdown="" fullname="Small" hidden="false" id="1" name="_Small" order="0"/>
@@ -588,7 +608,7 @@
             <event displayName="False (No Match)" enabled="false" id="16" name="event-mouse-press-release" order="13" repeats="true"/>
             <event displayName="Created02" enabled="true" id="2" name="init" order="3" repeats="true"/>
             <event displayName="SideSwitcher" enabled="true" id="18" name="event-custom" order="8" repeats="true"/>
-            <event displayName="Show Target" enabled="true" id="3" name="event-delay" order="4" repeats="true"/>
+            <event displayName="Show Target" enabled="false" id="3" name="event-delay" order="4" repeats="true"/>
             <event displayName="Created_00" enabled="true" id="19" name="init" order="1" repeats="true"/>
             <event displayName="Click on Target" enabled="true" id="4" name="event-mouse-enter-exit-actor" order="7" repeats="false"/>
             <event displayName="SideSwitcher2" enabled="true" id="20" name="event-custom" order="9" repeats="true"/>

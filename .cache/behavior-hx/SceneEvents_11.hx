@@ -307,21 +307,6 @@ class SceneEvents_11 extends SceneScript
 		Engine.engine.setGameAttribute("FalseLeewayBoolGA", false);
 		Engine.engine.setGameAttribute("FalseLeewayGA", 0);
 		
-		/* ======================= After N seconds ======================== */
-		runLater(1000 * 1, function(timeTask:TimedTask):Void
-		{
-			if(wrapper.enabled)
-			{
-				trace("fade in now.");
-				/* "This shtuff brings up the target card (pops up)" */ _Target.enableActorDrawing();
-				_Target.growTo(125/100, 125/100, .1, Easing.linear);
-				runLater(1000 * .1, function(timeTask:TimedTask):Void
-				{
-					_Target.growTo(100/100, 100/100, .05, Easing.linear);
-				}, null);
-			}
-		}, null);
-		
 		/* =========================== On Actor =========================== */
 		addMouseOverActorListener(_Target, function(mouseState:Int, list:Array<Dynamic>):Void
 		{
