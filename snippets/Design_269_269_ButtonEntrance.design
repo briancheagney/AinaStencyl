@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-periodic comment="false" x="207" y="82">
+            <group eventID="1" id="-1">
+                <print comment="false" x="218" y="109">
+                    <int id="0" val="fade in now."/>
+                </print>
+                <toggle-image comment="false" x="218" y="129">
+                    <ACTOR eid="var" id="0" vid="2147483647"/>
+                    <int id="1" val="0"/>
+                </toggle-image>
+                <scaleTo comment="false" x="218" y="156">
+                    <ACTOR eid="var" id="0" vid="2147483647"/>
+                    <int id="1" val="105"/>
+                    <int id="2" val="105"/>
+                    <int id="3" val="0.075"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+                <dolater comment="false" x="218" y="183">
+                    <group eventID="1" id="-1">
+                        <scaleTo comment="false" x="229" y="210">
+                            <ACTOR eid="var" id="0" vid="2147483647"/>
+                            <int id="1" val="100"/>
+                            <int id="2" val="100"/>
+                            <int id="3" val="0.025"/>
+                            <int id="4" val="0"/>
+                        </scaleTo>
+                    </group>
+                    <int id="0" val="0.1"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="0.5"/>
+            <ACTOR eid="this" id="2"/>
+        </event-periodic>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

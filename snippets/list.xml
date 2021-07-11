@@ -205,6 +205,13 @@
             <event displayName="True" enabled="true" id="9" name="event-mouse-enter-exit-actor" order="5" repeats="true"/>
         </events>
     </snippet>
+    <snippet attachedevent="false" class="scripts.Design_269_269_ButtonEntrance" classname="scripts.Design_269_269_ButtonEntrance" desc="" description="" design="true" drawOrder="0" id="269" name="ButtonEntrance" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="Every N secs" enabled="true" id="1" name="event-periodic" order="1" repeats="true"/>
+        </events>
+    </snippet>
     <snippet actorid="20" attachedevent="true" class="scripts.ActorEvents_20" classname="scripts.ActorEvents_20" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="15" name="ActorEvents_20" oid="-1" package="scripts." shared="false" type="actor">
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="pushnum" hidden="false" id="1" name="_pushnum" order="0"/>
         <blocks/>
@@ -608,7 +615,7 @@
             <event displayName="False (No Match)" enabled="false" id="16" name="event-mouse-press-release" order="13" repeats="true"/>
             <event displayName="Created02" enabled="true" id="2" name="init" order="3" repeats="true"/>
             <event displayName="SideSwitcher" enabled="true" id="18" name="event-custom" order="8" repeats="true"/>
-            <event displayName="Show Target" enabled="false" id="3" name="event-delay" order="4" repeats="true"/>
+            <event displayName="Show Target" enabled="true" id="3" name="event-delay" order="4" repeats="true"/>
             <event displayName="Created_00" enabled="true" id="19" name="init" order="1" repeats="true"/>
             <event displayName="Click on Target" enabled="true" id="4" name="event-mouse-enter-exit-actor" order="7" repeats="false"/>
             <event displayName="SideSwitcher2" enabled="true" id="20" name="event-custom" order="9" repeats="true"/>

@@ -62,7 +62,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_11 extends SceneScript
+class SceneEvents_58 extends SceneScript
 {
 	public var _Target:Actor;
 	public var _Match:Actor;
@@ -308,16 +308,16 @@ class SceneEvents_11 extends SceneScript
 		Engine.engine.setGameAttribute("FalseLeewayGA", 0);
 		
 		/* ======================= After N seconds ======================== */
-		runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+		runLater(1000 * 1, function(timeTask:TimedTask):Void
 		{
 			if(wrapper.enabled)
 			{
 				trace("fade in now.");
-				/* "This stuff brings up the target card (pops up)" */ _Target.enableActorDrawing();
-				_Target.growTo(105/100, 105/100, .075, Easing.linear);
+				/* "This shtuff brings up the target card (pops up)" */ _Target.enableActorDrawing();
+				_Target.growTo(115/100, 115/100, .1, Easing.linear);
 				runLater(1000 * .1, function(timeTask:TimedTask):Void
 				{
-					_Target.growTo(100/100, 100/100, .025, Easing.linear);
+					_Target.growTo(100/100, 100/100, .05, Easing.linear);
 				}, null);
 			}
 		}, null);
@@ -403,10 +403,10 @@ class SceneEvents_11 extends SceneScript
 						{
 							_Target.clearFilters();
 							_Target.enableActorDrawing();
-							_Target.growTo(105/100, 105/100, .075, Easing.linear);
+							_Target.growTo(125/100, 125/100, .1, Easing.linear);
 							runLater(1000 * .1, function(timeTask:TimedTask):Void
 							{
-								_Target.growTo(100/100, 100/100, .025, Easing.linear);
+								_Target.growTo(100/100, 100/100, .05, Easing.linear);
 								Engine.engine.setGameAttribute("TargetPush", true);
 							}, null);
 						}, null);
