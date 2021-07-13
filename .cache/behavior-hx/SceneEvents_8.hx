@@ -202,8 +202,8 @@ class SceneEvents_8 extends SceneScript
 		_FalseLeeway = 0;
 		_Target.disableActorDrawing();
 		_Match.disableActorDrawing();
-		_Target.growTo(95/100, 95/100, 0, Easing.linear);
-		_Match.growTo(95/100, 95/100, 0, Easing.linear);
+		_Target.growTo(105/100, 105/100, 0.75, Easing.linear);
+		_Match.growTo(100/100, 100/100, 0.25, Easing.linear);
 		_Target.setAnimation(("" + "NullClub"));
 		
 		/* ======================= After N seconds ======================== */
@@ -237,7 +237,7 @@ class SceneEvents_8 extends SceneScript
 					runLater(1000 * .25, function(timeTask:TimedTask):Void
 					{
 						_Match.enableActorDrawing();
-						_Match.growTo(125/100, 125/100, .05, Easing.linear);
+						_Match.growTo(105/100, 105/100, .075, Easing.linear);
 						runLater(1000 * .05, function(timeTask:TimedTask):Void
 						{
 							_Match.growTo(100/100, 100/100, .025, Easing.linear);
@@ -329,10 +329,10 @@ class SceneEvents_8 extends SceneScript
 				runLater(1000 * 1, function(timeTask:TimedTask):Void
 				{
 					_Target.enableActorDrawing();
-					_Target.growTo(125/100, 125/100, .1, Easing.linear);
+					_Target.growTo(105/100, 105/100, .075, Easing.linear);
 					runLater(1000 * .1, function(timeTask:TimedTask):Void
 					{
-						_Target.growTo(100/100, 100/100, .05, Easing.linear);
+						_Target.growTo(100/100, 100/100, .025, Easing.linear);
 						Engine.engine.setGameAttribute("Level04Canceler", false);
 						Engine.engine.setGameAttribute("TargetPush", true);
 						Engine.engine.setGameAttribute("Level04Truable", true);
@@ -388,10 +388,10 @@ class SceneEvents_8 extends SceneScript
 									runLater(1000 * 1, function(timeTask:TimedTask):Void
 									{
 										_Target.enableActorDrawing();
-										_Target.growTo(125/100, 125/100, .1, Easing.linear);
+										_Target.growTo(105/100, 105/100, .075, Easing.linear);
 										runLater(1000 * .1, function(timeTask:TimedTask):Void
 										{
-											_Target.growTo(100/100, 100/100, .05, Easing.linear);
+											_Target.growTo(100/100, 100/100, .025, Easing.linear);
 											Engine.engine.setGameAttribute("TargetPush", true);
 											Engine.engine.setGameAttribute("Level4Falser", true);
 											Engine.engine.setGameAttribute("Level04Truable", true);
