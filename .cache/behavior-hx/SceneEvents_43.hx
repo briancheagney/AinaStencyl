@@ -1196,10 +1196,10 @@ ACC_MT = Color Chooser (Match True) */
 		/* "This shtuff brings up the target card (pops up)" */ _Target.setX((Engine.engine.getGameAttribute("TargetX") : Float));
 		_Target.setY((Engine.engine.getGameAttribute("TargetY") : Float));
 		_Target.enableActorDrawing();
-		_Target.growTo(100/100, 100/100, .1, Easing.linear);
+		_Target.growTo(105/100, 105/100, .075, Easing.linear);
 		runLater(1000 * .1, function(timeTask:TimedTask):Void
 		{
-			_Target.growTo(100/100, 100/100, .05, Easing.linear);
+			_Target.growTo(100/100, 100/100, .025, Easing.linear);
 		}, null);
 	}
 	
@@ -1455,10 +1455,10 @@ ACC_MT = Color Chooser (Match True) */
 			_NoMatch2.enableActorDrawing();
 			_NoMatch.enableActorDrawing();
 			_Match.enableActorDrawing();
-			_NoMatch3.growTo(125/100, 125/100, .05, Easing.linear);
-			_NoMatch2.growTo(125/100, 125/100, .05, Easing.linear);
-			_NoMatch.growTo(125/100, 125/100, .05, Easing.linear);
-			_Match.growTo(125/100, 125/100, .05, Easing.linear);
+			_NoMatch3.growTo(105/100, 105/100, .075, Easing.linear);
+			_NoMatch2.growTo(105/100, 105/100, .075, Easing.linear);
+			_NoMatch.growTo(105/100, 105/100, .075, Easing.linear);
+			_Match.growTo(105/100, 105/100, .075, Easing.linear);
 			runLater(1000 * .25, function(timeTask:TimedTask):Void
 			{
 				_NoMatch3.growTo(100/100, 100/100, .025, Easing.linear);

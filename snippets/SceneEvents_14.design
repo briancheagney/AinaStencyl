@@ -233,9 +233,9 @@
                                         </toggle-image>
                                         <scaleTo comment="false" x="59" y="1081">
                                             <ACTOR eid="var" id="0" vid="1"/>
-                                            <int id="1" val="125"/>
-                                            <int id="2" val="125"/>
-                                            <int id="3" val=".1"/>
+                                            <int id="1" val="105"/>
+                                            <int id="2" val="105"/>
+                                            <int id="3" val=".075"/>
                                             <int id="4" val="0"/>
                                         </scaleTo>
                                         <dolater comment="false" x="59" y="1108">
@@ -244,7 +244,7 @@
                                                     <ACTOR eid="var" id="0" vid="1"/>
                                                     <int id="1" val="100"/>
                                                     <int id="2" val="100"/>
-                                                    <int id="3" val=".05"/>
+                                                    <int id="3" val=".025"/>
                                                     <int id="4" val="0"/>
                                                 </scaleTo>
                                                 <set-game-val-36 comment="false" x="70" y="1162">
@@ -389,9 +389,9 @@
                         </toggle-image>
                         <scaleTo comment="false" x="37" y="109">
                             <ACTOR eid="var" id="0" vid="1"/>
-                            <int id="1" val="125"/>
-                            <int id="2" val="125"/>
-                            <int id="3" val=".1"/>
+                            <int id="1" val="105"/>
+                            <int id="2" val="105"/>
+                            <int id="3" val=".075"/>
                             <int id="4" val="0"/>
                         </scaleTo>
                         <dolater comment="false" x="37" y="136">
@@ -400,7 +400,7 @@
                                     <ACTOR eid="var" id="0" vid="1"/>
                                     <int id="1" val="100"/>
                                     <int id="2" val="100"/>
-                                    <int id="3" val=".05"/>
+                                    <int id="3" val=".025"/>
                                     <int id="4" val="0"/>
                                 </scaleTo>
                             </group>
@@ -1033,16 +1033,16 @@
                         </toggle-image>
                         <scaleTo comment="false" x="37" y="433">
                             <ACTOR eid="var" id="0" vid="12"/>
-                            <int id="1" val="125"/>
-                            <int id="2" val="125"/>
-                            <int id="3" val=".05"/>
+                            <int id="1" val="105"/>
+                            <int id="2" val="105"/>
+                            <int id="3" val=".075"/>
                             <int id="4" val="0"/>
                         </scaleTo>
                         <scaleTo comment="false" x="37" y="460">
                             <ACTOR eid="var" id="0" vid="2"/>
-                            <int id="1" val="125"/>
-                            <int id="2" val="125"/>
-                            <int id="3" val=".05"/>
+                            <int id="1" val="105"/>
+                            <int id="2" val="105"/>
+                            <int id="3" val=".075"/>
                             <int id="4" val="0"/>
                         </scaleTo>
                         <dolater comment="false" x="37" y="487">
@@ -1077,60 +1077,6 @@
         </event-custom>
     </group>
     <group eventID="20" id="-1">
-        <minus comment="false" x="351" y="108">
-            <div comment="false" id="0" x="0" y="0">
-                <screen-wh comment="false" id="0" x="0" y="0">
-                    <int id="0" val="0"/>
-                </screen-wh>
-                <int id="1" val="2"/>
-            </div>
-            <plus comment="false" id="1" x="0" y="0">
-                <div comment="false" id="0" x="0" y="0">
-                    <get-wh comment="false" id="0" x="0" y="0">
-                        <ACTOR eid="var" id="0" vid="2"/>
-                        <int id="1" val="0"/>
-                    </get-wh>
-                    <int id="1" val="1"/>
-                </div>
-                <div comment="false" id="1" x="0" y="0">
-                    <get-wh comment="false" id="0" x="0" y="0">
-                        <ACTOR eid="var" id="0" vid="2"/>
-                        <int id="1" val="0"/>
-                    </get-wh>
-                    <int id="1" val="4"/>
-                </div>
-            </plus>
-        </minus>
-        <plus comment="false" x="343" y="160">
-            <div comment="false" id="0" x="0" y="0">
-                <screen-wh comment="false" id="0" x="0" y="0">
-                    <int id="0" val="0"/>
-                </screen-wh>
-                <int id="1" val="2"/>
-            </div>
-            <div comment="false" id="1" x="0" y="0">
-                <get-wh comment="false" id="0" x="0" y="0">
-                    <ACTOR eid="var" id="0" vid="12"/>
-                    <int id="1" val="0"/>
-                </get-wh>
-                <int id="1" val="4"/>
-            </div>
-        </plus>
-        <plus comment="false" x="342" y="240">
-            <div comment="false" id="0" x="0" y="0">
-                <screen-wh comment="false" id="0" x="0" y="0">
-                    <int id="0" val="0"/>
-                </screen-wh>
-                <int id="1" val="2"/>
-            </div>
-            <div comment="false" id="1" x="0" y="0">
-                <get-wh comment="false" id="0" x="0" y="0">
-                    <ACTOR eid="var" id="0" vid="2"/>
-                    <int id="1" val="0"/>
-                </get-wh>
-                <int id="1" val="4"/>
-            </div>
-        </plus>
         <minus comment="false" x="339" y="286">
             <div comment="false" id="0" x="0" y="0">
                 <screen-wh comment="false" id="0" x="0" y="0">
@@ -1149,6 +1095,60 @@
                 <div comment="false" id="1" x="0" y="0">
                     <get-wh comment="false" id="0" x="0" y="0">
                         <ACTOR eid="var" id="0" vid="12"/>
+                        <int id="1" val="0"/>
+                    </get-wh>
+                    <int id="1" val="4"/>
+                </div>
+            </plus>
+        </minus>
+        <plus comment="false" x="342" y="240">
+            <div comment="false" id="0" x="0" y="0">
+                <screen-wh comment="false" id="0" x="0" y="0">
+                    <int id="0" val="0"/>
+                </screen-wh>
+                <int id="1" val="2"/>
+            </div>
+            <div comment="false" id="1" x="0" y="0">
+                <get-wh comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="var" id="0" vid="2"/>
+                    <int id="1" val="0"/>
+                </get-wh>
+                <int id="1" val="4"/>
+            </div>
+        </plus>
+        <plus comment="false" x="343" y="160">
+            <div comment="false" id="0" x="0" y="0">
+                <screen-wh comment="false" id="0" x="0" y="0">
+                    <int id="0" val="0"/>
+                </screen-wh>
+                <int id="1" val="2"/>
+            </div>
+            <div comment="false" id="1" x="0" y="0">
+                <get-wh comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="var" id="0" vid="12"/>
+                    <int id="1" val="0"/>
+                </get-wh>
+                <int id="1" val="4"/>
+            </div>
+        </plus>
+        <minus comment="false" x="351" y="108">
+            <div comment="false" id="0" x="0" y="0">
+                <screen-wh comment="false" id="0" x="0" y="0">
+                    <int id="0" val="0"/>
+                </screen-wh>
+                <int id="1" val="2"/>
+            </div>
+            <plus comment="false" id="1" x="0" y="0">
+                <div comment="false" id="0" x="0" y="0">
+                    <get-wh comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="2"/>
+                        <int id="1" val="0"/>
+                    </get-wh>
+                    <int id="1" val="1"/>
+                </div>
+                <div comment="false" id="1" x="0" y="0">
+                    <get-wh comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="2"/>
                         <int id="1" val="0"/>
                     </get-wh>
                     <int id="1" val="4"/>
@@ -1392,9 +1392,9 @@
                                         </toggle-image>
                                         <scaleTo comment="false" x="59" y="1103">
                                             <ACTOR eid="var" id="0" vid="1"/>
-                                            <int id="1" val="125"/>
-                                            <int id="2" val="125"/>
-                                            <int id="3" val=".1"/>
+                                            <int id="1" val="105"/>
+                                            <int id="2" val="105"/>
+                                            <int id="3" val=".075"/>
                                             <int id="4" val="0"/>
                                         </scaleTo>
                                         <dolater comment="false" x="59" y="1130">
@@ -1403,7 +1403,7 @@
                                                     <ACTOR eid="var" id="0" vid="1"/>
                                                     <int id="1" val="100"/>
                                                     <int id="2" val="100"/>
-                                                    <int id="3" val=".05"/>
+                                                    <int id="3" val=".025"/>
                                                     <int id="4" val="0"/>
                                                 </scaleTo>
                                                 <set-game-val-36 comment="false" x="70" y="1184">
@@ -1768,9 +1768,9 @@
                                         </toggle-image>
                                         <scaleTo comment="false" x="63" y="833">
                                             <ACTOR eid="var" id="0" vid="1"/>
-                                            <int id="1" val="125"/>
-                                            <int id="2" val="125"/>
-                                            <int id="3" val=".1"/>
+                                            <int id="1" val="105"/>
+                                            <int id="2" val="105"/>
+                                            <int id="3" val=".075"/>
                                             <int id="4" val="0"/>
                                         </scaleTo>
                                         <dolater comment="false" x="63" y="860">
@@ -1779,7 +1779,7 @@
                                                     <ACTOR eid="var" id="0" vid="1"/>
                                                     <int id="1" val="100"/>
                                                     <int id="2" val="100"/>
-                                                    <int id="3" val=".05"/>
+                                                    <int id="3" val=".025"/>
                                                     <int id="4" val="0"/>
                                                 </scaleTo>
                                                 <set-game-val-36 comment="false" x="74" y="914">

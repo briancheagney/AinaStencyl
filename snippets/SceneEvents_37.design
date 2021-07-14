@@ -1510,16 +1510,16 @@
                                         </toggle-image>
                                         <scaleTo comment="false" x="59" y="824">
                                             <ACTOR eid="var" id="0" vid="12"/>
-                                            <int id="1" val="125"/>
-                                            <int id="2" val="125"/>
-                                            <int id="3" val=".05"/>
+                                            <int id="1" val="105"/>
+                                            <int id="2" val="105"/>
+                                            <int id="3" val=".075"/>
                                             <int id="4" val="0"/>
                                         </scaleTo>
                                         <scaleTo comment="false" x="59" y="851">
                                             <ACTOR eid="var" id="0" vid="2"/>
-                                            <int id="1" val="125"/>
-                                            <int id="2" val="125"/>
-                                            <int id="3" val=".05"/>
+                                            <int id="1" val="105"/>
+                                            <int id="2" val="105"/>
+                                            <int id="3" val=".075"/>
                                             <int id="4" val="0"/>
                                         </scaleTo>
                                         <dolater comment="false" x="59" y="878">
@@ -2051,9 +2051,9 @@
                         </toggle-image>
                         <scaleTo comment="false" x="37" y="107">
                             <ACTOR eid="var" id="0" vid="1"/>
-                            <int id="1" val="125"/>
-                            <int id="2" val="125"/>
-                            <int id="3" val=".1"/>
+                            <int id="1" val="105"/>
+                            <int id="2" val="105"/>
+                            <int id="3" val=".075"/>
                             <int id="4" val="0"/>
                         </scaleTo>
                         <dolater comment="false" x="37" y="134">
@@ -2062,7 +2062,7 @@
                                     <ACTOR eid="var" id="0" vid="1"/>
                                     <int id="1" val="100"/>
                                     <int id="2" val="100"/>
-                                    <int id="3" val=".05"/>
+                                    <int id="3" val=".025"/>
                                     <int id="4" val="0"/>
                                 </scaleTo>
                             </group>

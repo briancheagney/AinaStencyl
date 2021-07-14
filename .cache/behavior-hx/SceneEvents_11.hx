@@ -142,8 +142,8 @@ class SceneEvents_11 extends SceneScript
 		{
 			_NoMatch.enableActorDrawing();
 			_Match.enableActorDrawing();
-			_NoMatch.growTo(125/100, 125/100, .05, Easing.linear);
-			_Match.growTo(125/100, 125/100, .05, Easing.linear);
+			_NoMatch.growTo(105/100, 105/100, .075, Easing.linear);
+			_Match.growTo(105/100, 105/100, .075, Easing.linear);
 			runLater(1000 * .05, function(timeTask:TimedTask):Void
 			{
 				_NoMatch.growTo(100/100, 100/100, .025, Easing.linear);
@@ -314,10 +314,10 @@ class SceneEvents_11 extends SceneScript
 			{
 				trace("fade in now.");
 				/* "This shtuff brings up the target card (pops up)" */ _Target.enableActorDrawing();
-				_Target.growTo(125/100, 125/100, .1, Easing.linear);
+				_Target.growTo(105/100, 105/100, .075, Easing.linear);
 				runLater(1000 * .1, function(timeTask:TimedTask):Void
 				{
-					_Target.growTo(100/100, 100/100, .05, Easing.linear);
+					_Target.growTo(100/100, 100/100, .025, Easing.linear);
 				}, null);
 			}
 		}, null);
@@ -403,10 +403,10 @@ class SceneEvents_11 extends SceneScript
 						{
 							_Target.clearFilters();
 							_Target.enableActorDrawing();
-							_Target.growTo(125/100, 125/100, .1, Easing.linear);
+							_Target.growTo(105/100, 105/100, .075, Easing.linear);
 							runLater(1000 * .1, function(timeTask:TimedTask):Void
 							{
-								_Target.growTo(100/100, 100/100, .05, Easing.linear);
+								_Target.growTo(100/100, 100/100, .025, Easing.linear);
 								Engine.engine.setGameAttribute("TargetPush", true);
 							}, null);
 						}, null);
@@ -470,10 +470,10 @@ class SceneEvents_11 extends SceneScript
 						{
 							_Target.clearFilters();
 							_Target.enableActorDrawing();
-							_Target.growTo(125/100, 125/100, .1, Easing.linear);
+							_Target.growTo(105/100, 105/100, .075, Easing.linear);
 							runLater(1000 * .1, function(timeTask:TimedTask):Void
 							{
-								_Target.growTo(100/100, 100/100, .05, Easing.linear);
+								_Target.growTo(100/100, 100/100, .025, Easing.linear);
 								Engine.engine.setGameAttribute("TargetPush", true);
 							}, null);
 						}, null);

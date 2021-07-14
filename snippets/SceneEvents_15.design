@@ -33,9 +33,9 @@
                         </toggle-image>
                         <scaleTo comment="false" x="37" y="129">
                             <ACTOR eid="var" id="0" vid="1"/>
-                            <int id="1" val="125"/>
-                            <int id="2" val="125"/>
-                            <int id="3" val=".1"/>
+                            <int id="1" val="105"/>
+                            <int id="2" val="105"/>
+                            <int id="3" val=".075"/>
                             <int id="4" val="0"/>
                         </scaleTo>
                         <dolater comment="false" x="37" y="156">
@@ -44,7 +44,7 @@
                                     <ACTOR eid="var" id="0" vid="1"/>
                                     <int id="1" val="100"/>
                                     <int id="2" val="100"/>
-                                    <int id="3" val=".05"/>
+                                    <int id="3" val=".025"/>
                                     <int id="4" val="0"/>
                                 </scaleTo>
                             </group>
@@ -613,9 +613,9 @@
                                                 </toggle-image>
                                                 <scaleTo comment="false" x="70" y="1569">
                                                     <ACTOR eid="var" id="0" vid="1"/>
-                                                    <int id="1" val="125"/>
-                                                    <int id="2" val="125"/>
-                                                    <int id="3" val=".1"/>
+                                                    <int id="1" val="105"/>
+                                                    <int id="2" val="105"/>
+                                                    <int id="3" val=".075"/>
                                                     <int id="4" val="0"/>
                                                 </scaleTo>
                                                 <dolater comment="false" x="70" y="1596">
@@ -624,7 +624,7 @@
                                                             <ACTOR eid="var" id="0" vid="1"/>
                                                             <int id="1" val="100"/>
                                                             <int id="2" val="100"/>
-                                                            <int id="3" val=".05"/>
+                                                            <int id="3" val=".025"/>
                                                             <int id="4" val="0"/>
                                                         </scaleTo>
                                                         <set-game-val-36 comment="false" x="81" y="1650">
@@ -1215,9 +1215,9 @@
                                                 </toggle-image>
                                                 <scaleTo comment="false" x="70" y="1680">
                                                     <ACTOR eid="var" id="0" vid="1"/>
-                                                    <int id="1" val="125"/>
-                                                    <int id="2" val="125"/>
-                                                    <int id="3" val=".1"/>
+                                                    <int id="1" val="105"/>
+                                                    <int id="2" val="105"/>
+                                                    <int id="3" val=".075"/>
                                                     <int id="4" val="0"/>
                                                 </scaleTo>
                                                 <dolater comment="false" x="70" y="1707">
@@ -1226,7 +1226,7 @@
                                                             <ACTOR eid="var" id="0" vid="1"/>
                                                             <int id="1" val="100"/>
                                                             <int id="2" val="100"/>
-                                                            <int id="3" val=".05"/>
+                                                            <int id="3" val=".025"/>
                                                             <int id="4" val="0"/>
                                                         </scaleTo>
                                                         <set-game-val-36 comment="false" x="81" y="1761">
@@ -1654,16 +1654,16 @@
                         </toggle-image>
                         <scaleTo comment="false" x="37" y="413">
                             <ACTOR eid="var" id="0" vid="12"/>
-                            <int id="1" val="125"/>
-                            <int id="2" val="125"/>
-                            <int id="3" val=".05"/>
+                            <int id="1" val="105"/>
+                            <int id="2" val="105"/>
+                            <int id="3" val=".075"/>
                             <int id="4" val="0"/>
                         </scaleTo>
                         <scaleTo comment="false" x="37" y="440">
                             <ACTOR eid="var" id="0" vid="2"/>
-                            <int id="1" val="125"/>
-                            <int id="2" val="125"/>
-                            <int id="3" val=".05"/>
+                            <int id="1" val="105"/>
+                            <int id="2" val="105"/>
+                            <int id="3" val=".075"/>
                             <int id="4" val="0"/>
                         </scaleTo>
                         <dolater comment="false" x="37" y="467">
@@ -2149,9 +2149,9 @@
                                                 </toggle-image>
                                                 <scaleTo comment="false" x="70" y="1702">
                                                     <ACTOR eid="var" id="0" vid="1"/>
-                                                    <int id="1" val="125"/>
-                                                    <int id="2" val="125"/>
-                                                    <int id="3" val=".1"/>
+                                                    <int id="1" val="105"/>
+                                                    <int id="2" val="105"/>
+                                                    <int id="3" val=".075"/>
                                                     <int id="4" val="0"/>
                                                 </scaleTo>
                                                 <dolater comment="false" x="70" y="1729">
@@ -2160,7 +2160,7 @@
                                                             <ACTOR eid="var" id="0" vid="1"/>
                                                             <int id="1" val="100"/>
                                                             <int id="2" val="100"/>
-                                                            <int id="3" val=".05"/>
+                                                            <int id="3" val=".025"/>
                                                             <int id="4" val="0"/>
                                                         </scaleTo>
                                                         <set-game-val-36 comment="false" x="81" y="1783">
@@ -2539,9 +2539,9 @@
                                                 </toggle-image>
                                                 <scaleTo comment="false" x="70" y="1591">
                                                     <ACTOR eid="var" id="0" vid="1"/>
-                                                    <int id="1" val="125"/>
-                                                    <int id="2" val="125"/>
-                                                    <int id="3" val=".1"/>
+                                                    <int id="1" val="105"/>
+                                                    <int id="2" val="105"/>
+                                                    <int id="3" val=".075"/>
                                                     <int id="4" val="0"/>
                                                 </scaleTo>
                                                 <dolater comment="false" x="70" y="1618">
@@ -2550,7 +2550,7 @@
                                                             <ACTOR eid="var" id="0" vid="1"/>
                                                             <int id="1" val="100"/>
                                                             <int id="2" val="100"/>
-                                                            <int id="3" val=".05"/>
+                                                            <int id="3" val=".025"/>
                                                             <int id="4" val="0"/>
                                                         </scaleTo>
                                                         <set-game-val-36 comment="false" x="81" y="1672">
