@@ -1118,9 +1118,9 @@ ACC_MT = Color Chooser (Match True) */
 			_NoMatch2.enableActorDrawing();
 			_NoMatch.enableActorDrawing();
 			_Match.enableActorDrawing();
-			_NoMatch2.growTo(105/100, 105/100, .075, Easing.linear);
-			_NoMatch.growTo(105/100, 105/100, .075, Easing.linear);
-			_Match.growTo(105/100, 105/100, .075, Easing.linear);
+			_NoMatch2.growTo(115/100, 115/100, .075, Easing.linear);
+			_NoMatch.growTo(105/100, 115/100, .075, Easing.linear);
+			_Match.growTo(115/100, 115/100, .075, Easing.linear);
 			runLater(1000 * .25, function(timeTask:TimedTask):Void
 			{
 				_NoMatch2.growTo(100/100, 100/100, .025, Easing.linear);

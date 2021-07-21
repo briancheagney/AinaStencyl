@@ -2304,11 +2304,11 @@
         </setanim>
     </group>
     <group eventID="43" id="-1">
-        <tostring comment="false" x="96" y="703">
-            <get-val-182-77 comment="false" id="0" x="0" y="0"/>
-        </tostring>
         <tostring comment="false" x="58" y="593">
             <get-val-182-68 comment="false" id="0" x="0" y="0"/>
+        </tostring>
+        <tostring comment="false" x="96" y="703">
+            <get-val-182-77 comment="false" id="0" x="0" y="0"/>
         </tostring>
     </group>
     <group eventID="44" id="0">
@@ -2436,15 +2436,15 @@
                 </toggle-image>
                 <scaleTo comment="false" x="769" y="705">
                     <ACTOR eid="var" id="0" vid="12"/>
-                    <int id="1" val="105"/>
-                    <int id="2" val="105"/>
+                    <int id="1" val="115"/>
+                    <int id="2" val="115"/>
                     <int id="3" val=".075"/>
                     <int id="4" val="0"/>
                 </scaleTo>
                 <scaleTo comment="false" x="769" y="732">
                     <ACTOR eid="var" id="0" vid="2"/>
-                    <int id="1" val="105"/>
-                    <int id="2" val="105"/>
+                    <int id="1" val="115"/>
+                    <int id="2" val="115"/>
                     <int id="3" val=".075"/>
                     <int id="4" val="0"/>
                 </scaleTo>
@@ -3433,29 +3433,29 @@
                         </toggle-image>
                         <scaleTo comment="false" x="37" y="2812">
                             <ACTOR eid="var" id="0" vid="107"/>
-                            <int id="1" val="105"/>
-                            <int id="2" val="105"/>
+                            <int id="1" val="115"/>
+                            <int id="2" val="115"/>
                             <int id="3" val=".075"/>
                             <int id="4" val="0"/>
                         </scaleTo>
                         <scaleTo comment="false" x="37" y="2839">
                             <ACTOR eid="var" id="0" vid="65"/>
-                            <int id="1" val="105"/>
-                            <int id="2" val="105"/>
+                            <int id="1" val="115"/>
+                            <int id="2" val="115"/>
                             <int id="3" val=".075"/>
                             <int id="4" val="0"/>
                         </scaleTo>
                         <scaleTo comment="false" x="37" y="2866">
                             <ACTOR eid="var" id="0" vid="12"/>
-                            <int id="1" val="105"/>
-                            <int id="2" val="105"/>
+                            <int id="1" val="115"/>
+                            <int id="2" val="115"/>
                             <int id="3" val=".075"/>
                             <int id="4" val="0"/>
                         </scaleTo>
                         <scaleTo comment="false" x="37" y="2893">
                             <ACTOR eid="var" id="0" vid="2"/>
-                            <int id="1" val="105"/>
-                            <int id="2" val="105"/>
+                            <int id="1" val="115"/>
+                            <int id="2" val="115"/>
                             <int id="3" val=".075"/>
                             <int id="4" val="0"/>
                         </scaleTo>
@@ -4011,8 +4011,8 @@
         </event-mouse-press-release>
     </group>
     <group eventID="48" id="-1">
-        <get-game-val-128 comment="false" x="443" y="1886"/>
         <get-game-val-126 comment="false" x="463" y="1935"/>
+        <get-game-val-128 comment="false" x="443" y="1886"/>
     </group>
     <group eventID="49" id="0">
         <event-mouse-press-release comment="false" x="15" y="15">
@@ -5271,12 +5271,12 @@
         </event-custom>
     </group>
     <group eventID="55" id="-1">
-        <get-val-182-42 comment="false" x="400" y="36"/>
-        <get-val-182-42 comment="false" x="394" y="43"/>
-        <get-val-182-43 comment="false" x="490" y="31"/>
-        <get-val-182-43 comment="false" x="498" y="43"/>
-        <get-val-182-41 comment="false" x="576" y="23"/>
         <get-val-182-41 comment="false" x="573" y="11"/>
+        <get-val-182-41 comment="false" x="576" y="23"/>
+        <get-val-182-43 comment="false" x="498" y="43"/>
+        <get-val-182-43 comment="false" x="490" y="31"/>
+        <get-val-182-42 comment="false" x="394" y="43"/>
+        <get-val-182-42 comment="false" x="400" y="36"/>
     </group>
     <group eventID="56" id="0">
         <event-custom comment="false" x="15" y="15">
